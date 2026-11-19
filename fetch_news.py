@@ -1,6 +1,6 @@
 
 #!/usr/bin/env python3
-"""Collect recent RSS news and publish JSON for DAILY BRIEF."""
+"""Collect, classify and publish recent RSS news for DAILY BRIEF."""
 
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -18,7 +18,7 @@ import time
 
 
 # =========================================================
-# 기본 경로 및 설정
+# 기본 설정
 # =========================================================
 
 ROOT = Path(__file__).resolve().parent
@@ -36,7 +36,12 @@ MAX_PER_CATEGORY = {
     "kr": 25
 }
 
-MAX_PER_TOPIC = 5
+# 분야별 기사 수 제한
+MAX_PER_TOPIC = {
+    "tech": 5,
+    "us": 10,
+    "kr": 10
+}
 
 
 # =========================================================
@@ -63,54 +68,273 @@ BLOCKED_SOURCES = {
 
 
 # =========================================================
-# 분야별 뉴스 검색어
+# 뉴스 검색어
 # =========================================================
 
 QUERIES = {
 
     "tech": [
 
-        # 1. 반도체
-        ("반도체 HBM GPU 파운드리", "ko", "KR", "KR:ko", "반도체"),
-        ("semiconductor HBM GPU foundry", "en", "US", "US:en", "반도체"),
+        # 반도체·전자
+        ("반도체 HBM GPU 파운드리", "ko", "KR", "KR:ko"),
+        ("semiconductor HBM GPU foundry chip", "en", "US", "US:en"),
 
-        # 2. 인공지능
-        ("AI 인공지능 생성형 AI 머신러닝", "ko", "KR", "KR:ko", "인공지능"),
-        ("artificial intelligence generative AI machine learning", "en", "US", "US:en", "인공지능"),
+        # 인공지능
+        ("AI 인공지능 생성형 AI 머신러닝", "ko", "KR", "KR:ko"),
+        ("artificial intelligence generative AI machine learning", "en", "US", "US:en"),
 
-        # 3. 로봇 및 자율주행
-        ("로봇 휴머노이드 산업용 로봇 자율주행", "ko", "KR", "KR:ko", "로봇·자율주행"),
-        ("robotics humanoid industrial robots autonomous driving", "en", "US", "US:en", "로봇·자율주행"),
+        # 로봇·자율주행
+        ("로봇 휴머노이드 산업용 로봇 자율주행", "ko", "KR", "KR:ko"),
+        ("robotics humanoid industrial robots autonomous driving", "en", "US", "US:en"),
 
-        # 4. 통신 및 RF
-        ("통신 RF 안테나 5G 6G 전자파", "ko", "KR", "KR:ko", "통신·RF"),
-        ("wireless communication RF antenna 5G 6G", "en", "US", "US:en", "통신·RF"),
+        # 통신·RF
+        ("통신 RF 안테나 5G 6G 전자파", "ko", "KR", "KR:ko"),
+        ("wireless communication RF antenna 5G 6G", "en", "US", "US:en"),
 
-        # 5. 배터리 및 에너지
-        ("배터리 ESS 에너지저장 전력망", "ko", "KR", "KR:ko", "배터리·에너지"),
-        ("battery energy storage power grid", "en", "US", "US:en", "배터리·에너지"),
+        # 배터리·에너지
+        ("배터리 ESS 에너지저장 전력망", "ko", "KR", "KR:ko"),
+        ("battery energy storage power grid", "en", "US", "US:en"),
 
-        # 6. 방산 및 항공우주
-        ("방산 항공우주 위성 레이더 산업", "ko", "KR", "KR:ko", "방산·항공우주"),
-        ("defense aerospace satellite radar industry", "en", "US", "US:en", "방산·항공우주"),
+        # 방산·항공우주
+        ("방산 국방 미사일 위성 레이더 항공우주", "ko", "KR", "KR:ko"),
+        ("defense military missile satellite radar aerospace", "en", "US", "US:en"),
     ],
 
     "us": [
+
         ("US stock market Wall Street Dow Nasdaq S&P 500", "en", "US", "US:en"),
         ("US stocks company earnings financial results", "en", "US", "US:en"),
         ("Federal Reserve interest rates inflation economy", "en", "US", "US:en"),
-        ("US stock market technology semiconductor stocks", "en", "US", "US:en"),
-        ("미국 증시 나스닥 뉴욕증시", "ko", "KR", "KR:ko"),
+        ("US technology semiconductor stocks market", "en", "US", "US:en"),
+        ("US stock market major companies earnings", "en", "US", "US:en"),
+
     ],
 
     "kr": [
+
         ("한국 증시 코스피 코스닥 주식시장", "ko", "KR", "KR:ko"),
-        ("국내 기업 실적 발표 공시", "ko", "KR", "KR:ko"),
-        ("한국 증시 반도체 2차전지 자동차", "ko", "KR", "KR:ko"),
-        ("외국인 기관 투자자 순매수 증시", "ko", "KR", "KR:ko"),
-        ("한국 경제 금리 환율 물가", "ko", "KR", "KR:ko"),
+        ("국내 상장기업 실적 발표 공시 주가", "ko", "KR", "KR:ko"),
+        ("한국 증시 반도체 배터리 자동차 주식", "ko", "KR", "KR:ko"),
+        ("외국인 기관 투자자 순매수 순매도 증시", "ko", "KR", "KR:ko"),
+        ("한국 경제 금리 환율 물가 증시", "ko", "KR", "KR:ko"),
+
     ],
 }
+
+
+# =========================================================
+# 기술 뉴스 분류 키워드
+# =========================================================
+
+TECH_TOPICS = {
+
+    "반도체·전자": [
+        r"반도체", r"semiconductor", r"\bchip(s)?\b",
+        r"\bHBM\b", r"\bGPU\b", r"\bCPU\b",
+        r"파운드리", r"foundry", r"\bwafer\b",
+        r"\bDRAM\b", r"\bNAND\b", r"메모리 반도체",
+        r"패키징", r"lithography", r"삼성전자",
+        r"sk hynix", r"인텔", r"\bIntel\b",
+        r"\bTSMC\b", r"반도체 장비"
+    ],
+
+    "인공지능": [
+        r"인공지능", r"\bAI\b", r"artificial intelligence",
+        r"생성형", r"generative AI", r"\bLLM\b",
+        r"machine learning", r"머신러닝",
+        r"딥러닝", r"deep learning",
+        r"챗봇", r"chatbot", r"대규모 언어 모델",
+        r"language model", r"AI 모델"
+    ],
+
+    "로봇·자율주행": [
+        r"로봇", r"\brobot(s|ics)?\b",
+        r"휴머노이드", r"humanoid",
+        r"산업용 로봇", r"industrial robot",
+        r"자율주행", r"autonomous driving",
+        r"self.driving", r"무인차량",
+        r"협동로봇", r"robot arm",
+        r"robotic system"
+    ],
+
+    "통신·RF": [
+        r"\bRF\b", r"무선통신", r"wireless communication",
+        r"안테나", r"\bantenna(s)?\b",
+        r"\b5G\b", r"\b6G\b",
+        r"통신망", r"telecommunication",
+        r"이동통신", r"기지국",
+        r"network infrastructure",
+        r"전자파", r"전파", r"위성통신",
+        r"satellite communication"
+    ],
+
+    "배터리·에너지": [
+        r"배터리", r"\bbattery\b",
+        r"\bESS\b", r"에너지 저장",
+        r"energy storage", r"전력망",
+        r"power grid", r"전력 인프라",
+        r"변압기", r"transformer",
+        r"전력 설비", r"renewable energy",
+        r"태양광", r"풍력 발전",
+        r"electricity", r"전기차 배터리"
+    ],
+
+    "방산·항공우주": [
+        r"방산", r"방위산업", r"국방",
+        r"\bdefense\b", r"\bmilitary\b",
+        r"미사일", r"\bmissile\b",
+        r"레이더", r"\bradar\b",
+        r"위성", r"\bsatellite\b",
+        r"항공우주", r"\baerospace\b",
+        r"우주산업", r"space industry",
+        r"전투기", r"fighter jet",
+        r"air defense", r"방공 시스템",
+        r"군사 기술", r"military technology"
+    ],
+}
+
+
+# 기술 뉴스에서 제외할 가능성이 높은 기사
+TECH_EXCLUDE = [
+    r"항공.*날씨",
+    r"항공.*기상",
+    r"aviation weather",
+    r"weather forecast",
+    r"항공편 지연",
+    r"flight delay",
+    r"airport.*weather",
+    r"여행.*항공",
+    r"airline.*travel"
+]
+
+
+# =========================================================
+# 미국 증시 분류 키워드
+# =========================================================
+
+US_TOPICS = {
+
+    "지수·시장동향": [
+        r"stock market", r"stocks", r"equities",
+        r"wall street", r"\bNASDAQ\b",
+        r"\bS&P 500\b", r"\bDow Jones\b",
+        r"market rally", r"market selloff",
+        r"stock futures", r"market close",
+        r"market outlook", r"주식시장",
+        r"\bSPY\b", r"\bQQQ\b",
+        r"미국 증시", r"뉴욕 증시"
+    ],
+
+    "기업실적·기업동향": [
+        r"earnings", r"quarterly results",
+        r"financial results", r"revenue",
+        r"operating profit", r"profit growth",
+        r"company outlook", r"earnings report",
+        r"기업 실적", r"분기 실적",
+        r"영업이익", r"매출 실적",
+        r"기업 전망", r"실적 발표"
+    ],
+
+    "금리·경제지표": [
+        r"Federal Reserve", r"\bFed\b",
+        r"interest rates", r"inflation",
+        r"\bCPI\b", r"\bPCE\b", r"\bGDP\b",
+        r"unemployment", r"jobs report",
+        r"treasury yields", r"bond yields",
+        r"경제지표", r"금리 인하",
+        r"금리 동결", r"미국 물가",
+        r"미국 고용", r"연준"
+    ],
+
+    "산업·섹터": [
+        r"technology stocks", r"semiconductor stocks",
+        r"bank stocks", r"energy stocks",
+        r"AI stocks", r"tech sector",
+        r"financial sector", r"healthcare stocks",
+        r"technology sector", r"반도체주",
+        r"기술주", r"은행주", r"에너지주"
+    ],
+}
+
+
+# =========================================================
+# 한국 증시 분류 키워드
+# =========================================================
+
+KR_TOPICS = {
+
+    "지수·시장동향": [
+        r"코스피", r"코스닥",
+        r"한국 증시", r"국내 증시",
+        r"주식시장", r"증시 상승",
+        r"증시 하락", r"주가 상승",
+        r"주가 하락", r"상한가",
+        r"하한가", r"증시 마감",
+        r"장중", r"시가총액"
+    ],
+
+    "기업실적·공시": [
+        r"기업 실적", r"실적 발표",
+        r"영업이익", r"매출액",
+        r"분기 실적", r"연간 실적",
+        r"잠정 실적", r"사업보고서",
+        r"기업 공시", r"유상증자",
+        r"무상증자", r"배당",
+        r"상장", r"주주총회",
+        r"상장기업", r"실적 전망"
+    ],
+
+    "수급·투자자": [
+        r"외국인 순매수", r"외국인 순매도",
+        r"기관 순매수", r"기관 순매도",
+        r"개인 투자자", r"투자자별",
+        r"수급", r"순매수",
+        r"순매도", r"외국인 투자자",
+        r"기관 투자자"
+    ],
+
+    "산업·섹터": [
+        r"반도체주", r"배터리주",
+        r"자동차주", r"바이오주",
+        r"조선주", r"방산주",
+        r"은행주", r"IT 업종",
+        r"반도체 산업", r"2차전지",
+        r"자동차 산업", r"산업 동향"
+    ],
+
+    "거시경제": [
+        r"한국은행", r"기준금리",
+        r"금리 인하", r"금리 동결",
+        r"환율", r"원달러",
+        r"물가", r"소비자물가",
+        r"경제성장률", r"GDP",
+        r"수출", r"무역수지",
+        r"한국 경제", r"경제 전망"
+    ],
+}
+
+
+# =========================================================
+# 품질 관리용 제외 키워드
+# =========================================================
+
+US_EXCLUDE = [
+    r"esports", r"video game",
+    r"soccer", r"football match",
+    r"celebrity", r"movie review",
+    r"weather forecast", r"travel guide"
+]
+
+KR_EXCLUDE = [
+    r"수능일.*거래시간",
+    r"거래시간.*변경",
+    r"개장시간.*변경",
+    r"증시 휴장 안내",
+    r"특수관계인.*내부거래",
+    r"대규모 내부거래",
+    r"계열사 간 내부거래",
+    r"사내 행사"
+]
 
 
 # =========================================================
@@ -118,7 +342,6 @@ QUERIES = {
 # =========================================================
 
 def clean_text(value):
-    """Remove HTML tags and unnecessary whitespace."""
 
     value = unescape(value or "")
 
@@ -135,7 +358,6 @@ def clean_text(value):
 
 
 def normalize_title(title):
-    """Normalize titles for duplicate detection."""
 
     title = (title or "").casefold()
 
@@ -143,7 +365,6 @@ def normalize_title(title):
 
 
 def clean_summary(description, title, source):
-    """Remove repeated title/source from RSS description."""
 
     summary = clean_text(description)
 
@@ -167,16 +388,139 @@ def clean_summary(description, title, source):
 
 
 # =========================================================
+# 키워드 분석
+# =========================================================
+
+def keyword_score(text, patterns):
+    """Count how many distinct keyword patterns match."""
+
+    score = 0
+
+    for pattern in patterns:
+
+        if re.search(pattern, text, flags=re.IGNORECASE):
+            score += 1
+
+    return score
+
+
+def has_excluded_keyword(text, patterns):
+
+    for pattern in patterns:
+
+        if re.search(pattern, text, flags=re.IGNORECASE):
+            return True
+
+    return False
+
+
+def classify_by_topics(text, topic_dictionary):
+    """Return the best matching topic and its score."""
+
+    scores = {}
+
+    for topic, patterns in topic_dictionary.items():
+
+        scores[topic] = keyword_score(
+            text,
+            patterns
+        )
+
+    if not scores:
+        return None, 0
+
+    best_topic = max(
+        scores,
+        key=scores.get
+    )
+
+    best_score = scores[best_topic]
+
+    if best_score == 0:
+        return None, 0
+
+    return best_topic, best_score
+
+
+# =========================================================
+# 뉴스 분류 및 관련성 검증
+# =========================================================
+
+def classify_article(category, title, summary):
+
+    text = f"{title} {summary}".casefold()
+
+    # -----------------------------------------------------
+    # 기술 뉴스
+    # -----------------------------------------------------
+
+    if category == "tech":
+
+        if has_excluded_keyword(text, TECH_EXCLUDE):
+            return None, 0
+
+        topic, score = classify_by_topics(
+            text,
+            TECH_TOPICS
+        )
+
+        if score < 1:
+            return None, 0
+
+        return topic, score
+
+    # -----------------------------------------------------
+    # 미국 증시
+    # -----------------------------------------------------
+
+    if category == "us":
+
+        if has_excluded_keyword(text, US_EXCLUDE):
+            return None, 0
+
+        topic, score = classify_by_topics(
+            text,
+            US_TOPICS
+        )
+
+        if score < 1:
+            return None, 0
+
+        return topic, score
+
+    # -----------------------------------------------------
+    # 한국 증시
+    # -----------------------------------------------------
+
+    if category == "kr":
+
+        if has_excluded_keyword(text, KR_EXCLUDE):
+            return None, 0
+
+        topic, score = classify_by_topics(
+            text,
+            KR_TOPICS
+        )
+
+        if score < 1:
+            return None, 0
+
+        return topic, score
+
+    return None, 0
+
+
+# =========================================================
 # 날짜 처리
 # =========================================================
 
 def parse_date(value):
-    """Convert RSS publication date to Korean Standard Time."""
 
     if not value:
         return None
 
     try:
+
         dt = parsedate_to_datetime(value)
 
         if dt.tzinfo is None:
@@ -193,9 +537,9 @@ def parse_date(value):
 # =========================================================
 
 def normalize_link(link):
-    """Normalize URLs for duplicate detection."""
 
     try:
+
         parsed = urlsplit(link)
 
         return (
@@ -209,7 +553,6 @@ def normalize_link(link):
 
 
 def is_blocked_source(source, link):
-    """Exclude unwanted sources."""
 
     source_lower = (source or "").casefold().strip()
 
@@ -217,6 +560,7 @@ def is_blocked_source(source, link):
         return True
 
     try:
+
         domain = urlsplit(link).netloc.casefold()
 
         if domain == "facebook.com" or domain.endswith(".facebook.com"):
@@ -229,7 +573,7 @@ def is_blocked_source(source, link):
 
 
 # =========================================================
-# Google News RSS URL 생성
+# Google News RSS URL
 # =========================================================
 
 def google_news_url(query, hl, gl, ceid):
@@ -260,9 +604,9 @@ def wait_for_request():
 
 
 def get_retry_after(exc):
-    """Read Retry-After header when available."""
 
     try:
+
         value = exc.headers.get("Retry-After")
 
         if value:
@@ -279,7 +623,6 @@ def get_retry_after(exc):
 # =========================================================
 
 def download_feed(url):
-    """Download RSS XML with rate limiting and retries."""
 
     for attempt in range(MAX_RETRIES + 1):
 
@@ -349,7 +692,6 @@ def download_feed(url):
 # =========================================================
 
 def fetch_feed(url, category):
-    """Fetch and parse RSS feed with URL caching."""
 
     if url in feed_cache:
         return feed_cache[url]
@@ -408,6 +750,27 @@ def fetch_feed(url, category):
 
 
 # =========================================================
+# 중복 제거
+# =========================================================
+
+def is_duplicate(item, seen_links, seen_titles):
+
+    title_key = normalize_title(item["title"])
+    link_key = normalize_link(item["link"])
+
+    if not title_key or title_key in seen_titles:
+        return True
+
+    if link_key in seen_links:
+        return True
+
+    seen_titles.add(title_key)
+    seen_links.add(link_key)
+
+    return False
+
+
+# =========================================================
 # 메인 실행
 # =========================================================
 
@@ -429,20 +792,14 @@ def main():
     errors = []
 
     # -----------------------------------------------------
-    # 분야별 RSS 수집
+    # RSS 수집 및 기사 분류
     # -----------------------------------------------------
 
     for category, query_list in QUERIES.items():
 
         print(f"\nCollecting category: {category}")
 
-        for entry in query_list:
-
-            if len(entry) == 5:
-                query, hl, gl, ceid, topic = entry
-            else:
-                query, hl, gl, ceid = entry
-                topic = ""
+        for query, hl, gl, ceid in query_list:
 
             try:
 
@@ -459,6 +816,7 @@ def main():
                 )
 
                 added_count = 0
+                rejected_count = 0
 
                 for item in feed_items:
 
@@ -470,24 +828,28 @@ def main():
                     if published_dt > future_limit:
                         continue
 
-                    title_key = normalize_title(
-                        item["title"]
+                    # 실제 기사 내용을 바탕으로 분류
+                    topic, quality_score = classify_article(
+                        category,
+                        item["title"],
+                        item["summary"]
                     )
 
-                    link_key = normalize_link(
-                        item["link"]
-                    )
-
-                    if not title_key or title_key in seen_titles:
+                    # 분야와 관련 없는 기사 제외
+                    if topic is None:
+                        rejected_count += 1
                         continue
-
-                    if link_key in seen_links:
-                        continue
-
-                    seen_titles.add(title_key)
-                    seen_links.add(link_key)
 
                     item["topic"] = topic
+                    item["_quality_score"] = quality_score
+
+                    # 중복 기사 제거
+                    if is_duplicate(
+                        item,
+                        seen_links,
+                        seen_titles
+                    ):
+                        continue
 
                     items.append(item)
 
@@ -495,7 +857,8 @@ def main():
 
                 print(
                     f"  {query}: "
-                    f"{added_count} new articles"
+                    f"{added_count} added / "
+                    f"{rejected_count} rejected"
                 )
 
             except Exception as exc:
@@ -519,7 +882,7 @@ def main():
     )
 
     # -----------------------------------------------------
-    # 카테고리 및 세부 분야별 뉴스 제한
+    # 카테고리 및 세부 분야별 제한
     # -----------------------------------------------------
 
     category_counts = {
@@ -528,65 +891,43 @@ def main():
         "kr": 0
     }
 
-    topic_counts = {}
+    topic_counts = {
+        "tech": {},
+        "us": {},
+        "kr": {}
+    }
 
     filtered_items = []
 
     for item in items:
 
         category = item["category"]
-
-        topic = item.get("topic", "")
+        topic = item["topic"]
 
         if category_counts[category] >= MAX_PER_CATEGORY[category]:
             continue
 
-        if category == "tech":
+        topic_counts[category].setdefault(topic, 0)
 
-            topic_counts.setdefault(topic, 0)
-
-            if topic_counts[topic] >= MAX_PER_TOPIC:
-                continue
-
-            topic_counts[topic] += 1
+        if topic_counts[category][topic] >= MAX_PER_TOPIC[category]:
+            continue
 
         category_counts[category] += 1
+        topic_counts[category][topic] += 1
 
         filtered_items.append(item)
 
-    # 전체 뉴스 수 제한
-    filtered_items = filtered_items[:MAX_ITEMS]
-
-    # 실제 저장된 기사 기준으로 통계 재계산
-    category_counts = {
-        "tech": 0,
-        "us": 0,
-        "kr": 0
-    }
-
-    topic_counts = {}
-
-    for item in filtered_items:
-
-        category = item["category"]
-
-        category_counts[category] += 1
-
-        if category == "tech":
-
-            topic = item.get("topic", "")
-
-            topic_counts[topic] = (
-                topic_counts.get(topic, 0) + 1
-            )
+        if len(filtered_items) >= MAX_ITEMS:
+            break
 
     # -----------------------------------------------------
-    # 내부 정렬용 날짜 데이터 제거
+    # 내부 처리용 데이터 제거
     # -----------------------------------------------------
 
     for item in filtered_items:
 
         del item["_published_dt"]
+        del item["_quality_score"]
 
     # -----------------------------------------------------
     # JSON 생성
@@ -614,7 +955,7 @@ def main():
     )
 
     # -----------------------------------------------------
-    # 최신 뉴스 파일 저장
+    # 최신 뉴스 저장
     # -----------------------------------------------------
 
     (DATA_DIR / "latest.json").write_text(
@@ -623,10 +964,14 @@ def main():
     )
 
     # -----------------------------------------------------
-    # 날짜별 백업 파일 저장
+    # 날짜별 백업 저장
     # -----------------------------------------------------
 
-    (DATA_DIR / f"{now.strftime('%Y-%m-%d')}.json").write_text(
+    backup_path = DATA_DIR / (
+        f"{now.strftime('%Y-%m-%d')}.json"
+    )
+
+    backup_path.write_text(
         output,
         encoding="utf-8"
     )
@@ -643,11 +988,13 @@ def main():
     print(f"US:   {category_counts['us']}")
     print(f"KR:   {category_counts['kr']}")
 
-    print("\n[TECH TOPICS]")
+    for category in ["tech", "us", "kr"]:
 
-    for topic, count in topic_counts.items():
+        print(f"\n[{category.upper()} TOPICS]")
 
-        print(f"{topic}: {count}")
+        for topic, count in topic_counts[category].items():
+
+            print(f"{topic}: {count}")
 
     print(f"\nFeed errors: {len(errors)}")
 
