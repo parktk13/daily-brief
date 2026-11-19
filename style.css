@@ -1,23 +1,650 @@
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap');
-:root{--bg:#f5f6f8;--ink:#141923;--muted:#727b89;--line:#e5e8ed;--blue:#315efb;--navy:#101a31}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans','Noto Sans KR',sans-serif}
-.topbar{height:76px;padding:0 max(6vw,24px);display:flex;align-items:center;justify-content:space-between;background:#fff;border-bottom:1px solid var(--line)}
-.brand{display:flex;align-items:center;gap:11px;color:var(--ink);text-decoration:none;font-weight:800;letter-spacing:1.8px;font-size:13px}
-.brand-mark{display:grid;place-items:center;width:32px;height:32px;border-radius:9px;background:var(--navy);color:#fff;font-size:11px;letter-spacing:0}
-.date-label{font-size:12px;color:var(--muted)}.container{max-width:1120px;margin:auto;padding:0 28px}
-.hero{min-height:310px;padding:60px 0 48px;display:flex;justify-content:space-between;align-items:flex-end;gap:30px}
-.eyebrow{font-size:10px;letter-spacing:2px;font-weight:700;color:var(--blue);margin:0 0 15px}
-h1{font-size:clamp(42px,6vw,66px);line-height:1.16;letter-spacing:-2.8px;margin:0;font-weight:800}h1 em{font-style:normal;color:var(--blue)}
-.hero-copy{font-size:14px;line-height:1.9;color:var(--muted);margin:20px 0 0}
-.hero-note{display:flex;align-items:center;gap:12px;padding:17px 20px;background:#fff;border:1px solid var(--line);border-radius:12px;min-width:260px;margin-bottom:4px}
-.live-dot{width:8px;height:8px;background:#27b47e;border-radius:50%;box-shadow:0 0 0 4px #e6f7f0}
-.hero-note strong,.hero-note small{display:block}.hero-note strong{font-size:10px;letter-spacing:1px}.hero-note small{font-size:10px;color:var(--muted);margin-top:5px}
-.notice{display:flex;gap:14px;align-items:center;padding:14px 17px;background:#fff8e9;border:1px solid #f3e4c5;border-radius:9px;color:#75551a;font-size:12px;line-height:1.6}.notice strong{white-space:nowrap}
-.tabs{display:flex;gap:8px;margin:34px 0 40px;flex-wrap:wrap}.tab{border:1px solid var(--line);background:#fff;color:#687180;border-radius:30px;padding:10px 18px;font:600 12px 'Noto Sans KR',sans-serif;cursor:pointer}.tab.active{background:var(--navy);border-color:var(--navy);color:#fff}
-.section-heading{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:18px}.section-heading .eyebrow{margin-bottom:8px}h2{font-size:23px;letter-spacing:-.8px;margin:0}.sample-tag{font-size:9px;letter-spacing:1.2px;color:#a0a7b2;font-weight:700}
-.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{background:#fff;border:1px solid var(--line);border-radius:13px;padding:22px;min-height:175px;display:flex;flex-direction:column}.card h3{font-size:16px;line-height:1.5;margin:14px 0 9px;letter-spacing:-.4px}.card p{font-size:12px;line-height:1.8;color:#737e8d;margin:0}.card a{color:inherit;text-decoration:none}.card a:hover{color:var(--blue)}.card-meta{display:flex;justify-content:space-between;gap:10px;color:#9aa2af;font-size:10px;margin-top:auto;padding-top:17px}
-.category{font-size:9px;font-weight:800;letter-spacing:1.2px}.category.tech{color:#526fe3}.category.us{color:#1688c9}.category.kr{color:#159b77}
-.archive-heading{margin-top:52px}.market-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.market-panel{background:#fff;border:1px solid var(--line);border-radius:13px;padding:23px}.market-panel h3{margin:13px 0 8px;font-size:18px}.market-panel p{font-size:12px;color:var(--muted);line-height:1.8}.market-panel small{font-size:10px;color:#9aa2af}
-.method{margin:60px 0 68px;padding:34px;background:#edf0f5;border-radius:14px}.method h2{margin-bottom:26px}.method-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.method-grid b{display:block;color:var(--blue);font-size:11px;margin-bottom:13px}.method-grid strong{font-size:13px}.method-grid p{font-size:11px;line-height:1.8;color:var(--muted);margin:8px 0 0}
-footer{background:#101a31;color:#fff;padding:35px max(6vw,24px);text-align:center}.footer-brand{font-size:12px;font-weight:800;letter-spacing:2px}footer p{font-size:10px;line-height:1.8;color:#aab4c7;margin:13px 0}footer small{font-size:9px;color:#748198}
-@media(max-width:760px){.hero{display:block;padding-top:45px}.hero-note{margin-top:28px;width:max-content;max-width:100%}.cards,.market-grid{grid-template-columns:1fr}.method-grid{grid-template-columns:1fr;gap:22px}.method{padding:25px}.container{padding:0 20px}}
+
+:root {
+  --bg: #f5f6f8;
+  --ink: #141923;
+  --muted: #727b89;
+  --line: #e5e8ed;
+  --blue: #315efb;
+  --navy: #101a31;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'DM Sans', 'Noto Sans KR', sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 상단 */
+
+.topbar {
+  height: 76px;
+  padding: 0 max(6vw, 24px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+  font-size: 13px;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+  background: var(--navy);
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: 0;
+}
+
+.date-label {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.container {
+  max-width: 1120px;
+  margin: auto;
+  padding: 0 28px;
+}
+
+/* 메인 소개 */
+
+.hero {
+  min-height: 310px;
+  padding: 60px 0 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: var(--blue);
+  margin: 0 0 15px;
+}
+
+h1 {
+  font-size: clamp(42px, 6vw, 66px);
+  line-height: 1.16;
+  letter-spacing: -2.8px;
+  margin: 0;
+  font-weight: 800;
+}
+
+h1 em {
+  font-style: normal;
+  color: var(--blue);
+}
+
+.hero-copy {
+  font-size: 14px;
+  line-height: 1.9;
+  color: var(--muted);
+  margin: 20px 0 0;
+}
+
+.hero-note {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 17px 20px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  min-width: 260px;
+  margin-bottom: 4px;
+}
+
+.live-dot {
+  width: 8px;
+  height: 8px;
+  background: #27b47e;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #e6f7f0;
+  flex-shrink: 0;
+}
+
+.hero-note strong,
+.hero-note small {
+  display: block;
+}
+
+.hero-note strong {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.hero-note small {
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 5px;
+}
+
+/* 상태 안내 */
+
+.notice {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 14px 17px;
+  background: #fff8e9;
+  border: 1px solid #f3e4c5;
+  border-radius: 9px;
+  color: #75551a;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.notice strong {
+  white-space: nowrap;
+}
+
+/* 탭 */
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin: 34px 0 40px;
+  flex-wrap: wrap;
+}
+
+.tab {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: #687180;
+  border-radius: 30px;
+  padding: 10px 18px;
+  font: 600 12px 'Noto Sans KR', sans-serif;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.tab:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.tab.active {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #fff;
+}
+
+.analysis-tabs {
+  margin: 22px 0 20px;
+}
+
+/* 섹션 제목 */
+
+.section-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.section-heading .eyebrow {
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 23px;
+  letter-spacing: -.8px;
+  margin: 0;
+}
+
+.sample-tag {
+  font-size: 9px;
+  letter-spacing: 1.2px;
+  color: #a0a7b2;
+  font-weight: 700;
+}
+
+/* 뉴스 카드 */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  padding: 22px;
+  min-height: 175px;
+  display: flex;
+  flex-direction: column;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(16, 26, 49, .05);
+}
+
+.card h3 {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 14px 0 9px;
+  letter-spacing: -.4px;
+}
+
+.card a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card a:hover {
+  color: var(--blue);
+}
+
+.card p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #737e8d;
+  margin: 0;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: #9aa2af;
+  font-size: 10px;
+  margin-top: auto;
+  padding-top: 17px;
+}
+
+.category {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+
+.category.tech {
+  color: #526fe3;
+}
+
+.category.us {
+  color: #1688c9;
+}
+
+.category.kr {
+  color: #159b77;
+}
+
+/* 시장 분석 */
+
+.archive-heading {
+  margin-top: 52px;
+}
+
+.market-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.market-panel {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  padding: 23px;
+}
+
+.market-panel h3 {
+  margin: 13px 0 8px;
+  font-size: 18px;
+}
+
+.market-panel p {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.market-panel small {
+  font-size: 10px;
+  color: #9aa2af;
+}
+
+.market-data {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.market-data p {
+  margin: 0;
+}
+
+.market-summary {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #596373;
+}
+
+.market-summary strong {
+  color: var(--ink);
+}
+
+.market-stat {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.stat-item {
+  background: #f7f8fa;
+  padding: 13px;
+  border-radius: 9px;
+}
+
+.stat-item span {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  margin-bottom: 7px;
+}
+
+.stat-item strong {
+  font-size: 16px;
+}
+
+/* 산업별 분석 */
+
+.industry-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.industry-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  padding: 22px;
+}
+
+.industry-card h3 {
+  margin: 12px 0 10px;
+  font-size: 17px;
+}
+
+.industry-card p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.9;
+  margin: 0;
+}
+
+.industry-card .industry-meta {
+  margin-top: 15px;
+  padding-top: 13px;
+  border-top: 1px solid var(--line);
+  color: #9aa2af;
+  font-size: 10px;
+}
+
+/* 뉴스 상세 모달 */
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 17, 31, .65);
+  backdrop-filter: blur(3px);
+}
+
+.modal-content {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 680px);
+  max-height: 85vh;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 35px;
+  box-shadow: 0 20px 70px rgba(0, 0, 0, .2);
+}
+
+.modal-close {
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  border-radius: 50%;
+  background: #f1f3f6;
+  color: #586170;
+  font-size: 25px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  background: #e5e8ed;
+}
+
+.modal-content h2 {
+  margin: 17px 35px 13px 0;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.modal-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  color: #9aa2af;
+  font-size: 11px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.modal-body {
+  padding: 22px 0;
+}
+
+.modal-body h3 {
+  font-size: 15px;
+  margin: 20px 0 10px;
+}
+
+.modal-body h3:first-child {
+  margin-top: 0;
+}
+
+.modal-body p,
+.modal-body li {
+  font-size: 13px;
+  color: #596373;
+  line-height: 2;
+}
+
+.modal-body ul {
+  padding-left: 20px;
+}
+
+.original-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 17px;
+  background: var(--navy);
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.original-link:hover {
+  background: var(--blue);
+}
+
+/* 편집 기준 */
+
+.method {
+  margin: 60px 0 68px;
+  padding: 34px;
+  background: #edf0f5;
+  border-radius: 14px;
+}
+
+.method h2 {
+  margin-bottom: 26px;
+}
+
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.method-grid b {
+  display: block;
+  color: var(--blue);
+  font-size: 11px;
+  margin-bottom: 13px;
+}
+
+.method-grid strong {
+  font-size: 13px;
+}
+
+.method-grid p {
+  font-size: 11px;
+  line-height: 1.8;
+  color: var(--muted);
+  margin: 8px 0 0;
+}
+
+/* 하단 */
+
+footer {
+  background: #101a31;
+  color: #fff;
+  padding: 35px max(6vw, 24px);
+  text-align: center;
+}
+
+.footer-brand {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+footer p {
+  font-size: 10px;
+  line-height: 1.8;
+  color: #aab4c7;
+  margin: 13px 0;
+}
+
+footer small {
+  font-size: 9px;
+  color: #748198;
+}
+
+/* 모바일 */
+
+@media (max-width: 760px) {
+  .hero {
+    display: block;
+    padding-top: 45px;
+  }
+
+  .hero-note {
+    margin-top: 28px;
+    width: max-content;
+    max-width: 100%;
+  }
+
+  .cards,
+  .market-grid,
+  .industry-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .method-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .method {
+    padding: 25px;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .modal {
+    padding: 10px;
+  }
+
+  .modal-content {
+    padding: 25px 20px;
+    max-height: 90vh;
+  }
+
+  .modal-content h2 {
+    font-size: 20px;
+  }
+
+  .notice {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .card-meta {
+    flex-wrap: wrap;
+  }
+}
