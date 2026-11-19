@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -9,24 +10,42 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#"><span class="brand-mark">DB</span><span>DAILY BRIEF</span></a>
+    <a class="brand" href="#">
+      <span class="brand-mark">DB</span>
+      <span>DAILY BRIEF</span>
+    </a>
     <span class="date-label" id="today"></span>
   </header>
+
   <main class="container">
+
+    <!-- 메인 소개 -->
     <section class="hero">
       <div>
         <p class="eyebrow">TECHNOLOGY · GLOBAL MARKETS</p>
         <h1>오늘의 흐름을<br><em>한눈에</em> 읽다.</h1>
-        <p class="hero-copy">주요 기술 뉴스부터 미국·한국 증시까지,<br>하루의 핵심 이슈를 간결하게 정리합니다.</p>
+        <p class="hero-copy">
+          주요 기술 뉴스부터 미국·한국 증시까지,<br>
+          하루의 핵심 이슈와 산업 흐름을 분석합니다.
+        </p>
       </div>
-      <div class="hero-note"><span class="live-dot"></span><div><strong>DAILY INTELLIGENCE</strong><small>기술과 시장을 연결하는 데일리 브리핑</small></div></div>
+
+      <div class="hero-note">
+        <span class="live-dot"></span>
+        <div>
+          <strong>DAILY INTELLIGENCE</strong>
+          <small>기술과 시장을 연결하는 데일리 브리핑</small>
+        </div>
+      </div>
     </section>
 
+    <!-- 수집 상태 -->
     <section class="notice" id="status">
       <strong>자동 수집 준비</strong>
-      <span>GitHub에 게시하고 자동 수집 기능을 활성화하면 최신 RSS 뉴스가 이곳에 표시됩니다.</span>
+      <span>최신 뉴스 데이터를 불러오는 중입니다.</span>
     </section>
 
+    <!-- 뉴스 카테고리 -->
     <nav class="tabs" aria-label="콘텐츠 분류">
       <button class="tab active" data-filter="all">전체</button>
       <button class="tab" data-filter="tech">기술 뉴스</button>
@@ -34,30 +53,157 @@
       <button class="tab" data-filter="kr">한국 증시</button>
     </nav>
 
+    <!-- 최신 뉴스 -->
     <section class="section-heading">
-      <div><p class="eyebrow">LATEST HEADLINES</p><h2>최신 뉴스</h2></div>
+      <div>
+        <p class="eyebrow">LATEST HEADLINES</p>
+        <h2>최신 뉴스</h2>
+      </div>
       <span class="sample-tag" id="updated">데이터 확인 중</span>
     </section>
+
     <section class="cards" id="cards">
-      <article class="card"><h3>뉴스 데이터를 불러오는 중입니다.</h3><p>자동 수집이 설정되면 이 영역에 기사 제목과 출처가 표시됩니다.</p></article>
+      <article class="card">
+        <h3>뉴스 데이터를 불러오는 중입니다.</h3>
+        <p>자동 수집이 설정되면 이 영역에 기사 제목과 출처가 표시됩니다.</p>
+      </article>
     </section>
 
-    <section class="section-heading archive-heading"><div><p class="eyebrow">MARKET SNAPSHOT</p><h2>시장 브리핑</h2></div></section>
-    <section class="market-grid">
-      <article class="market-panel"><span class="category us">U.S. MARKET</span><h3>미국 증시</h3><p>지수 종가와 업종별 흐름, 주요 종목 등락 및 배경을 정리하는 영역입니다.</p><small>시장 데이터 연동 전 · 수치를 표시하지 않습니다.</small></article>
-      <article class="market-panel"><span class="category kr">KOREA MARKET</span><h3>한국 증시</h3><p>코스피·코스닥, 업종 흐름, 투자자별 수급과 주요 공시를 정리하는 영역입니다.</p><small>시장 데이터 연동 전 · 수치를 표시하지 않습니다.</small></article>
-    </section>
-
-    <section class="method">
-      <p class="eyebrow">EDITORIAL STANDARD</p><h2>정보를 전달하는 기준</h2>
-      <div class="method-grid">
-        <div><b>01</b><strong>출처 표시</strong><p>기사 원문과 출처를 함께 제공하고 사실관계를 확인합니다.</p></div>
-        <div><b>02</b><strong>사실과 해석 구분</strong><p>확인된 사실과 시장 해석·전망을 구분합니다.</p></div>
-        <div><b>03</b><strong>시세 기준 명시</strong><p>지연 또는 종가 데이터인지 기준 시점을 명확히 표시합니다.</p></div>
+    <!-- 시장 분석 -->
+    <section class="section-heading archive-heading">
+      <div>
+        <p class="eyebrow">MARKET INTELLIGENCE</p>
+        <h2>시장 분석</h2>
       </div>
     </section>
+
+    <nav class="tabs analysis-tabs" aria-label="시장 분석 기간">
+      <button class="tab active" data-analysis="daily">일일 분석</button>
+      <button class="tab" data-analysis="weekly">주간 분석</button>
+    </nav>
+
+    <section class="market-grid">
+
+      <article class="market-panel">
+        <span class="category us">U.S. MARKET</span>
+        <h3>미국 증시</h3>
+
+        <div class="market-data" id="us-market">
+          <p>시장 분석 데이터를 불러오는 중입니다.</p>
+        </div>
+      </article>
+
+      <article class="market-panel">
+        <span class="category kr">KOREA MARKET</span>
+        <h3>한국 증시</h3>
+
+        <div class="market-data" id="kr-market">
+          <p>시장 분석 데이터를 불러오는 중입니다.</p>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- 산업 분석 -->
+    <section class="section-heading archive-heading">
+      <div>
+        <p class="eyebrow">INDUSTRY INSIGHT</p>
+        <h2>산업별 분석</h2>
+      </div>
+    </section>
+
+    <section class="industry-grid" id="industry-analysis">
+      <article class="market-panel">
+        <h3>산업 분석 데이터를 준비 중입니다.</h3>
+        <p>주요 기술 뉴스와 산업 동향을 종합해 분석할 예정입니다.</p>
+      </article>
+    </section>
+
+    <!-- 편집 기준 -->
+    <section class="method">
+      <p class="eyebrow">EDITORIAL STANDARD</p>
+      <h2>정보를 전달하는 기준</h2>
+
+      <div class="method-grid">
+        <div>
+          <b>01</b>
+          <strong>출처 표시</strong>
+          <p>기사 원문과 출처를 함께 제공하고 사실관계를 확인합니다.</p>
+        </div>
+
+        <div>
+          <b>02</b>
+          <strong>사실과 해석 구분</strong>
+          <p>확인된 사실과 시장 해석·전망을 구분합니다.</p>
+        </div>
+
+        <div>
+          <b>03</b>
+          <strong>시세 기준 명시</strong>
+          <p>지연 또는 종가 데이터인지 기준 시점을 명확하게 표시합니다.</p>
+        </div>
+      </div>
+    </section>
+
   </main>
-  <footer><div class="footer-brand">DAILY BRIEF</div><p>정보 제공 및 학습 목적의 기술·시장 요약입니다.<br>특정 금융상품의 매수·매도를 권유하지 않습니다.</p><small>© 2026 Daily Brief · Prototype</small></footer>
+
+  <!-- 뉴스 상세 모달 -->
+  <div class="modal" id="news-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+
+    <section
+      class="modal-content"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+    >
+      <button
+        class="modal-close"
+        type="button"
+        aria-label="닫기"
+        data-close-modal
+      >×</button>
+
+      <span class="category" id="modal-category">NEWS</span>
+
+      <h2 id="modal-title">뉴스 제목</h2>
+
+      <div class="modal-meta">
+        <span id="modal-source"></span>
+        <span id="modal-date"></span>
+      </div>
+
+      <div class="modal-body">
+        <h3>기사 요약</h3>
+        <p id="modal-summary">요약 내용을 불러오는 중입니다.</p>
+
+        <h3>핵심 내용</h3>
+        <ul id="modal-points">
+          <li>핵심 내용을 불러오는 중입니다.</li>
+        </ul>
+      </div>
+
+      <a
+        class="original-link"
+        id="modal-original-link"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        언론사 원문 보기 →
+      </a>
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-brand">DAILY BRIEF</div>
+    <p>
+      정보 제공 및 학습 목적의 기술·시장 요약입니다.<br>
+      특정 금융상품의 매수·매도를 권유하지 않습니다.
+    </p>
+    <small>© 2026 Daily Brief · Prototype</small>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
