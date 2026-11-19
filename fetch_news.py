@@ -24,7 +24,12 @@ KST = ZoneInfo("Asia/Seoul")
 
 MAX_AGE_HOURS = 72
 MAX_ITEMS = 60
-MAX_PER_CATEGORY = 25
+MAX_PER_CATEGORY = {
+    "tech": 30,
+    "us": 25,
+    "kr": 25
+}
+MAX_PER_TOPIC = 5
 
 # RSS 요청 설정
 REQUEST_INTERVAL = 2.5
@@ -44,16 +49,31 @@ BLOCKED_SOURCES = {
 # 분야별 뉴스 검색어
 QUERIES = {
     "tech": [
-        ("AI 인공지능 기술 산업", "ko", "KR", "KR:ko"),
-        ("반도체 HBM GPU 파운드리", "ko", "KR", "KR:ko"),
-        ("로봇 휴머노이드 자율주행", "ko", "KR", "KR:ko"),
-        ("통신 RF 5G 6G 전자 기술", "ko", "KR", "KR:ko"),
-        ("배터리 에너지 전력망 기술", "ko", "KR", "KR:ko"),
-        ("방산 우주항공 레이더 기술", "ko", "KR", "KR:ko"),
-        ("artificial intelligence semiconductor technology", "en", "US", "US:en"),
-        ("robotics autonomous driving technology", "en", "US", "US:en"),
-        ("6G wireless communication RF technology", "en", "US", "US:en"),
-        ("battery energy storage technology", "en", "US", "US:en"),
+        "tech": [
+    # 1. 반도체
+    ("반도체 HBM GPU 파운드리", "ko", "KR", "KR:ko", "반도체"),
+    ("semiconductor HBM GPU foundry", "en", "US", "US:en", "반도체"),
+
+    # 2. 인공지능
+    ("AI 인공지능 생성형 AI 머신러닝", "ko", "KR", "KR:ko", "인공지능"),
+    ("artificial intelligence generative AI machine learning", "en", "US", "US:en", "인공지능"),
+
+    # 3. 로봇 및 자율주행
+    ("로봇 휴머노이드 산업용 로봇 자율주행", "ko", "KR", "KR:ko", "로봇·자율주행"),
+    ("robotics humanoid industrial robots autonomous driving", "en", "US", "US:en", "로봇·자율주행"),
+
+    # 4. 통신 및 RF
+    ("통신 RF 안테나 5G 6G 전자파", "ko", "KR", "KR:ko", "통신·RF"),
+    ("wireless communication RF antenna 5G 6G", "en", "US", "US:en", "통신·RF"),
+
+    # 5. 배터리 및 에너지
+    ("배터리 ESS 에너지저장 전력망", "ko", "KR", "KR:ko", "배터리·에너지"),
+    ("battery energy storage power grid", "en", "US", "US:en", "배터리·에너지"),
+
+    # 6. 방산 및 항공우주
+    ("방산 항공우주 위성 레이더 산업", "ko", "KR", "KR:ko", "방산·항공우주"),
+    ("defense aerospace satellite radar industry", "en", "US", "US:en", "방산·항공우주"),
+],
     ],
 
     "us": [
@@ -364,7 +384,13 @@ def main():
 
         print(f"\nCollecting category: {category}")
 
-        for query, hl, gl, ceid in query_list:
+        for entry in query_list:
+
+            if len(entry) == 5:
+                query, hl, gl, ceid, topic = entry
+            else:
+                query, hl, gl, ceid = entry
+                topic = ""
 
             try:
 
@@ -412,6 +438,7 @@ def main():
                     seen_titles.add(title_key)
                     seen_links.add(link_key)
 
+                    item["topic"] = topic
                     items.append(item)
                     added_count += 1
 
