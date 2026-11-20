@@ -648,3 +648,61 @@ footer small {
     flex-wrap: wrap;
   }
 }
+/* 주요 메뉴 */
+html {
+  scroll-behavior: smooth;
+}
+
+.section-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 34px 0 42px;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+}
+
+.section-nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 48px;
+  border-radius: 9px;
+  color: #687180;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  transition: .2s;
+}
+
+.section-nav a:hover {
+  background: var(--navy);
+  color: #fff;
+}
+
+/* 뉴스 카테고리 */
+.news-filters {
+  margin: 0 0 24px;
+}
+
+/* 메뉴 이동 위치 */
+#latest-news,
+#market-analysis,
+#industry-section {
+  scroll-margin-top: 24px;
+}
+
+/* 모바일 */
+@media (max-width: 760px) {
+  .section-nav {
+    gap: 5px;
+    padding: 5px;
+  }
+
+  .section-nav a {
+    min-height: 44px;
+    font-size: 11px;
+  }
+}
