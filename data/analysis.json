@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20 14:52 KST",
+  "updated_at": "2026-11-20 17:31 KST",
   "daily": {
     "us": {
       "summary": "2026-11-19 기준 최근 거래일 지수 데이터입니다. 괄호 안은 직전 거래일 대비 등락률입니다.",
@@ -18,11 +18,11 @@
         }
       ],
       "key_points": [
+        "Nasdaq futures fall after Anthropic fails to lift market sentiment: Live updates - CNBC",
+        "Stock Market: Will S&P 500 Open Up or Down Today? - Benzinga",
+        "US Stocks Suffer Sell-Off as Nasdaq, S&P 500 Drop Nearly 2%; Wall Street Fear Gauge Surges 15.4% - Sada Elbalad English",
         "Fed's Paulson signals more rate hikes, says inflation remains too high - The Economic Times",
-        "Earnings Release: Here's Why Analysts Cut Their Smart Eye AB (publ) (STO:SEYE) Price Target To kr98.00 - Simply Wall St",
-        "Rand tumble puts inflation and interest rates back in focus - IOL",
-        "Wall Street futures fall as Anthropic debut fails to revive AI trade - Investing.com",
-        "Fed's Paulson backs further rate hikes, says shared understanding beats guidance - Yahoo Finance"
+        "Wall Street futures fall as Anthropic debut fails to revive AI trade - Investing.com"
       ],
       "as_of": "2026-11-19"
     },
@@ -31,19 +31,19 @@
       "stats": [
         {
           "label": "KOSPI",
-          "value": "4,844.32 (-5.71%)"
+          "value": "4,869.96 (-5.21%)"
         },
         {
           "label": "KOSDAQ",
-          "value": "646.10 (-2.52%)"
+          "value": "645.68 (-5.71%)"
         }
       ],
       "key_points": [
+        "코스피·코스닥 동반 5%대 폭락…'5천피' 붕괴에 매도 사이드카 발동 - 산경투데이",
         "코스피·코스닥 동반 매도 사이드카…반도체 대형주 6%대 급락 - 산경투데이",
+        "코스피·코스닥 주가 급락…매도 사이드카 동시 발동 : 한국증시 - 재경일보",
         "[오늘의 증시] 11월 20일 코스피 4,960선·코스닥 660선 하락…외국인·기관 동반 매도 - 잡포스트",
-        "[오늘 증시 전망] 코스피 5,100선 회복했지만 뉴욕증시 급락…20일 외국인 수급이 관건 - 업코리아",
-        "[오늘의 증시] 11월 19일 코스피 5000선 턱걸이…코스닥도 1%대 하락 - 잡포스트",
-        "[마켓뷰] '앤트로픽 상장' 기대감? 경계감?…코스피 향방은 - 연합뉴스"
+        "[오늘의 증시] 11월 19일 코스피 5000선 턱걸이…코스닥도 1%대 하락 - 잡포스트"
       ],
       "as_of": "2026-11-20"
     }
@@ -66,11 +66,11 @@
         }
       ],
       "key_points": [
+        "Nasdaq futures fall after Anthropic fails to lift market sentiment: Live updates - CNBC",
+        "Stock Market: Will S&P 500 Open Up or Down Today? - Benzinga",
+        "US Stocks Suffer Sell-Off as Nasdaq, S&P 500 Drop Nearly 2%; Wall Street Fear Gauge Surges 15.4% - Sada Elbalad English",
         "Fed's Paulson signals more rate hikes, says inflation remains too high - The Economic Times",
-        "Earnings Release: Here's Why Analysts Cut Their Smart Eye AB (publ) (STO:SEYE) Price Target To kr98.00 - Simply Wall St",
-        "Rand tumble puts inflation and interest rates back in focus - IOL",
-        "Wall Street futures fall as Anthropic debut fails to revive AI trade - Investing.com",
-        "Fed's Paulson backs further rate hikes, says shared understanding beats guidance - Yahoo Finance"
+        "Wall Street futures fall as Anthropic debut fails to revive AI trade - Investing.com"
       ],
       "as_of": "2026-11-19"
     },
@@ -79,19 +79,19 @@
       "stats": [
         {
           "label": "KOSPI",
-          "value": "4,844.32 (-8.43%)"
+          "value": "4,869.96 (-7.95%)"
         },
         {
           "label": "KOSDAQ",
-          "value": "646.10 (-7.24%)"
+          "value": "645.68 (-7.72%)"
         }
       ],
       "key_points": [
+        "코스피·코스닥 동반 5%대 폭락…'5천피' 붕괴에 매도 사이드카 발동 - 산경투데이",
         "코스피·코스닥 동반 매도 사이드카…반도체 대형주 6%대 급락 - 산경투데이",
+        "코스피·코스닥 주가 급락…매도 사이드카 동시 발동 : 한국증시 - 재경일보",
         "[오늘의 증시] 11월 20일 코스피 4,960선·코스닥 660선 하락…외국인·기관 동반 매도 - 잡포스트",
-        "[오늘 증시 전망] 코스피 5,100선 회복했지만 뉴욕증시 급락…20일 외국인 수급이 관건 - 업코리아",
-        "[오늘의 증시] 11월 19일 코스피 5000선 턱걸이…코스닥도 1%대 하락 - 잡포스트",
-        "[마켓뷰] '앤트로픽 상장' 기대감? 경계감?…코스피 향방은 - 연합뉴스"
+        "[오늘의 증시] 11월 19일 코스피 5000선 턱걸이…코스닥도 1%대 하락 - 잡포스트"
       ],
       "as_of": "2026-11-20"
     }
@@ -109,13 +109,19 @@
     {
       "topic": "인공지능",
       "title": "인공지능 산업 동향",
-      "summary": "최근 수집된 인공지능 관련 뉴스 5건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
+      "summary": "최근 수집된 인공지능 관련 뉴스 2건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
-        "Dongwoon Anatech Enters Robot Motion Control Market, Powering the Future of Physical AI - ACROFAN USA",
-        "AI loads force data center power strategy rethink - ET Datacenters",
-        "10 AI POC Development Services That Can Help USA Businesses Validate AI Ideas Before Investing - WhaTech",
-        "10 India-Based Technology Companies Offering AI Development Capabilities in 2026 - TechBullion",
-        "Government Audit Finds Major AI Platforms Generate Viable Attack Plans - Security Today"
+        "Government Audit Finds Major AI Platforms Generate Viable Attack Plans - Security Today",
+        "Cut generative AI costs: Code for rules, models for judgment - Amazon Web Services (AWS)"
+      ],
+      "as_of": "2026-11-20"
+    },
+    {
+      "topic": "로봇·자율주행",
+      "title": "로봇·자율주행 산업 동향",
+      "summary": "최근 수집된 로봇·자율주행 관련 뉴스 1건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
+      "key_points": [
+        "Dongwoon Anatech Enters Robot Motion Control Market, Powering the Future of Physical AI - ACROFAN USA"
       ],
       "as_of": "2026-11-20"
     },
@@ -124,11 +130,11 @@
       "title": "배터리·에너지 산업 동향",
       "summary": "최근 수집된 배터리·에너지 관련 뉴스 5건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
+        "MULTIFIT Advances Solar Storage Solutions as a Global Leading Energy Storage Inverter Manufacturer - EIN News",
+        "POWERGRID Invites Bids for 100 MW/400 MWh Battery Storage Project - Construction World",
         "Battery storage supports direct power supply to Vietnam factory - Vietnam Investment Review - VIR",
-        "Graph Reinforcement Learning Curbs Power Grid Cyber Attacks in Distribution Systems - Bioengineer.org",
-        "Terna sees batteries meeting Italy’s flexibility needs despite 10 TWh curtailment - ESS News",
-        "[LG의 신사업/③]LG엔솔, 전기차 배터리서 전력망용 ESS로 - 비즈니스플러스",
-        "Saugeen Shores battery storage preferred site is on ‘prime’ farmland - Owen Sound Sun-Times"
+        "ESS(Energy Storage System, 에너지저장장치)란? – 전기를 어떻게 저장하고, 왜 지금 주목받을까? - 자투리경제",
+        "Terna sees batteries meeting Italy’s flexibility needs despite 10 TWh curtailment - ESS News"
       ],
       "as_of": "2026-11-20"
     },
@@ -138,10 +144,10 @@
       "summary": "최근 수집된 방산·항공우주 관련 뉴스 5건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
         "Hanwha Tests UGV, Counter-Drone Integration With Romanian Military Network - Businesskorea",
-        "Who holds the military advantage in the Arctic? - Big News Network.com",
-        "Moroccan Cadets Fire Chinese HJ-9A Anti-Tank Missile From American-Made Humvee - The SOFX Report",
         "How Much Time and Money Would Ukraine Need to Develop Its Own Satellites to Detect Iskander and S-400 Missile Launches? - Defense Express",
-        "US senators push for stronger military space ties with NZ - RNZ"
+        "Hanwha Systems wins 1st U.S. radar order from Rebellion Industries - Yonhap News Agency",
+        "Collins Aerospace breaks ground on new propeller MRO facility in India - Defensehere",
+        "Russian Aerospace Forces receive new batch of Su-34 - Defensehere"
       ],
       "as_of": "2026-11-20"
     }

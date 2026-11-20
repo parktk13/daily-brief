@@ -1,7 +1,52 @@
 {
-  "updated_at": "2026-11-20 14:51 KST",
-  "generated_at_utc": "2026-11-20T05:52:19.022248+00:00",
+  "updated_at": "2026-11-20 17:30 KST",
+  "generated_at_utc": "2026-11-20T08:31:32.533292+00:00",
   "items": [
+    {
+      "category": "us",
+      "title": "Nasdaq futures fall after Anthropic fails to lift market sentiment: Live updates - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tY1RiS3BadWcwVVMwU2oteTAzRVdyVEpSeUwtUGJOU3RZV3BmOEJQRmtrT25udndSRVUxRDVpSkRCLUdCS2lDc3dTRm9Ja19qNzh3MlNXVDVDM0UwQXItVWgyMUJnaV9xY2RlWEJmbnBCWWE1ZEdz0gF8QVVfeXFMUDFCSzhsWkpPUEpfV1BiOTNJUkJCbGNwaFVlUmtCcm42WTNmaXF6RVdpbnNwcWJOV1V6QWRtSjVMdFBuLU5kSmFwM0Q5S0ZQOVdPdVVlMGh3dVQyQnAtY0lXcU9xbjN0NE5pYUU1MEM5cU1WN25lc3pYUmpJaQ?oc=5",
+      "summary": "Nasdaq futures fall after Anthropic fails to lift market sentiment: Live updates",
+      "source": "CNBC",
+      "published": "2026-11-20 17:18",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "kr",
+      "title": "코스피·코스닥 동반 5%대 폭락…'5천피' 붕괴에 매도 사이드카 발동 - 산경투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2RmxCSUZUd2xQZlhCQXM3WjVCOFJ6NVRNUEEzZUNSekhvNFh6cm55djdZeGlEUDhPd3lORy04MHA1UVhDaG1UWTg5a0FMc1QwNXJSRC1iRkdqYTlEaFh0MmJWME5qeXl1dzRoWVFUVnjSAXRBVV95cUxPc2EybHB3S2wydDF3cTV6aFEyUHVYaEZCcVVMMzhBMlVpbmFVVU4yTi12XzVTZHNoMGt0Y1VrRks1MWw2ZmU2TV92YUk4WTFJZFVrTU1fNzlPWmFEN1h3S3VTSFQ2Zzdzc2hFX0xITUZzdXZyZA?oc=5",
+      "summary": "코스피·코스닥 동반 5%대 폭락…'5천피' 붕괴에 매도 사이드카 발동",
+      "source": "산경투데이",
+      "published": "2026-11-20 16:35",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "tech",
+      "title": "MULTIFIT Advances Solar Storage Solutions as a Global Leading Energy Storage Inverter Manufacturer - EIN News",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWjdqNFp4aDJOdGJxdGw5VWtXU3lYNGtlNGpLU2NxcTJHTWM2Q1gwVmFMTFY5VklOTjZEOFplNDgtRDFlTzZ4Q3BpVjRSWURyaVJKTUpTQWtpcHJmOC12akkwcm1JWmtHU3l2THNHcjZWenlPNW82LXNVVTEyTjI4LUc4VFQtNUR0ZE9LaTAwSDRXMXVxOW9id0lPQmg5T01HcHlQbzZiMEo2UDY3TkxJUTJUaHdDcGxFUkZMLUU1TC1pLVVKY3BmekFvOHBhelNrdHF5aGZ4QQ?oc=5",
+      "summary": "MULTIFIT Advances Solar Storage Solutions as a Global Leading Energy Storage Inverter Manufacturer",
+      "source": "EIN News",
+      "published": "2026-11-20 15:49",
+      "topic": "배터리·에너지"
+    },
+    {
+      "category": "tech",
+      "title": "POWERGRID Invites Bids for 100 MW/400 MWh Battery Storage Project - Construction World",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPN2NhWE5GU0ZfV2VDenB6aTJxWnNSakFzdkdRdFhsV1NhYXhnSlEtSkpxMEZXNWN2QndCb1hSSF9BMFRUM3pTYndlZ05xYmRwdXA0WFJNZlRMSzkyRVB5bkNHcUNlUmFwMmc5MDFrOWRVZ0hXenJSY0dCdlcwV28xN3JRb0VTTV9sWE4wTjRKTjZXTzJCUWkwN09VZFB5NzV6MFdReHFMRnBJc2FsME1IUXVGY1RiT0RfejlpZ2xqYzA2dGt3b2ZfcG0yUXUwZmhGSm9PMGlXVk95V1pUenBxNjRYZl9zZ3JT?oc=5",
+      "summary": "POWERGRID Invites Bids for 100 MW/400 MWh Battery Storage Project",
+      "source": "Construction World",
+      "published": "2026-11-20 15:45",
+      "topic": "배터리·에너지"
+    },
+    {
+      "category": "us",
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today? - Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZUZBUktmQ1gyNmZnWXNoX29BOGR4ZHhITmltX0pwMVJudmtWWUlJTC1SeUNQVjN4eV9fOHMxNzBXSG1JdzRLdTFjRUZ4U2pKaFhYbXdIbUhKcVlxOFljU3YwX29GMm54YVZLcktGUDhsV0pYZ0xySDd2SUM1RTFVQmlWUlY5eHowY3N0aktaVjlkVGpsN0o5UWlGVkRlcjlYZFRlS2ZNU3V4S3JTeDlrLU9LeDdFYVU?oc=5",
+      "summary": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "source": "Benzinga",
+      "published": "2026-11-20 15:05",
+      "topic": "지수·시장동향"
+    },
     {
       "category": "kr",
       "title": "코스피·코스닥 동반 매도 사이드카…반도체 대형주 6%대 급락 - 산경투데이",
@@ -9,6 +54,24 @@
       "summary": "코스피·코스닥 동반 매도 사이드카…반도체 대형주 6%대 급락",
       "source": "산경투데이",
       "published": "2026-11-20 13:59",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "kr",
+      "title": "코스피·코스닥 주가 급락…매도 사이드카 동시 발동 : 한국증시 - 재경일보",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBKRk9qekw1ZGNuOGtlR2RIQU1XWGJRanBHQmg1Mm9NR1VNTTNOV1o2VHFkQmgyNmZLY0NJemkyYlNsZXBncGJfMXlIdw?oc=5",
+      "summary": "코스피·코스닥 주가 급락…매도 사이드카 동시 발동 : 한국증시",
+      "source": "재경일보",
+      "published": "2026-11-20 13:51",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "us",
+      "title": "US Stocks Suffer Sell-Off as Nasdaq, S&P 500 Drop Nearly 2%; Wall Street Fear Gauge Surges 15.4% - Sada Elbalad English",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVDVBVDNWVG9zQ3pZZEVVZ3RQVzVUY1pid0xqNXFKcHJUcl9fWUduclFxM2x2MFBmVWdwU2luZEdvbnhVR2RJVTc3WWNlLXFaTmdJOE1UWXRPR1hxMWFoZHM0TWs2YlhEMzJpT0FtME9xcm45XzNzZXdKTlFsdGdYN3hrclRjZmNpQWI4Z3BtM1AxV0xuVENORGNmR3V6ZnhqeUp5NmpMTFFCdFU?oc=5",
+      "summary": "US Stocks Suffer Sell-Off as Nasdaq, S&P 500 Drop Nearly 2%; Wall Street Fear Gauge Surges 15.4%",
+      "source": "Sada Elbalad English",
+      "published": "2026-11-20 13:30",
       "topic": "지수·시장동향"
     },
     {
@@ -27,25 +90,7 @@
       "summary": "Dongwoon Anatech Enters Robot Motion Control Market, Powering the Future of Physical AI",
       "source": "ACROFAN USA",
       "published": "2026-11-20 13:22",
-      "topic": "인공지능"
-    },
-    {
-      "category": "us",
-      "title": "Earnings Release: Here's Why Analysts Cut Their Smart Eye AB (publ) (STO:SEYE) Price Target To kr98.00 - Simply Wall St",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdS13akN0eTFHbzAxa1VRanRqQ3haY1Y2YUY3c3JRZTNmVS1EWGpNNHB6b3NjTWNlZGhWMnFtRkpRNFVvQVJTQXBLRjY4RTlyYTlPMWNNczE1MTA1bDhYdVRNX2JNNGtSZDhWRE9kbVhWb2czQ2trd3ZKbktZUXduYVJVTlZIeGJYSUQtLW41TWNIdWFHZF91Y2x3T3MxV20tZkJXVWZrNm5VSEhQdEFyNlphQVhDWm1fdzhXQWZXTkhnNTFOVzJj0gHMAUFVX3lxTFBnaW5QdFVOc0VMNzR3NnJFd04weVZ0dy1Yd3NHRkJSSUdseVdmb0xMSWlUTTJaUC1oRTlyb0xUX1pNaUxMX0I2dHgwNXpGTk9rOW91dTJOSWkxU1VTamhGMDF2S3NUS1F0TE5ockhya3dQdnk0X01uUVloRjh1ZWN4SW0xVjY2aFlIRER5WkY4VjZaZ011bk5wN3JKZVNGWG1tYlp1Ym92N1RIVzU4Ty1tNTE5dUxvSk9sQ3V2T01KeDlWMXVNa052ZC1GMw?oc=5",
-      "summary": "Earnings Release: Here's Why Analysts Cut Their Smart Eye AB (publ) (STO:SEYE) Price Target To kr98.00",
-      "source": "Simply Wall St",
-      "published": "2026-11-20 13:04",
-      "topic": "기업실적·기업동향"
-    },
-    {
-      "category": "us",
-      "title": "Rand tumble puts inflation and interest rates back in focus - IOL",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVGUzblJ1OFg5LWxCbzZfR2s2ZFdyVzBOSTkzQzhFM0R4S09IVjVkME5YY1U4eTJ2YnlNZ2VxUEp5d2xNX1hWSVYtMjNLeHJrYVBnMUNvclp2N2taZEZvNTg5ZmtRODh5aGt6MmRQa1g2clotRUZOT2J2SXJXTS00b0I2MC1TMXVQN3VmUjhqb2xGV3RTRGdyX1lpQWpNRFU3by1nRmU2UGpzUQ?oc=5",
-      "summary": "Rand tumble puts inflation and interest rates back in focus",
-      "source": "IOL",
-      "published": "2026-11-20 13:00",
-      "topic": "금리·경제지표"
+      "topic": "로봇·자율주행"
     },
     {
       "category": "tech",
@@ -64,15 +109,6 @@
       "source": "Businesskorea",
       "published": "2026-11-20 11:45",
       "topic": "방산·항공우주"
-    },
-    {
-      "category": "tech",
-      "title": "Graph Reinforcement Learning Curbs Power Grid Cyber Attacks in Distribution Systems - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSndPaFVYaDdXZ3JKQ055U0pLX1dSdUZYRkk2TFoyX05WcGZUdHVPaE5nMnBJWnlGT0JTVFVyMjFVR3A0TWtEMndxOFd6OVRwdjUwU01yX1Z6em1iU3BZQUJDTU1nSGNnRmoxS3lKVnF2bUZqNWlDY1Y5NWJfUFpLQlNXUUEyajJDSy1hMWtPRHFITGVnMnhlMWthMTBxazhCb2x2azFYV2tockJD?oc=5",
-      "summary": "Graph Reinforcement Learning Curbs Power Grid Cyber Attacks in Distribution Systems",
-      "source": "Bioengineer.org",
-      "published": "2026-11-20 11:11",
-      "topic": "배터리·에너지"
     },
     {
       "category": "kr",
@@ -100,6 +136,15 @@
       "source": "Yahoo Finance",
       "published": "2026-11-20 10:00",
       "topic": "금리·경제지표"
+    },
+    {
+      "category": "tech",
+      "title": "ESS(Energy Storage System, 에너지저장장치)란? – 전기를 어떻게 저장하고, 왜 지금 주목받을까? - 자투리경제",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5UQXgyNGtoU1Q0U0ZuUTl5Vk82cVZrOHQ1QmlkRVpRb2tZSHpxWnpva244LS1udUJsYmN2NGpMYVo5YzZMcTNZd1BHcHFwaXZTb0JxM1BOUEY5YW1Hei1vN3ltS181UQ?oc=5",
+      "summary": "ESS(Energy Storage System, 에너지저장장치)란? – 전기를 어떻게 저장하고, 왜 지금 주목받을까?",
+      "source": "자투리경제",
+      "published": "2026-11-20 09:49",
+      "topic": "배터리·에너지"
     },
     {
       "category": "us",
@@ -156,15 +201,6 @@
       "topic": "지수·시장동향"
     },
     {
-      "category": "kr",
-      "title": "[오늘 증시 전망] 코스피 5,100선 회복했지만 뉴욕증시 급락…20일 외국인 수급이 관건 - 업코리아",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1VTmVVYWxLVkxmSVlWa3NydEVRMkVSNmdBUGowTXBOV3FtTmZEdEZTWXpMWU9OVGNKRGt6QndkR2std2FOWi11T21VOTNkYy03V1k0bHBSeUZzOVp2WFVWc3M4T3lJVVR3TWZBQmZ3?oc=5",
-      "summary": "[오늘 증시 전망] 코스피 5,100선 회복했지만 뉴욕증시 급락…20일 외국인 수급이 관건",
-      "source": "업코리아",
-      "published": "2026-11-20 07:08",
-      "topic": "지수·시장동향"
-    },
-    {
       "category": "us",
       "title": "U.S. Stocks Slide as AI Bust Continues Despite Anthropic IPO - WSJ",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOS0gyWjhIVGZYS3A2TDJtbVdaZVJHdlo5Smt3RkhsMHJ2bUh6ZVlOLWE5cDhkV3hXcmFVZFRVTmgxdlJXQ3dLRWREYVljemhSVjkycmlFYzctSW44YlhybXNtOFNyYVVvMEw2bGFNSmFnMEJrd2xWMklDbHJ4RGNRNFVnX1VTNUR0QXA5V1BaRlo3Tmo2eUE3U2lCQko5c21rQVMxOGlB?oc=5",
@@ -172,15 +208,6 @@
       "source": "WSJ",
       "published": "2026-11-20 07:04",
       "topic": "지수·시장동향"
-    },
-    {
-      "category": "tech",
-      "title": "[LG의 신사업/③]LG엔솔, 전기차 배터리서 전력망용 ESS로 - 비즈니스플러스",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9VSVR1U2VfWl9SVHZZTHZoaWdZRjMzeThkcjJCc3FIaDZBazhqSGk5UHZmSVpNWFVIWm8tYnJGTnpKZzFsYnhoY2NGeFlHaTdYcGowUHFBeHJ2RGlJX1JzNmRuV0lMNUhDeGhqZWp3?oc=5",
-      "summary": "[LG의 신사업/③]LG엔솔, 전기차 배터리서 전력망용 ESS로",
-      "source": "비즈니스플러스",
-      "published": "2026-11-20 07:00",
-      "topic": "배터리·에너지"
     },
     {
       "category": "us",
@@ -193,57 +220,12 @@
     },
     {
       "category": "us",
-      "title": "Stocks Fall as Anthropic Debut Not an AI All-Clear: Markets Wrap - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMHJMMGxuVjE0QlBiMjdlLVg4Snd2RjdIVmxmMlFGX3E1cEpBS3BHaEQ0YnpUb19jc2lXMG9RQk9nSk8xSVFmN2d4VFRoSC1nQkJUdk5DTF9MWlVqRklPelgyUGpNREtJQUpEd3BTZ3A0VmVZdGRZZ21mT0x5bEdhUkd1OVVKZHNLUkRqdWY3M3VxOHBu?oc=5",
-      "summary": "Stocks Fall as Anthropic Debut Not an AI All-Clear: Markets Wrap",
-      "source": "Bloomberg.com",
-      "published": "2026-11-20 06:40",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "Wall Street tumbles to its longest losing streak since 2024 as the Dow drops 1,100 points - Los Angeles Times",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQb0p0WHJTZEp2cy1Na1BjZ2hKMTRVU3F1encweW5uV3hMaW1CQS1ueWoyQWdMSGtCcmZuNF9sS0xUejVrNmJaS3VHaFZWTDF2OUV3TDV5dFRFTC1ZN1BCaFNVMDBZMl8yQU1zc05sMVp5ZkFUYWQ0U0lHbFRSVGRIT2cyTEtwRnlrWHdlTlVSM0pyNEFGU1oxX1pmUGlrTjctVGpfbjdZS245cDdpZzczNTRHcHREcVF4WXFuQVp5SWZFczc2UWF3RENEX3c0U3py?oc=5",
-      "summary": "Wall Street tumbles to its longest losing streak since 2024 as the Dow drops 1,100 points",
-      "source": "Los Angeles Times",
-      "published": "2026-11-20 06:37",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
       "title": "AI surge could strain US capacity and overheat economy, Fed's Goolsbee says - Reuters",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ2V1TTUwaFZ4T1pYN3VBVDlqZThZVHBvQ0VhNnRNNlpWVlZXLUYtVWh5T096NmxYbEsxdjF6T0JmZmZCM0lHQ01CT2NUcTdrUzJ0djdFbWRteWlNTWF4enhqajdoY2ZWcjBmc0lMYkpYczV1RDJVdmxZWFctNDI3bHFxOTBySmZvbHNDRXM5QmxqWUtieXFJYjZnUmNONVUzUnBTYTlMdlNqaDdzdkYweVRHZ2w?oc=5",
       "summary": "AI surge could strain US capacity and overheat economy, Fed's Goolsbee says",
       "source": "Reuters",
       "published": "2026-11-20 06:35",
       "topic": "금리·경제지표"
-    },
-    {
-      "category": "us",
-      "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObFNmNkd1bmdWZnlubzV3QzRrb0FhOHA4cUxudFBiNElPX2dMa3hHbXRPU1BndERKeWVWNzZiRVU5bEtBeDV3Z2RhWXhQRlhRM2RyRGZtSi1YTkc2amdqS3BlVFJhd0lsdzM5cmxfRmVBZUF2V0QxMkZNZjkzU3VaeWZ3OTNWMm8tR3d2T3NqNkZ4YlJVNG9odnh3Yw?oc=5",
-      "summary": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor",
-      "source": "Yahoo Finance",
-      "published": "2026-11-20 06:34",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "Kidoz posted record nine-month revenue of $9.9 million; its loss more than doubled. - Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNW5oTVdESmhEYVVhNFVHbnprU3BnUjFiY29RelRmNjVjeEN5dnVzWVlCREZHYkF6M0FFd2hlVHR6UzFFUlpncDU1VjZlZ3Y1YndTYTBjLUpuaDFHV3hjTDAtZ01RSk54OS1PemxPWWpkS19qTXd0VVlDNXBrQXpkRFR1RkFuYzF0WWhiaGQ0N19fNllBdm52bjNaajFiU2JZODlNSFg5NzY5eDA?oc=5",
-      "summary": "Kidoz posted record nine-month revenue of $9.9 million; its loss more than doubled.",
-      "source": "Stock Titan",
-      "published": "2026-11-20 06:25",
-      "topic": "기업실적·기업동향"
-    },
-    {
-      "category": "tech",
-      "title": "Saugeen Shores battery storage preferred site is on ‘prime’ farmland - Owen Sound Sun-Times",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb0JhZ3pteHVTQzM2bXFOMmE5cHJwTDkwR0tSWFVzTzVrSE5pSEh6Wkljd3JiS2xrbkNGVDRpUzFNUUplN28yYU5MT1RTaWNBbXVmWm1aYlhkQlJlWDRuWUJWZEpBdmlvTy1mNmNlNTNHWTQyeVBobVIxcjZ1Z0JjemlBLVgxUFoxYmR6UWhTRUYzWWJiNWRfTldGZHRRSVhNa19yWUNrbVJsUQ?oc=5",
-      "summary": "Saugeen Shores battery storage preferred site is on ‘prime’ farmland",
-      "source": "Owen Sound Sun-Times",
-      "published": "2026-11-20 06:22",
-      "topic": "배터리·에너지"
     },
     {
       "category": "us",
@@ -273,24 +255,6 @@
       "topic": "금리·경제지표"
     },
     {
-      "category": "tech",
-      "title": "Who holds the military advantage in the Arctic? - Big News Network.com",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdjZrdHI4LUg3RFZkSFdRQlFka0JHVGwxX2xERlY0c2FIcDlEbFRkdHZob2FRTEd3VWs3UTBuN2VYWjg4QlFmMmVaSzJjc3NjQlI2cExJODM4OHFsZl9BUUQ0R3A5cmgxNkNSUUYtbmk4ZHZxOTlBYzRVUURrSW4tWDVMcmI1Xzh3VWhjMmVPV0hQdVpnMFg4?oc=5",
-      "summary": "Who holds the military advantage in the Arctic?",
-      "source": "Big News Network.com",
-      "published": "2026-11-20 03:00",
-      "topic": "방산·항공우주"
-    },
-    {
-      "category": "tech",
-      "title": "AI loads force data center power strategy rethink - ET Datacenters",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORk5abjN0UkFtSVJPQjB6RzNBSGVHdkFzWFlvNUdaOEZPZ3FENDhSaHZCNm1aMWo5T29Ta0cxcURTUTgtcUllUS1wUkNDRDFyVVZXaEFUcFp4RzN2ZUprM2U0b29JZzYyY0RUTTE5eVZ0Y05EZS0zY2RwTjltWkU0TWxRaWVoQkpWaVJQTlFZZmVxbktVaXlBdDBaek9fdG92VF94S1VCdkdobDZqdkItRlQ3ZXFzR1VqSUdTYVdpX3h6Rm9WazEtMUZSdEE5bk5DVHJqRHU5Vi13cmPSAd8BQVVfeXFMTVB5YlVnWFZIX2FOemszWHFabHQtOW5abXhyYjdBMU9HZGN4c01BQllYbmtaRU52Nm91MnBheVBtaUFDbGtzZi1LMjNfbkZaYjYwTUltNXRmejhyYzJzRUZnSEtBZEtJNnJHZHBCNDlSeVlCRGhxbkpHVXMzMkJjeHJhSEZoUkRyMkVHQnRLbXBqcHpWcUZKUTl0ZVA1VnlfaTAxVlcwbzJJX0NMWlVaeWxMNldnRTFoYzBhTUVGdlFuZWU4M2oyd0ZmNkttV095dlc2emI3V3ViSEJfVjZNOA?oc=5",
-      "summary": "AI loads force data center power strategy rethink",
-      "source": "ET Datacenters",
-      "published": "2026-11-20 02:38",
-      "topic": "인공지능"
-    },
-    {
       "category": "us",
       "title": "Fed rate-cut hopes for 2027 take a stunning turn - TheStreet",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jYjBJMHJzbVAtSkZjVTluckV1TWI0eFI1WENROV9tN3dibHA3M0FoS1BYQ0w5WDE3ZUp1RXVaeThHS1M4NWF6UUJ5WVFtS3dGamFqREdPc05ISFhJeW1PUi1ldG5wVWJsUS1YZURDT1ZUb0tRQXp0bQ?oc=5",
@@ -298,33 +262,6 @@
       "source": "TheStreet",
       "published": "2026-11-20 02:13",
       "topic": "금리·경제지표"
-    },
-    {
-      "category": "us",
-      "title": "Earnings call transcript: TEN posts record Q3 2026 results as stock slips premarket - Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX2ZZV2VJSTlYX2luUDFnUkFjQUROS2pVVHpLcDBEU2VoNzBtRzV3TkdzNmkzeC1XUy0zVEQwejlxT19McTdsLVFXNlVtdmJDblZuS005TzNHWEc3LU83V0VPYzNZMldna19CUHc4YUJwN0gwemFLYjN4eDhyTEFIblZlTndVSkJXc1ZLR0NScmdGLU10cm5xcTlNUUlJVlRJbGpsZGs3SDBGUmVmQWlsQVFtdWhDNEVPemhaLV9YMzFYMXprUkwtamZ3NzJmeDc5MzB2SQ?oc=5",
-      "summary": "Earnings call transcript: TEN posts record Q3 2026 results as stock slips premarket",
-      "source": "Investing.com",
-      "published": "2026-11-20 01:11",
-      "topic": "기업실적·기업동향"
-    },
-    {
-      "category": "us",
-      "title": "Earnings call transcript: Real Matters Q4 2026 miss weighs on shares - Investing.com UK",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUUUzSExZN3BYSHJkMU1FQ0w3N25Bd3Y1UlNNMXF6MUNfdHA0R1JxX3FrWlpoYWFESmRiaE52WEZybFZRVTJSalFjVVFBdkFQemptUGxsVG93cHd5V3V6YW1hd3VBUVdPX0FBMmUwdXhhVUo2c1lHVy1JWE9MUlJEeTVuWnRuNFZ3azhrQWhicnplalNiRXZGVTViWi1YanhYY1JaSTlfaDUxTnh6QzFRNFVGUDh3RDBpbXZaZGp2V3RIQ09RUzlZ?oc=5",
-      "summary": "Earnings call transcript: Real Matters Q4 2026 miss weighs on shares",
-      "source": "Investing.com UK",
-      "published": "2026-11-20 01:04",
-      "topic": "기업실적·기업동향"
-    },
-    {
-      "category": "us",
-      "title": "UBER or LYFT: Which Stock Looks Stronger After Q3 Earnings Results? - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaDV4UjBhbXpQYlJXT2Z6bmZmN25OYTY5dk1XN2tYZ0lJNkN5b0EzdDNUTkZkdldEck44MFVWNkc0MkVzUV9xcG9BeWQxVEtDS1ZDUUp0UGVHeFdpOUJabHZLejU2aHpkWXBoZWJCbmJreC1VWHBlRDZpaFR5LVVvQi1KX2Rsd25RaXByM2pKOFVyd0NzVjlJT0ZDTDlqYi1kVlMxaFdpc0JteUZJMDBEWGIxVng4TDk1aGRHbWR3?oc=5",
-      "summary": "UBER or LYFT: Which Stock Looks Stronger After Q3 Earnings Results?",
-      "source": "TradingView",
-      "published": "2026-11-20 00:14",
-      "topic": "기업실적·기업동향"
     },
     {
       "category": "us",
@@ -336,31 +273,31 @@
       "topic": "기업실적·기업동향"
     },
     {
-      "category": "tech",
-      "title": "10 AI POC Development Services That Can Help USA Businesses Validate AI Ideas Before Investing - WhaTech",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQYk5BODduZXNWMmJ5OGhLMzhZX1pFdlg3WlgxUjRuSlB4OGR6VFpmbTFNM0dJRFR5LS1ZTmVMQ19GaUlXRWcxU01mc0loWWp3bXJhMGJvX21fTV9JN2pOLTBrUkN5S0tKUHdrRUppZEYtbDhrc3ptc2w5SGx6Qmp4SzFDVUg0aTRrMl9sMndnRHBWRG9naGM2Z3RxWERZcGZYUjFlWjBTMzR6UjJyVG9RX1JkR0prblg5T3R3RkxOT0JXaG9MTkRjeHozQ2wwejJBV2FEamhvZ1FEUGZFSVVBUVlZMkVRNE5OMkRtTGg1c1FhX3N2VmfSAfYBQVVfeXFMUGJOQTg3bmVzVjJieThoSzM4WV9aRXZYN1pYMVI0bkpQeDhkelRaZm0xTTNHSURUeS0tWU5lTENfRmlJV0VnMVNNZnNJaFlqd21yYTBib19tX01fSTdqTi0wa1JDeUtLSlB3a0VKaWRGLWw4a3N6bXNsOUhsekJqeEsxQ1VINGk0azJfbDJ3Z0RwVkRvZ2hjNmd0cVhEWXBmWFIxZVowUzM0elIyclRvUV9SZEdKa25YOU90d0ZMTk9CV2hvTE5EY3h6M0NsMHoyQVdhRGpob2dRRFBmRUlVQVFZWTJFUTROTjJEbUxoNXNRYV9zdlZn?oc=5",
-      "summary": "10 AI POC Development Services That Can Help USA Businesses Validate AI Ideas Before Investing",
-      "source": "WhaTech",
-      "published": "2026-11-19 23:16",
-      "topic": "인공지능"
+      "category": "us",
+      "title": "Unless you’re building a data center or have a side hustle, you’re significantly worse off than last year, according to the Fed - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUXY2VWdlS1F1amhzdkVlSUlNeUJiS3FhQUdwNHJOMEtzNGxSaHItY2Z5SzVYOGJNNUJwdWNpUkxQYnJ6WVBYcWlJZTVTLUVVZUVfZkVlVWNFYU40djNrZ0d3YzdCMHJ4WGNiMmtQQk54X1JpM1V2bHRHMUFZVUFxMEdVdHZ0V2JVcEdsVWZJbDZKTmpBbFk1cWhWeng?oc=5",
+      "summary": "Unless you’re building a data center or have a side hustle, you’re significantly worse off than last year, according to the Fed",
+      "source": "Fortune",
+      "published": "2026-11-19 22:40",
+      "topic": "금리·경제지표"
     },
     {
-      "category": "tech",
-      "title": "10 India-Based Technology Companies Offering AI Development Capabilities in 2026 - TechBullion",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZHdYd2hXaVRzblZuNzZzR2JaeHhfa09fQmNRZzVxU0Vmd3BEeEdxQUU0Q2loc09KTjlBRWZ4T0wza29aS3NOUk5ablBxc0JVN3RrM1JTSjZrQlNaR1hGN0EtOEM3NHI2d0tfV3lPWk5zSmZRaVptMEZFUWQyN1ZtUGFnZFhPTWw0Unh4alFIVHRkVGhsRFZrMVoxYmFWR1FJZloxSjlMZnA?oc=5",
-      "summary": "10 India-Based Technology Companies Offering AI Development Capabilities in 2026",
-      "source": "TechBullion",
-      "published": "2026-11-19 18:54",
-      "topic": "인공지능"
+      "category": "us",
+      "title": "US Treasury yields rise as Fed minutes flag AI inflation risks, Waller backs bigger December rate hike | Hindustan Times - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPOU1qMGxDcnlJbjg4eEJzbU82Z1pWSndxeUJSMXlPR1pRVmVMRlZUSUFfSFNlRU42RUxna3RPTUtuM1RURURWZlVaZHBmOFJPTVJDdU1KeWJYZUdhb0dLMmE5U2w1NzlPRWx1QjNNNUNvMUdnQ3JkblRhTXVuNnJEdnJZcWpZLUtJY3RPbWlZWURFNm5SV29QbkFQbTVqMTZTcWdOaVE4Wl9Rck9tYXIzOFQ2ZnlMZm5BY2d4YmtsZTBneXY3a3lGMHZTLU9kbjFKRC1ySlJtTkxqX2pSVnJfc29odEd0czVvRlJmNXVJcjJ6RjMtSHl5NGJJYnFfOGlwdUHSAYcCQVVfeXFMTXRtYTJOalJZLWhaaDFhUFJGdFh6d0xTV1VCcDV3amU0eUNYV0RFVWpjT01jTXZZOUxQbk91Y1MzanhvUmxQeVI5blN2LU9XVzU3UXRTS1VObjdJZ2xpNHlHMG03UlY2U1hwZGphbmREQlBsWm0tSnlDczZESU1GX3ZfaW5aSG1XU3FOWVk5c0F4U0hIQ3J3S3pVSmZra2ZSNk1FbTdZaGs3a3FGa2NlTmMydms4aTVlZE1IUEhXMEtMYm5jUDhYTVBnUmhDLW9QdGp4S19yNUt6NnZGdkhWeXJnUnFLV3NkTExINllKcWxZX2hMVzVfeDI5bUQ3ejRyMTFYWjNhSWM?oc=5",
+      "summary": "US Treasury yields rise as Fed minutes flag AI inflation risks, Waller backs bigger December rate hike | Hindustan Times",
+      "source": "Hindustan Times",
+      "published": "2026-11-19 20:59",
+      "topic": "금리·경제지표"
     },
     {
-      "category": "tech",
-      "title": "Moroccan Cadets Fire Chinese HJ-9A Anti-Tank Missile From American-Made Humvee - The SOFX Report",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN2VQYWI1dWVXakhwV2pTaE1xaXJjUjBvbDMtV3dJdWx1NG1Cc05MVVI1ZUE2eDZwUzZDbGZYd3FQeUU3TXo3OXFZcktNYTZmYXU1R1V1ZWQtdkdMY1B0d3ZMMnFaZ3VyUGFUVy1CT1pzY3lzOWNmMHd1cGhJS3R2UmVDOGVSTHh6Q0YwTVZacnZWQkxLdHM0TzRpa2Y1WlhwRUE?oc=5",
-      "summary": "Moroccan Cadets Fire Chinese HJ-9A Anti-Tank Missile From American-Made Humvee",
-      "source": "The SOFX Report",
-      "published": "2026-11-19 13:42",
-      "topic": "방산·항공우주"
+      "category": "us",
+      "title": "Worried about an AI bust? So is the Federal Reserve. - The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNR0t0NWstc3N2V0F2RE9fWlJDYVNTY3lINGFtUHhsQUE1cDU2SkdYc3E0M3hvNlpuMXlRQmxjdFdwVzMtbGQ4bXg3QjdzWU9sYmVNangtcmFxV1NvQWQ2TG5xRV9WVl9XTGpubUd2dHh3MUNsRlBDXzduNXVTOENfa0tTdmtrOWpWT2g0ZV9mYVV5ckpzNXJxaFBHRkxvQ2U5YjhiZVBqZHRBeVFQM2JnMQ?oc=5",
+      "summary": "Worried about an AI bust? So is the Federal Reserve.",
+      "source": "The Washington Post",
+      "published": "2026-11-19 15:30",
+      "topic": "금리·경제지표"
     },
     {
       "category": "tech",
@@ -372,15 +309,6 @@
       "topic": "방산·항공우주"
     },
     {
-      "category": "tech",
-      "title": "US senators push for stronger military space ties with NZ - RNZ",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWS1UZTZwYm5Ga1lGdHc5WHM4c1NhVTFlOTg3dkxucDBSWmFiR3JFVEVhUmxReWJYUVR4OVdDZDBaMGs0NUVGeVJCckNMWGdjZmdZeU1Fa3NweUVjUVN5MHlZWmhhVG9ubG1uYUhnZVJETjFobkVhQm5iMW1hM0E2N3djNHF0NnJmMXk0UWFlbndZWl9LcVJPTzRudGtIX3hVVjAw?oc=5",
-      "summary": "US senators push for stronger military space ties with NZ",
-      "source": "RNZ",
-      "published": "2026-11-19 10:44",
-      "topic": "방산·항공우주"
-    },
-    {
       "category": "kr",
       "title": "[오늘의 증시] 11월 19일 코스피 5000선 턱걸이…코스닥도 1%대 하락 - 잡포스트",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDVWk4a3FNZTJWbjlhU0hWQmx1SXU0TFZERDNfTWszSkZoX0lXTXJOT1RJd1p4bHFTWFFqcmh4ajdwdXlhbWQyb3FWTUtWZldKMkVLOWtpV29mQm9ZRkw4aWh6N3lkdjl6UjREWDd30gFyQVVfeXFMTWVKQVhvZUVoQi1iY1NVSHpSTTVOWmpzbk1wcVFsRmxUZFhIclJPZkNPd0hKRi1Ndl9YNVloMkFLQ2ViUjhFQVJLN3UyWXJwS1pnUGF0LXhYTmI1UktPb3VvMmlwVEpxSTdBSkp4Y3NOXzFn?oc=5",
@@ -388,6 +316,15 @@
       "source": "잡포스트",
       "published": "2026-11-19 10:25",
       "topic": "지수·시장동향"
+    },
+    {
+      "category": "us",
+      "title": "Generac Jolted After Nvidia Earnings. Why It’s a Top S&P 500 Stock Today. - Barron's",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYUgyXzg4Z0ZjQ3JyLTcyd1BpYWgzd0wxZks4U0U5RXQ4ckF3S3ZzazYxUmFDaHRseFFGTEpldFlTTjlrQzU2S29lanhqRUk3cmdCNEVCdVNvSHRldzZiUUhGdTluYWVVWkRoSFhPSmdNelNBeEFHQWw0WXA4cHFxSVJyTQ?oc=5",
+      "summary": "Generac Jolted After Nvidia Earnings. Why It’s a Top S&P 500 Stock Today.",
+      "source": "Barron's",
+      "published": "2026-11-19 08:47",
+      "topic": "기업실적·기업동향"
     },
     {
       "category": "kr",
@@ -406,6 +343,24 @@
       "source": "Security Today",
       "published": "2026-11-19 06:25",
       "topic": "인공지능"
+    },
+    {
+      "category": "us",
+      "title": "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeVFyOU5ZTWtBVzZob0FxRUQxME5TdllYbHgxNDVsTTZYaDBQMkNnU0x6czdEaUtlemhyQXJWVHk3cURHeWJ5NXRncmtubDZtZnNvTG5ac1E0Vm1YS0o3OWRrRm5GNi1wOEFwallTZmhyaHBqX0Z2MG80S3gzb3ViQnhZTWgxSmlkRHFTa09NNXA5MHhGVzYtQ28yVVRIdzVyZ2RJYTJ4cldqZms3dFg1ekplQUp1QQ?oc=5",
+      "summary": "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves",
+      "source": "WSJ",
+      "published": "2026-11-19 04:59",
+      "topic": "기업실적·기업동향"
+    },
+    {
+      "category": "us",
+      "title": "U.S. Stock Indices Are Volatile as Nvidia’s Earnings Rally Fades - TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRTB5LVpvdXpBUWYwRzRXYmlIMDFLc0RZSHlvclJjaUxtTUhDNjZTM0VSX0R5bzlqRTl5dHBNZ3o3REZsTXNCeDMzalhuZi1jVjlXa0dHYk51R1NyTFhtNEJpcmM4bWlRRTl2aEw1UTBwbVAyV0xyeUdZYUtKSGo5TVpMYjBod0JHOHI3TW53?oc=5",
+      "summary": "U.S. Stock Indices Are Volatile as Nvidia’s Earnings Rally Fades",
+      "source": "TipRanks",
+      "published": "2026-11-19 04:34",
+      "topic": "기업실적·기업동향"
     },
     {
       "category": "tech",
@@ -444,22 +399,40 @@
       "topic": "지수·시장동향"
     },
     {
-      "category": "kr",
-      "title": "코스피 5000선 붕괴…외국인 1.4조원 매도에 4거래일 연속 하락 - https://www.theconnectmoney.com/",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVbWZRcWsycmdyazEtTU5aNW9BbzNpckNnSlVVUHI0V2RtdjRuQkVaTmx0ZzlNTUdvT193b1EtS0I4NkFJX05YTklKcEdkaXJzbmw3MkJoZWw3eXpwekU2eQ?oc=5",
-      "summary": "코스피 5000선 붕괴…외국인 1.4조원 매도에 4거래일 연속 하락",
-      "source": "https://www.theconnectmoney.com/",
-      "published": "2026-11-17 16:33",
-      "topic": "지수·시장동향"
+      "category": "tech",
+      "title": "Hanwha Systems wins 1st U.S. radar order from Rebellion Industries - Yonhap News Agency",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBZZGhrTnRIOWlIYnk3bmdfSWlKUEFpTDgwMF9rdlYyXzdlejZBVmdCX2Rwa3RnRllKcjR6LV9UZjRDQXVFZkk5SlQzeGNHcEFpbVp3Q2J4SjY0dw?oc=5",
+      "summary": "Hanwha Systems wins 1st U.S. radar order from Rebellion Industries",
+      "source": "Yonhap News Agency",
+      "published": "2026-11-18 09:49",
+      "topic": "방산·항공우주"
     },
     {
-      "category": "kr",
-      "title": "[특징주] 외국인 '루닛·아리바이오홀딩스', 기관 '와이씨·SFA반도체' 순매수 상위권 - 뉴스티앤티",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oaF90TW9maHUzRnI1Q1NDcEdvVUdzRk1nWEVmbEd2LUk0b3N2aEh1MUFuTGJwY19NYkZNYXlhZW9WSkI5WmhiRFdJWHQ2cWtvYmp2ZW5PS0ltTTN2QzhiT0ZHWUxhZWMtOEE?oc=5",
-      "summary": "[특징주] 외국인 '루닛·아리바이오홀딩스', 기관 '와이씨·SFA반도체' 순매수 상위권",
-      "source": "뉴스티앤티",
-      "published": "2026-11-17 15:03",
-      "topic": "수급·투자자"
+      "category": "tech",
+      "title": "Cut generative AI costs: Code for rules, models for judgment - Amazon Web Services (AWS)",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQVg3V1dEQVNwMUFueGFmczVVUzE2RUd4UUtkNWtBakFoMG9ILVhNU1M3WXVZSXNXdlpYRzFfVWx0X3pKX3NuM1RXckowRzktMUpzWHphbUJZWlJXX2ZOTk9JOE44U1hnNDZudU10dVI2UWhQV3hWcHNWVHpTLU4zV2VUZFAyZkFhYS1BWUVET3h4SHpyNW96aXdYVUxpMHZPeXRUMVc5LWM?oc=5",
+      "summary": "Cut generative AI costs: Code for rules, models for judgment",
+      "source": "Amazon Web Services (AWS)",
+      "published": "2026-11-18 06:14",
+      "topic": "인공지능"
+    },
+    {
+      "category": "tech",
+      "title": "Collins Aerospace breaks ground on new propeller MRO facility in India - Defensehere",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMmZiQWxaeDFQRHpjMUEycFFHQ1Y5VDJ2R1pyTl9oUWJUSHZOMGVEbVlQVE5qRkp4bDZpX1BVOEs5Q2lBWFNHNkZQeVlvYmtURUMxQUtnYk10bW1RdkRWbGFMUDdmWHFUakVCNlRGQmViWDVXZEJuZExBTzB6a2ZONjl5VjlqSVc5QnVkT3lOUVc5SGxNamJ3?oc=5",
+      "summary": "Collins Aerospace breaks ground on new propeller MRO facility in India",
+      "source": "Defensehere",
+      "published": "2026-11-18 03:05",
+      "topic": "방산·항공우주"
+    },
+    {
+      "category": "tech",
+      "title": "Russian Aerospace Forces receive new batch of Su-34 - Defensehere",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM0xTbGhjUThXMGwtV1oySHRKb3E2Qi1MbEgtS1daMmgyYTJVWVU2X0J6bExrQ0p3Q3UwdXZlWFRsUFpLOV8zb0o2UVlJMjlXUER5bWVVeWZVcVFMSmlGYkNoWkY5UUw1bkx2Ujd0dEc2TFZiMmlIa2NaeEdIT2tzTkg4d1hJdw?oc=5",
+      "summary": "Russian Aerospace Forces receive new batch of Su-34",
+      "source": "Defensehere",
+      "published": "2026-11-18 00:23",
+      "topic": "방산·항공우주"
     }
   ],
   "collection_errors": []
