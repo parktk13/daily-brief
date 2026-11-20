@@ -1,4 +1,4 @@
-
+﻿#뉴스 분야별 키워드 우선순위, 군사, 정세 기사 필터링 중복기사 제거, 미국 증시 관련성 개선
 #!/usr/bin/env python3
 """Collect, classify and publish recent RSS news for DAILY BRIEF."""
 
@@ -168,16 +168,25 @@ TECH_TOPICS = {
         r"satellite communication"
     ],
 
+  
     "배터리·에너지": [
         r"배터리", r"\bbattery\b",
         r"\bESS\b", r"에너지 저장",
-        r"energy storage", r"전력망",
-        r"power grid", r"전력 인프라",
-        r"변압기", r"transformer",
-        r"전력 설비", r"renewable energy",
-        r"태양광", r"풍력 발전",
-        r"electricity", r"전기차 배터리"
+        r"energy storage",
+        r"battery storage",
+        r"grid.scale battery",
+        r"전기차 배터리",
+        r"2차전지",
+        r"리튬이온",
+        r"lithium.ion",
+        r"배터리 셀",
+        r"battery cell",
+        r"배터리 소재",
+        r"양극재", r"음극재",
+        r"전력저장장치",
+        r"에너지저장장치"
     ],
+
 
     "방산·항공우주": [
         r"방산", r"방위산업", r"국방",
@@ -196,16 +205,34 @@ TECH_TOPICS = {
 
 # 기술 뉴스에서 제외할 가능성이 높은 기사
 TECH_EXCLUDE = [
-    r"항공.*날씨",
-    r"항공.*기상",
-    r"aviation weather",
-    r"weather forecast",
-    r"항공편 지연",
-    r"flight delay",
-    r"airport.*weather",
-    r"여행.*항공",
-    r"airline.*travel"
-]
+	 # 일반적인 항공·여행 기사
+       r"항공.*날씨",
+       r"항공.*기상",
+      r"aviation weather",
+      r"weather forecast",
+      r"항공편 지연",
+      r"flight delay",
+      r"airport.*weather",
+      r"여행.*항공",
+      r"airline.*travel",
+
+    # AI 개발업체 홍보 및 서비스 소개 기사
+      r"\bAI POC development services\b",
+      r"AI development capabilities",
+      r"companies offering AI development",
+      r"AI development service providers",
+      r"AI consulting services",
+
+    # 일반적인 전력망 보안 기사
+      r"cyber.?attack",
+      r"cyber.?security",
+      r"cyber threats",
+
+    # 산업 기술과 직접 관련이 약한 일반 군사·정세 기사
+      r"who holds the military advantage",
+      r"military advantage in the",
+      r"cadets fire.*missile",
+    ]
 
 
 # =========================================================
@@ -463,59 +490,135 @@ def has_excluded_keyword(text, patterns):
     return False
 
 
+
+# =========================================================
+# 기술 뉴스 분야 우선 지정
+# =========================================================
+
+TECH_TOPIC_OVERRIDES = [
+
+    # 배터리·에너지
+    (
+        "배터리·에너지",
+        [
+            r"나트륨 배터리",
+            r"sodium battery",
+            r"data center power strategy",
+            r"AI loads.*power"
+        ]
+    ),
+
+    # 로봇·자율주행
+    (
+        "로봇·자율주행",
+        [
+            r"robot motion control",
+            r"humanoid robot",
+            r"industrial robot"
+        ]
+    ),
+
+    # 통신·RF
+    (
+        "통신·RF",
+        [
+            r"aperture antennas",
+            r"6G sensing",
+            r"wireless communication"
+        ]
+    ),
+]
+
+
+def classify_tech_override(title):
+
+    for topic, patterns in TECH_TOPIC_OVERRIDES:
+
+        for pattern in patterns:
+
+            if re.search(
+                pattern,
+                title,
+                flags=re.IGNORECASE
+            ):
+                return topic
+
+    return None
 def classify_by_topics(title, summary, topic_dictionary):
     """
-    제목에 더 높은 가중치를 부여하여 분야를 분류한다.
+    제목의 키워드 일치 점수를 우선 비교한다.
+    점수가 같으면 제목에서 일치한 키워드의 길이를 비교한다.
 
-    제목 키워드 점수: 3배
-    요약 키워드 점수: 1배
+    예:
+    - robot motion control + Physical AI → 로봇·자율주행
+    - energy storage + AI data center → 배터리·에너지
     """
 
     scores = {}
 
     for topic, patterns in topic_dictionary.items():
 
-        title_score = keyword_score(
-            title,
-            patterns
-        )
+        title_score = keyword_score(title, patterns)
+        summary_score = keyword_score(summary, patterns)
 
-        summary_score = keyword_score(
-            summary,
-            patterns
-        )
-
-        total_score = (
-            title_score * 3
-            + summary_score
+        # 제목에서 실제로 일치한 키워드 길이의 합
+        title_specificity = sum(
+            len(match.group())
+            for pattern in patterns
+            for match in re.finditer(
+                pattern,
+                title,
+                flags=re.IGNORECASE
+            )
         )
 
         scores[topic] = {
-            "total": total_score,
             "title": title_score,
-            "summary": summary_score
+            "summary": summary_score,
+            "total": title_score * 5 + summary_score,
+            "specificity": title_specificity
         }
 
     if not scores:
         return None, 0
 
+    # 제목에서 관련 키워드가 발견된 분야만 후보로 사용
+    title_matches = {
+        topic: score
+        for topic, score in scores.items()
+        if score["title"] > 0
+    }
+
+    if title_matches:
+        candidates = title_matches
+
+    else:
+        candidates = scores
+
+        # 제목에 관련 키워드가 없으면
+        # 요약에서 3개 이상 일치해야 통과
+        if max(
+            score["summary"]
+            for score in scores.values()
+        ) < 3:
+            return None, 0
+
+    # 점수가 같으면 제목에서 더 구체적인 키워드가
+    # 일치한 분야를 우선 선택
     best_topic = max(
-        scores,
-        key=lambda topic: scores[topic]["total"]
+        candidates,
+        key=lambda topic: (
+            candidates[topic]["total"],
+            candidates[topic]["specificity"]
+        )
     )
 
-    best = scores[best_topic]
-
-    # 제목에 관련 키워드가 없으면
-    # 요약에 서로 다른 관련 키워드가 2개 이상 있어야 통과
-    if best["title"] == 0 and best["summary"] < 2:
-        return None, 0
-
-    return best_topic, best["total"]
+    return best_topic, candidates[best_topic]["total"]
 
 # =========================================================
 # 뉴스 분류 및 관련성 검증
 # =========================================================
+
 def classify_article(category, title, summary):
 
     title = (title or "").casefold()
@@ -531,6 +634,85 @@ def classify_article(category, title, summary):
 
         if has_excluded_keyword(text, TECH_EXCLUDE):
             return None, 0
+
+        # 군사 외교 및 국제 정세 기사 제외
+        if re.search(
+            r"senators.*military.*ties|military.*ties with",
+            title,
+            flags=re.IGNORECASE
+        ):
+            return None, 0
+
+        # 명확한 분야가 지정된 기사는 우선 분류
+        override_topic = classify_tech_override(title)
+
+        if override_topic:
+            return override_topic, 10
+
+        topic, score = classify_by_topics(
+            title,
+            summary,
+            TECH_TOPICS
+        )
+
+        if topic is None:
+            return None, 0
+
+        return topic, score
+
+    # -----------------------------------------------------
+    # 미국 증시
+    # -----------------------------------------------------
+
+    if category == "us":
+
+        if has_excluded_keyword(text, US_EXCLUDE):
+            return None, 0
+
+        if not has_excluded_keyword(text, US_REGION_PATTERNS):
+            return None, 0
+
+        topic, score = classify_by_topics(
+            title,
+            summary,
+            US_TOPICS
+        )
+
+        if topic is None:
+            return None, 0
+
+        return topic, score
+
+    # -----------------------------------------------------
+    # 한국 증시
+    # -----------------------------------------------------
+
+    if category == "kr":
+
+        if has_excluded_keyword(text, KR_EXCLUDE):
+            return None, 0
+
+        if not has_excluded_keyword(text, KR_REGION_PATTERNS):
+            return None, 0
+
+        topic, score = classify_by_topics(
+            title,
+            summary,
+            KR_TOPICS
+        )
+
+        if topic is None:
+            return None, 0
+
+        return topic, score
+
+    return None, 0
+
+    # 명확한 분야가 지정된 기사는 우선 분류
+    override_topic = classify_tech_override(title)
+
+    if override_topic:
+        return override_topic, 10
 
         topic, score = classify_by_topics(
             title,
