@@ -335,7 +335,56 @@ KR_EXCLUDE = [
     r"계열사 간 내부거래",
     r"사내 행사"
 ]
+# =========================================================
+# 국가별 시장 관련성 검증
+# =========================================================
 
+US_REGION_PATTERNS = [
+    r"\bU\.?S\.?A?\.?\b",
+    r"\bAmerican\b",
+    r"\bUnited States\b",
+    r"\bWall Street\b",
+    r"\bNew York Stock Exchange\b",
+    r"\bNYSE\b",
+    r"\bNASDAQ\b",
+    r"\bS&P 500\b",
+    r"\bDow Jones\b",
+    r"\bFederal Reserve\b",
+    r"\bFed\b",
+    r"\bU\.?S\.? Treasury\b",
+    r"\bU\.?S\.? stocks?\b",
+
+    # 주요 미국 기업
+    r"\bApple\b",
+    r"\bMicrosoft\b",
+    r"\bNvidia\b",
+    r"\bAmazon\b",
+    r"\bAlphabet\b",
+    r"\bGoogle\b",
+    r"\bMeta\b",
+    r"\bTesla\b",
+    r"\bWalmart\b",
+    r"\bJPMorgan\b",
+    r"\bBerkshire Hathaway\b",
+    r"\bBroadcom\b",
+    r"\bOracle\b",
+    r"\bNetflix\b",
+]
+
+KR_REGION_PATTERNS = [
+    r"한국",
+    r"국내",
+    r"코스피",
+    r"코스닥",
+    r"\bKOSPI\b",
+    r"\bKOSDAQ\b",
+    r"\bKRX\b",
+    r"한국은행",
+    r"원달러",
+    r"원화",
+    r"외국인 투자자",
+    r"국내 상장기업",
+]
 
 # =========================================================
 # 텍스트 정리
@@ -414,41 +463,65 @@ def has_excluded_keyword(text, patterns):
     return False
 
 
-def classify_by_topics(text, topic_dictionary):
-    """Return the best matching topic and its score."""
+def classify_by_topics(title, summary, topic_dictionary):
+    """
+    제목에 더 높은 가중치를 부여하여 분야를 분류한다.
+
+    제목 키워드 점수: 3배
+    요약 키워드 점수: 1배
+    """
 
     scores = {}
 
     for topic, patterns in topic_dictionary.items():
 
-        scores[topic] = keyword_score(
-            text,
+        title_score = keyword_score(
+            title,
             patterns
         )
+
+        summary_score = keyword_score(
+            summary,
+            patterns
+        )
+
+        total_score = (
+            title_score * 3
+            + summary_score
+        )
+
+        scores[topic] = {
+            "total": total_score,
+            "title": title_score,
+            "summary": summary_score
+        }
 
     if not scores:
         return None, 0
 
     best_topic = max(
         scores,
-        key=scores.get
+        key=lambda topic: scores[topic]["total"]
     )
 
-    best_score = scores[best_topic]
+    best = scores[best_topic]
 
-    if best_score == 0:
+    # 제목에 관련 키워드가 없으면
+    # 요약에 서로 다른 관련 키워드가 2개 이상 있어야 통과
+    if best["title"] == 0 and best["summary"] < 2:
         return None, 0
 
-    return best_topic, best_score
-
+    return best_topic, best["total"]
 
 # =========================================================
 # 뉴스 분류 및 관련성 검증
 # =========================================================
-
 def classify_article(category, title, summary):
 
-    text = f"{title} {summary}".casefold()
+    title = (title or "").casefold()
+    summary = (summary or "").casefold()
+
+    text = f"{title} {summary}"
 
     # -----------------------------------------------------
     # 기술 뉴스
@@ -460,11 +533,12 @@ def classify_article(category, title, summary):
             return None, 0
 
         topic, score = classify_by_topics(
-            text,
+            title,
+            summary,
             TECH_TOPICS
         )
 
-        if score < 1:
+        if topic is None:
             return None, 0
 
         return topic, score
@@ -478,12 +552,17 @@ def classify_article(category, title, summary):
         if has_excluded_keyword(text, US_EXCLUDE):
             return None, 0
 
+        # 미국 시장과의 관련성 먼저 확인
+        if not has_excluded_keyword(text, US_REGION_PATTERNS):
+            return None, 0
+
         topic, score = classify_by_topics(
-            text,
+            title,
+            summary,
             US_TOPICS
         )
 
-        if score < 1:
+        if topic is None:
             return None, 0
 
         return topic, score
@@ -497,18 +576,22 @@ def classify_article(category, title, summary):
         if has_excluded_keyword(text, KR_EXCLUDE):
             return None, 0
 
+        # 한국 시장과의 관련성 먼저 확인
+        if not has_excluded_keyword(text, KR_REGION_PATTERNS):
+            return None, 0
+
         topic, score = classify_by_topics(
-            text,
+            title,
+            summary,
             KR_TOPICS
         )
 
-        if score < 1:
+        if topic is None:
             return None, 0
 
         return topic, score
 
     return None, 0
-
 
 # =========================================================
 # 날짜 처리
