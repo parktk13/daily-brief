@@ -45,22 +45,28 @@
       <span>최신 뉴스 데이터를 불러오는 중입니다.</span>
     </section>
 
-    <!-- 뉴스 카테고리 -->
-    <nav class="tabs" aria-label="콘텐츠 분류">
-      <button class="tab active" data-filter="all">전체</button>
-      <button class="tab" data-filter="tech">기술 뉴스</button>
-      <button class="tab" data-filter="us">미국 증시</button>
-      <button class="tab" data-filter="kr">한국 증시</button>
+    <!-- 주요 메뉴 -->
+    <nav class="section-nav" aria-label="주요 메뉴">
+      <a href="#latest-news">최근 뉴스</a>
+      <a href="#market-analysis">시장 분석</a>
+      <a href="#industry-section">산업별 분석</a>
     </nav>
 
     <!-- 최신 뉴스 -->
-    <section class="section-heading">
+    <section class="section-heading" id="latest-news">
       <div>
         <p class="eyebrow">LATEST HEADLINES</p>
         <h2>최신 뉴스</h2>
       </div>
       <span class="sample-tag" id="updated">데이터 확인 중</span>
     </section>
+    <!-- 뉴스 카테고리 필터 -->
+    <nav class="tabs news-filters" aria-label="뉴스 카테고리">
+      <button class="tab active" data-filter="all">전체</button>
+      <button class="tab" data-filter="tech">기술 뉴스</button>
+      <button class="tab" data-filter="us">미국 증시</button>
+      <button class="tab" data-filter="kr">한국 증시</button>
+    </nav>
 
     <section class="cards" id="cards">
       <article class="card">
@@ -70,7 +76,7 @@
     </section>
 
     <!-- 시장 분석 -->
-    <section class="section-heading archive-heading">
+    <section class="section-heading archive-heading" id="market-analysis">
       <div>
         <p class="eyebrow">MARKET INTELLIGENCE</p>
         <h2>시장 분석</h2>
@@ -105,7 +111,7 @@
     </section>
 
     <!-- 산업 분석 -->
-    <section class="section-heading archive-heading">
+    <section class="section-heading archive-heading" id="industry-section">
       <div>
         <p class="eyebrow">INDUSTRY INSIGHT</p>
         <h2>산업별 분석</h2>
