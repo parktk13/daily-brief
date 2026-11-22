@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 13:03 KST",
+  "updated_at": "2026-11-22 12:18 KST",
   "daily": {
     "us": {
       "summary": "2026-11-20 기준 최근 거래일 지수 데이터입니다. 괄호 안은 직전 거래일 대비 등락률입니다.",
@@ -18,11 +18,11 @@
         }
       ],
       "key_points": [
-        "‘Look at India’: Trump cites 7% growth to press US Fed for lower interest rates - Open Magazine",
-        "Is the stock market down for the year? Only the Nasdaq; the S&P 500 and Dow are barely up for 2026 - Nacionale",
-        "'Look at India': Trump cites 7% GDP growth, says US could hit 20% if Fed cuts interest rates - Moneycontrol.com",
-        "Trump Cites Indias 7% GDP Growth To Slam Political US Federal Reserve Over High Interest Rates - ABP Live English",
-        "Nasdaq Suffers Worst Week Since 2020 As AI Sell-Off Deepens - BusinessToday Malaysia"
+        "How justified is Trump's criticism of US policy?: Is India's interest rate real secret behind its high GDP ... - Bhaskar English",
+        "Stock market correction? This chief investment officer sees the S&P 500 soaring 45% to 10,000 - Fortune",
+        "Worried About Black Monday? What Wall Street Says Could Happen. - Barron's",
+        "Wall Street Sell-Off Pushes S&P 500 and Dow Into Correction - Demokratis.co.id",
+        "Vanguard S&P 500 ETF: How investing in VOO could build a $1 mn portfolio - Beinsure"
       ],
       "as_of": "2026-11-20"
     },
@@ -39,10 +39,10 @@
         }
       ],
       "key_points": [
+        "코스피·코스닥 5%대 급락 충격 이어 뉴욕증시까지 털썩…삼성전자·SK하이닉스 등 대형주 향방은? - CBC뉴스",
         "코스피·코스닥 동반 5%대 폭락…'5천피' 붕괴에 매도 사이드카 발동 - 산경투데이",
         "코스피·코스닥 동반 매도 사이드카…반도체 대형주 6%대 급락 - 산경투데이",
         "코스피·코스닥 주가 급락…매도 사이드카 동시 발동 : 한국증시 - 재경일보",
-        "코스피·코스닥 매도 사이드카...AI 논란 확산에 증시 쇼크 > 뉴스 - 지데일리",
         "[오늘의 증시] 11월 20일 코스피 4,960선·코스닥 660선 하락…외국인·기관 동반 매도 - 잡포스트"
       ],
       "as_of": "2026-11-20"
@@ -66,11 +66,11 @@
         }
       ],
       "key_points": [
-        "‘Look at India’: Trump cites 7% growth to press US Fed for lower interest rates - Open Magazine",
-        "Is the stock market down for the year? Only the Nasdaq; the S&P 500 and Dow are barely up for 2026 - Nacionale",
-        "'Look at India': Trump cites 7% GDP growth, says US could hit 20% if Fed cuts interest rates - Moneycontrol.com",
-        "Trump Cites Indias 7% GDP Growth To Slam Political US Federal Reserve Over High Interest Rates - ABP Live English",
-        "Nasdaq Suffers Worst Week Since 2020 As AI Sell-Off Deepens - BusinessToday Malaysia"
+        "How justified is Trump's criticism of US policy?: Is India's interest rate real secret behind its high GDP ... - Bhaskar English",
+        "Stock market correction? This chief investment officer sees the S&P 500 soaring 45% to 10,000 - Fortune",
+        "Worried About Black Monday? What Wall Street Says Could Happen. - Barron's",
+        "Wall Street Sell-Off Pushes S&P 500 and Dow Into Correction - Demokratis.co.id",
+        "Vanguard S&P 500 ETF: How investing in VOO could build a $1 mn portfolio - Beinsure"
       ],
       "as_of": "2026-11-20"
     },
@@ -87,10 +87,10 @@
         }
       ],
       "key_points": [
+        "코스피·코스닥 5%대 급락 충격 이어 뉴욕증시까지 털썩…삼성전자·SK하이닉스 등 대형주 향방은? - CBC뉴스",
         "코스피·코스닥 동반 5%대 폭락…'5천피' 붕괴에 매도 사이드카 발동 - 산경투데이",
         "코스피·코스닥 동반 매도 사이드카…반도체 대형주 6%대 급락 - 산경투데이",
         "코스피·코스닥 주가 급락…매도 사이드카 동시 발동 : 한국증시 - 재경일보",
-        "코스피·코스닥 매도 사이드카...AI 논란 확산에 증시 쇼크 > 뉴스 - 지데일리",
         "[오늘의 증시] 11월 20일 코스피 4,960선·코스닥 660선 하락…외국인·기관 동반 매도 - 잡포스트"
       ],
       "as_of": "2026-11-20"
@@ -98,59 +98,40 @@
   },
   "industry": [
     {
-      "topic": "반도체·전자",
-      "title": "반도체·전자 산업 동향",
-      "summary": "최근 수집된 반도체·전자 관련 뉴스 1건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
-      "key_points": [
-        "AI demand to reshape memory market and drive up chip packaging revenue - Chosunbiz"
-      ],
-      "as_of": "2026-11-21"
-    },
-    {
       "topic": "인공지능",
       "title": "인공지능 산업 동향",
-      "summary": "최근 수집된 인공지능 관련 뉴스 5건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
+      "summary": "최근 수집된 인공지능 관련 뉴스 4건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
         "Nuclear Fission and Fusion Trajectories Illuminate the Future of Artificial Intelligence - Bioengineer.org",
-        "Delta BESS U Series and 800 VDC SST power system target space savings and AI load swings - pv magazine USA",
+        "Smart Grid Analytics Launches Aura To Improve BESS Revenue Through AI-Based Forecasting - Saur Energy",
         "Government Audit Finds Major AI Platforms Generate Viable Attack Plans - Security Today",
-        "Trina Storage Launches Elementa Hybrid Genset, a Modular Gas-and-Storage Power Plant for AI Data Centers - PR Newswire",
-        "What Is Generative AI? How It Works, Examples, Benefits, and Limitations - Coursera"
+        "How Does AI Work? Basics to Know - Coursera"
       ],
-      "as_of": "2026-11-21"
-    },
-    {
-      "topic": "로봇·자율주행",
-      "title": "로봇·자율주행 산업 동향",
-      "summary": "최근 수집된 로봇·자율주행 관련 뉴스 1건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
-      "key_points": [
-        "Dongwoon Anatech Enters Robot Motion Control Market, Powering the Future of Physical AI - ACROFAN USA"
-      ],
-      "as_of": "2026-11-21"
+      "as_of": "2026-11-22"
     },
     {
       "topic": "배터리·에너지",
       "title": "배터리·에너지 산업 동향",
       "summary": "최근 수집된 배터리·에너지 관련 뉴스 5건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
-        "Saugeen Shores battery storage preferred site is on ‘prime’ farmland - Owen Sound Sun-Times",
-        "This 500 kWh energy storage system runs on retired EV batteries - Electrek",
-        "Voltwise starts construction of first German battery storage system - Energy Global",
-        "Moment Energy unveils new EV battery-based BESS product - Solar Builder",
-        "WattCycle Showcases Off-Grid System and Battery Energy Storage Solutions at RE+ 2026 - markets.businessinsider.com"
+        "Vietnam builds $800 million 'giant battery' deep inside mountains - Báo VietNamNet",
+        "Negros Oriental eyes Korean solar, battery tech for energy resiliency - Inquirer.net",
+        "Waaree Transpower wins Rs 100 crore NTPC order for energy storage project - Manufacturing Today India",
+        "National Wealth Fund And Matrix Renewables Partner On 1 GW Battery Storage Projects In Scotland - SolarQuarter",
+        "ADS-TEC Energy Secures Repeat Order from German Utility SWLB for Large-Scale Battery Storage Systems - Batteries News"
       ],
-      "as_of": "2026-11-21"
+      "as_of": "2026-11-22"
     },
     {
       "topic": "방산·항공우주",
       "title": "방산·항공우주 산업 동향",
       "summary": "최근 수집된 방산·항공우주 관련 뉴스 3건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
-        "Anti-Radiation Missile Explained: How HARM Hunts Enemy Radars - MiGFlug",
-        "Hanwha Tests UGV, Counter-Drone Integration With Romanian Military Network - Businesskorea",
-        "How Much Time and Money Would Ukraine Need to Develop Its Own Satellites to Detect Iskander and S-400 Missile Launches? - Defense Express"
+        "Iran Claims Missile, Drone Strikes Targeted US Patriot Radars in Bahrain - Deccan Chronicle",
+        "Kh-101 Missile Crashes in Poland: Swedish Gripens Could Not Engage - MiGFlug",
+        "Anti-Radiation Missile Explained: How HARM Hunts Enemy Radars - MiGFlug"
       ],
-      "as_of": "2026-11-21"
+      "as_of": "2026-11-22"
     }
   ]
 }
