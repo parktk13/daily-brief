@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 12:18 KST",
+  "updated_at": "2026-11-23 12:48 KST",
   "daily": {
     "us": {
       "summary": "2026-11-20 기준 최근 거래일 지수 데이터입니다. 괄호 안은 직전 거래일 대비 등락률입니다.",
@@ -18,34 +18,34 @@
         }
       ],
       "key_points": [
-        "How justified is Trump's criticism of US policy?: Is India's interest rate real secret behind its high GDP ... - Bhaskar English",
-        "Stock market correction? This chief investment officer sees the S&P 500 soaring 45% to 10,000 - Fortune",
-        "Worried About Black Monday? What Wall Street Says Could Happen. - Barron's",
-        "Wall Street Sell-Off Pushes S&P 500 and Dow Into Correction - Demokratis.co.id",
-        "Vanguard S&P 500 ETF: How investing in VOO could build a $1 mn portfolio - Beinsure"
+        "Wall Street's Thanksgiving Week Test: Can Dow, Nasdaq & S&P 500 Rebound? Black Friday Cheer To Lift AI Stocks? - Goodreturns",
+        "How Are Nasdaq, Dow, S&P 500 Futures Trading After Last Week’s Tech Rout On Wall Street? - Stocktwits",
+        "Stocks are oversold. But is the market correction really over? - The American Bazaar",
+        "Stock market today: Dow futures jump 800 points and Nasdaq soars 3% after entering correction - Fortune",
+        "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves - WSJ"
       ],
       "as_of": "2026-11-20"
     },
     "kr": {
-      "summary": "2026-11-20 기준 최근 거래일 지수 데이터입니다. 괄호 안은 직전 거래일 대비 등락률입니다.",
+      "summary": "2026-11-23 기준 최근 거래일 지수 데이터입니다. 괄호 안은 직전 거래일 대비 등락률입니다.",
       "stats": [
         {
           "label": "KOSPI",
-          "value": "4,869.96 (-5.21%)"
+          "value": "4,675.32 (-4.00%)"
         },
         {
           "label": "KOSDAQ",
-          "value": "645.68 (-5.71%)"
+          "value": "632.14 (-2.10%)"
         }
       ],
       "key_points": [
-        "코스피·코스닥 5%대 급락 충격 이어 뉴욕증시까지 털썩…삼성전자·SK하이닉스 등 대형주 향방은? - CBC뉴스",
-        "코스피·코스닥 동반 5%대 폭락…'5천피' 붕괴에 매도 사이드카 발동 - 산경투데이",
-        "코스피·코스닥 동반 매도 사이드카…반도체 대형주 6%대 급락 - 산경투데이",
-        "코스피·코스닥 주가 급락…매도 사이드카 동시 발동 : 한국증시 - 재경일보",
-        "[오늘의 증시] 11월 20일 코스피 4,960선·코스닥 660선 하락…외국인·기관 동반 매도 - 잡포스트"
+        "코스피 5%대 폭락에 매도 사이드카 발동…4,600선 붕괴 - 산경투데이",
+        "국내 증시 패닉 장세…코스닥 연중 최저치 경신, 코스피 4,600선까지 추락 - 한국NGO신문",
+        "美 반도체 폭락에 코스피 3% 급락…외국인·기관은 순매수 - OBC 뉴스",
+        "코스피 4,700선도 흔들…AI 충격에 개인은 팔고 외국인·기관은 샀다 - https://www.ppss.kr/",
+        "증안펀드 가동 언제 하나? 코스피 급락에 정부가 꺼낸 증시 방어책 확인하세요 > 뉴스 - 진해신문"
       ],
-      "as_of": "2026-11-20"
+      "as_of": "2026-11-23"
     }
   },
   "weekly": {
@@ -66,34 +66,34 @@
         }
       ],
       "key_points": [
-        "How justified is Trump's criticism of US policy?: Is India's interest rate real secret behind its high GDP ... - Bhaskar English",
-        "Stock market correction? This chief investment officer sees the S&P 500 soaring 45% to 10,000 - Fortune",
-        "Worried About Black Monday? What Wall Street Says Could Happen. - Barron's",
-        "Wall Street Sell-Off Pushes S&P 500 and Dow Into Correction - Demokratis.co.id",
-        "Vanguard S&P 500 ETF: How investing in VOO could build a $1 mn portfolio - Beinsure"
+        "Wall Street's Thanksgiving Week Test: Can Dow, Nasdaq & S&P 500 Rebound? Black Friday Cheer To Lift AI Stocks? - Goodreturns",
+        "How Are Nasdaq, Dow, S&P 500 Futures Trading After Last Week’s Tech Rout On Wall Street? - Stocktwits",
+        "Stocks are oversold. But is the market correction really over? - The American Bazaar",
+        "Stock market today: Dow futures jump 800 points and Nasdaq soars 3% after entering correction - Fortune",
+        "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves - WSJ"
       ],
       "as_of": "2026-11-20"
     },
     "kr": {
-      "summary": "2026-11-20 기준 최근 5거래일의 지수 변화입니다. 괄호 안은 5거래일 전 종가 대비 등락률입니다.",
+      "summary": "2026-11-23 기준 최근 5거래일의 지수 변화입니다. 괄호 안은 5거래일 전 종가 대비 등락률입니다.",
       "stats": [
         {
           "label": "KOSPI",
-          "value": "4,869.96 (-7.95%)"
+          "value": "4,675.31 (-8.34%)"
         },
         {
           "label": "KOSDAQ",
-          "value": "645.68 (-7.72%)"
+          "value": "632.14 (-5.03%)"
         }
       ],
       "key_points": [
-        "코스피·코스닥 5%대 급락 충격 이어 뉴욕증시까지 털썩…삼성전자·SK하이닉스 등 대형주 향방은? - CBC뉴스",
-        "코스피·코스닥 동반 5%대 폭락…'5천피' 붕괴에 매도 사이드카 발동 - 산경투데이",
-        "코스피·코스닥 동반 매도 사이드카…반도체 대형주 6%대 급락 - 산경투데이",
-        "코스피·코스닥 주가 급락…매도 사이드카 동시 발동 : 한국증시 - 재경일보",
-        "[오늘의 증시] 11월 20일 코스피 4,960선·코스닥 660선 하락…외국인·기관 동반 매도 - 잡포스트"
+        "코스피 5%대 폭락에 매도 사이드카 발동…4,600선 붕괴 - 산경투데이",
+        "국내 증시 패닉 장세…코스닥 연중 최저치 경신, 코스피 4,600선까지 추락 - 한국NGO신문",
+        "美 반도체 폭락에 코스피 3% 급락…외국인·기관은 순매수 - OBC 뉴스",
+        "코스피 4,700선도 흔들…AI 충격에 개인은 팔고 외국인·기관은 샀다 - https://www.ppss.kr/",
+        "증안펀드 가동 언제 하나? 코스피 급락에 정부가 꺼낸 증시 방어책 확인하세요 > 뉴스 - 진해신문"
       ],
-      "as_of": "2026-11-20"
+      "as_of": "2026-11-23"
     }
   },
   "industry": [
@@ -102,36 +102,48 @@
       "title": "인공지능 산업 동향",
       "summary": "최근 수집된 인공지능 관련 뉴스 4건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
+        "LG Energy Solution Showcases Integrated Power Infrastructure for AI Data Centers at RE+ 2026 - LG Corp",
         "Nuclear Fission and Fusion Trajectories Illuminate the Future of Artificial Intelligence - Bioengineer.org",
-        "Smart Grid Analytics Launches Aura To Improve BESS Revenue Through AI-Based Forecasting - Saur Energy",
-        "Government Audit Finds Major AI Platforms Generate Viable Attack Plans - Security Today",
-        "How Does AI Work? Basics to Know - Coursera"
+        "How Standard Bank Group automates AI risk assessment for generative AI | Artificial Intelligence - Amazon Web Services",
+        "Announcing Amazon Textract Insights: Verifiable generative AI for documents | Amazon Web Services - Amazon Web Services"
       ],
-      "as_of": "2026-11-22"
+      "as_of": "2026-11-23"
+    },
+    {
+      "topic": "로봇·자율주행",
+      "title": "로봇·자율주행 산업 동향",
+      "summary": "최근 수집된 로봇·자율주행 관련 뉴스 2건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
+      "key_points": [
+        "China carmakers scale back humanoid robot ambitions - Nikkei Asia",
+        "Humanoids Summit Returns to Silicon Valley With Tesla Optimus, Industry Leaders - AI Insider"
+      ],
+      "as_of": "2026-11-23"
     },
     {
       "topic": "배터리·에너지",
       "title": "배터리·에너지 산업 동향",
       "summary": "최근 수집된 배터리·에너지 관련 뉴스 5건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
-        "Vietnam builds $800 million 'giant battery' deep inside mountains - Báo VietNamNet",
-        "Negros Oriental eyes Korean solar, battery tech for energy resiliency - Inquirer.net",
-        "Waaree Transpower wins Rs 100 crore NTPC order for energy storage project - Manufacturing Today India",
-        "National Wealth Fund And Matrix Renewables Partner On 1 GW Battery Storage Projects In Scotland - SolarQuarter",
-        "ADS-TEC Energy Secures Repeat Order from German Utility SWLB for Large-Scale Battery Storage Systems - Batteries News"
+        "Mulilo reaches financial close on Leeuwpoort battery storage project in South Africa - Green Building Africa",
+        "유진證 “AI가 바꾸는 ESS 시장⋯LG엔솔·삼성SDI, 전력망 제어로 사업 확대” - 이투데이",
+        "中 폭스 ESS, 체코 트루트노프 ‘전력망 차익거래용 BESS’ 납품 - 글로벌이코노믹",
+        "Battery procurement key to project viability amid grid congestion: ICRA - Business Standard",
+        "Supporters of battery energy storage systems tout environmental benefits - cnhinews.com"
       ],
-      "as_of": "2026-11-22"
+      "as_of": "2026-11-23"
     },
     {
       "topic": "방산·항공우주",
       "title": "방산·항공우주 산업 동향",
-      "summary": "최근 수집된 방산·항공우주 관련 뉴스 3건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
+      "summary": "최근 수집된 방산·항공우주 관련 뉴스 5건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
-        "Iran Claims Missile, Drone Strikes Targeted US Patriot Radars in Bahrain - Deccan Chronicle",
-        "Kh-101 Missile Crashes in Poland: Swedish Gripens Could Not Engage - MiGFlug",
-        "Anti-Radiation Missile Explained: How HARM Hunts Enemy Radars - MiGFlug"
+        "Japan Moves to Build an Independent Military Space Communications Network, Will Launch Hundreds of Laser Communications Satellites [Lee Jong-yoon’s Military World] - 파이낸셜뉴스",
+        "IRGC Aerospace Force targets US military positions in Bahrain in missile and drone operation - خبرگزاری بین المللی قدس",
+        "Iran Attacks US Military Bases in Bahrain, Claims Two Patriot Radars Hit by Missiles and Drones - Aktualita.co",
+        "IRGC claims strikes hit two US Patriot radar systems - Roya News",
+        "Kh-101 Missile Crashes in Poland: Swedish Gripens Could Not Engage - MiGFlug"
       ],
-      "as_of": "2026-11-22"
+      "as_of": "2026-11-23"
     }
   ]
 }
