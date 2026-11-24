@@ -1,41 +1,365 @@
 {
-  "updated_at": "2026-11-23 12:47 KST",
-  "generated_at_utc": "2026-11-23T03:48:10.622740+00:00",
+  "updated_at": "2026-11-24 15:59 KST",
+  "generated_at_utc": "2026-11-24T07:00:16.066353+00:00",
   "items": [
     {
+      "category": "kr",
+      "title": "코스피 6.32% 급등해 5000선 회복…삼성전자·SK하이닉스 6%대 상승 - 이코노미블록",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5RU2FHbTRqbmpQV2NRY05OelBKc3VoSXlQM1JGR2hKNzN2QXpGQU5UNlFwR3IzVnlnSDdOT1ZOMDBWaENiTDFkQWp2ZkM?oc=5",
+      "summary": "코스피 6.32% 급등해 5000선 회복…삼성전자·SK하이닉스 6%대 상승",
+      "source": "이코노미블록",
+      "published": "2026-11-24 15:35",
+      "topic": "지수·시장동향"
+    },
+    {
       "category": "us",
-      "title": "Wall Street's Thanksgiving Week Test: Can Dow, Nasdaq & S&P 500 Rebound? Black Friday Cheer To Lift AI Stocks? - Goodreturns",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ0VTcEFCdWRTMFlZRmdTMFZ5X3BmNDlFTFpyWW55eHNxTkNrZ1dYcjFKZHI2MHBlZlJkQTJrclpDTk5YYWVGT1p6Uk1meTlPQ28wSUwtOHdtaThCMC1ZdGhiMW5ZWlYtUVhJb1liQWJjQzFXSWtHelg0MU9vcXp6bGtlNXVZbVNONjRYYmJKZTdWM1FiLTNUaUlRT1FmSmF0cDlYTWtVUjduNy1KRE1RQU9CQlNYUmtUZnVkTDZlU2ZhRm1WTXgyNnM0cjloWEh0U1B2dkRESlJCdw?oc=5",
-      "summary": "Wall Street's Thanksgiving Week Test: Can Dow, Nasdaq & S&P 500 Rebound? Black Friday Cheer To Lift AI Stocks?",
-      "source": "Goodreturns",
-      "published": "2026-11-23 12:27",
+      "title": "Dow soars 1,400 points; Nasdaq surges 6% in its best day since April 2025 as Jensen Huang returns to Nvidia - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55Qzd6R1BVMkNsU2hwVWc4OElya24tNzEwcjFjd1NyVkczM2dDTHk2WnNzdkxlR2huZW1IcTgtMDBTUVU3WWxZNW1PeFQyaHgwdGl3LTlaVjV1cEtWa0JSQmNuQ3hnQmViVG5XYndIVEFaRFVEUzJ30gF8QVVfeXFMTWJnbFVGZ0NXUU1Xb04xRi1tMnlKazVMVWxSOUpYSWtBV2dHVHZycUpyUk1XX24zQ2o4bHFEVDEyaklmcktGaTFvMHlualhDckJrZ25tMDB5VnEzbTRYQmhEOThhNDZSWWtMSDYya2ZHckRQLUtEZGl0Tmp2TQ?oc=5",
+      "summary": "Dow soars 1,400 points; Nasdaq surges 6% in its best day since April 2025 as Jensen Huang returns to Nvidia",
+      "source": "CNBC",
+      "published": "2026-11-24 15:19",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "us",
+      "title": "U.S. stock futures tick higher after Nvidia-led Wall Street rally - Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMHJSc1lQSFFnSU90UmhzTDNkRHo0NG1PUXF4eW1IejA5dXg2UkEwWGpCNmxNUVFKRVZYNzNZWi1waHljeEluVW56bWg4b25uTDN3dXA2WUtXcXRtVEVBdm1oUzNhQVBfVnZGMExxYWh2bS1vOWxtU3g0R2d4eGtPMjZ0N2hhd084R1pFUHdDVTluc1Z3aGlWX0RndG1OX0s1cUZCNm9WbG9RckllWDNKSlRxSmI?oc=5",
+      "summary": "U.S. stock futures tick higher after Nvidia-led Wall Street rally",
+      "source": "Investing.com",
+      "published": "2026-11-24 15:18",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "us",
+      "title": "Nasdaq jumps after Nvidia's board reinstates Jensen Huang as CEO - www.equiti.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUTJ2aWtxb0pFSTJZTGdlWVZrZ0swVWdTTWMydGh3cE9JVEExR3k3dDNtRmxmZGVVdTViU0NSWGhwRkJOWTZYdG1KU0pCOUtDMXFIOU5qUWszdG5RQUZHdk5LbTV4SkozalpSb1RJMHhadl9YMEx6VnRPeGZiQnRyelNSU0EtdFpQSEFKaTd2NzVrS0wwRkxjejhvdUpFUnFPc0FRcHh2VGF4Z0dCWGVZ?oc=5",
+      "summary": "Nasdaq jumps after Nvidia's board reinstates Jensen Huang as CEO",
+      "source": "www.equiti.com",
+      "published": "2026-11-24 15:01",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "tech",
+      "title": "\"인간 일자리 뺏는다더니\"…中 자동차 공장서 로봇 퇴짜 맞은 이유 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTR2dyeTRsOER2Z2NFN3lacTNuTHRTTnZFd2MyajlBSUxETjFqRHdhcTFrX3V5cnlaOFktemdKb285N2w0Mk44RW1aLVpEZFBhWF9FbXJCQldJQQ?oc=5",
+      "summary": "\"인간 일자리 뺏는다더니\"…中 자동차 공장서 로봇 퇴짜 맞은 이유",
+      "source": "한국경제",
+      "published": "2026-11-24 14:46",
+      "topic": "로봇·자율주행"
+    },
+    {
+      "category": "kr",
+      "title": "골드만삭스 \"내년 한국 성장률 3.2%…환율 1280원 전망\" - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XX094b1ZTeW4xbVk2NzM5LXhVWGd6X1c5Y1UxOGRHMm0tQm5yVFduTTBPTG1taE5mOS1DdGFKRS1iZ3Rtb1R6OER0OEpiS0JmZ2pQSEhTQW9KUHRORUtrc9IBeEFVX3lxTE1ocmpZeWdySGNtWmhReC03RElsMXdvdFZrOEVNaEZJWi0tVENDY3BFdVktZXAwTUxDYXRiVnZJaVZkRVNxTE8tNnJnLXpMYU5YVXNWYWs1TEttVnh1YlM5bjhramk2ZVZzT0k1ZHYwRm81VGlMcWdBbA?oc=5",
+      "summary": "골드만삭스 \"내년 한국 성장률 3.2%…환율 1280원 전망\"",
+      "source": "뉴시스",
+      "published": "2026-11-24 14:38",
+      "topic": "거시경제"
+    },
+    {
+      "category": "tech",
+      "title": "로보티즈·레인보우로보틱스 폭풍 질주… 휴머노이드 로봇 상용화 기대 커지나 - 핀포인트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGcm5fZUM4R25QM1FKUjdkVWtEUDlIc2thb1JOSTRUWEdLUHY4Yjc1YVZ0RzFjYkFVLWZSSzBYNXF2WjBpRzBNc00tcFlNNE5YM0lHX2hpd3JBeE9YN052U0tjU29VNUgzNS1RcG8wYlQyeXRfcGdZ0gF3QVVfeXFMUEZybl9lQzhHblAzUUpSN2RVa0RQOUhza2FvUk5JNFRYR0tQdjhiNzVhVnRHMWNiQVUtZlJLMFg1cXZaMGlHME1zTS1wWU00TlgzSUdfaGl3ckF4T1g3TnZTS2NTb1U1SDM1LVFwbzBiVDJ5dF9wZ1k?oc=5",
+      "summary": "로보티즈·레인보우로보틱스 폭풍 질주… 휴머노이드 로봇 상용화 기대 커지나",
+      "source": "핀포인트뉴스",
+      "published": "2026-11-24 14:15",
+      "topic": "로봇·자율주행"
+    },
+    {
+      "category": "tech",
+      "title": "배터리업계, 전기차 부진을 북미 ESS 시장 공략으로 만회 - 우먼타임스",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JTU5MSWZRZUxnUmQzZDNIMEdtb3RyanI1TlBtb0xvZW5XekdxLW1fUEM5dDRXdF9WbE1jWXhOejkyU1lFQWNoakxheFRjZVhKTFc4ckppR3NoVVVIU0MtdVE3UlFLb194RjFGbkQzTErSAXRBVV95cUxNTWJPNXJKUzlJZVdTSjU4TmdLWVVQM1VKRy1VcG1iQS1tUU9pRlJLWWJYOW5jYzBBMjhSZk9odUlXeEcwNjItNG5jQVFRS3pwOHZiSzhGdWdvb1F6OEZWcHBlcjhOeXdHMURFZmlaVmNkazBwTg?oc=5",
+      "summary": "배터리업계, 전기차 부진을 북미 ESS 시장 공략으로 만회",
+      "source": "우먼타임스",
+      "published": "2026-11-24 13:37",
+      "topic": "배터리·에너지"
+    },
+    {
+      "category": "tech",
+      "title": "대전TP, 5G-A 오픈테스트랩 세미나 열어…지역기업 개발·검증 지원 - 뉴스파고",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBoZnpTTldxM0RBTVRWV2FtQVZfaXZSM3F3eE9jVWF3ZV9uZWRoV1FES3o3c3dvWUtMbE1NaXhFMHk3bE13?oc=5",
+      "summary": "대전TP, 5G-A 오픈테스트랩 세미나 열어…지역기업 개발·검증 지원",
+      "source": "뉴스파고",
+      "published": "2026-11-24 13:27",
+      "topic": "통신·RF"
+    },
+    {
+      "category": "us",
+      "title": "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally - Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd1IzaXRYZ1Zmel9FV1BGMUVhdlVxcHhJZTR1aVZNSEFjMXUyUDdZMlhKME5qRHRYdjRmWlE2Rm1WR2s2N0RzcWpVQUdaNVREQlBzTWxCWHRha2FqZUZMYk5GcklEcE84MmlXNUwyb3pQSGVoSlB5QVNEbUFXMWZyVkVZNGRCbF8wYVM5cUZBbDBYcTNNTi1OLUEzQ0VIN3VYak02Nk14Qmx0M3J6aF85YWlQZHpEWU5uUkV1MTQ2d3o1R01nMWdwQWktQTA?oc=5",
+      "summary": "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally",
+      "source": "Investor's Business Daily",
+      "published": "2026-11-24 12:27",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "us",
+      "title": "US Semiconductor Stocks Stage Rebound; 00412A Surges Nearly 30% at Open, Premium to NAV Briefly Tops 20% - BigGo Finance",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GTTA4YUJiSzB4NWJQTHdYM1BTdmthSnV3VERIYkVaNFl6VGFoY3FfU24yWVlWa05QZFB6NDV2RTdtY1BjV1hiYS1UZmFfb1paSWhqTEg5ZW9NUjQzcV8yaXdfVVB5d3BHMWFrR0szMVp6Qk1Bb1E?oc=5",
+      "summary": "US Semiconductor Stocks Stage Rebound; 00412A Surges Nearly 30% at Open, Premium to NAV Briefly Tops 20%",
+      "source": "BigGo Finance",
+      "published": "2026-11-24 12:05",
+      "topic": "산업·섹터"
+    },
+    {
+      "category": "us",
+      "title": "Huang's comeback: Nvidia rally sends Asian stocks soaring, Wall Street gains $1 trillion - Gulf News",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbUp3R3M4Mkl0VHVoMjF4TmFCLWhSdndWcElkNDJYZ2RVeEhGRW1YN2M2aTdkTWp1bU1Tcm1oX2dBVE50Nk8xTmVYaUt5bGlqQS13WnI1ZnlxSTFQMjJVcjdVRWVSSWQ4d04tQVc4Qk1PamtxU3hocHRXZnBJRFdrVmxDV2N1X1FZVy1IOVJnQXZhMlQxSnduNlczS1gtOTJ0bk9mX0xBSnMtNU1ZckJxR3V5NzhjSGJPWGfSAcwBQVVfeXFMUERHdEFXTXkwYXptN3hESUl4MWEzWTYyMzc1RWlfdW9DS2E0d3FTWlBXOER2eXRFNWQ3R09yRGZ0MWhjYkF3RGtTbUc5M3ZXWUdScWhNdHFTeXNVSVJlSW9TZE1HSVJzMGd4Ry1DRWRlYlp1b1F2MUZhZUpHSzhRQTQ2YS12aDQyWnhIUGJycXp4Z2JKdFdkdGxQTU9Zb2NmZ1U5bVF5QXM0N05FOE5ENlN0VUFlT3ROX0pvWEpPcTVBRU43NElrR0QxNklC?oc=5",
+      "summary": "Huang's comeback: Nvidia rally sends Asian stocks soaring, Wall Street gains $1 trillion",
+      "source": "Gulf News",
+      "published": "2026-11-24 11:25",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "us",
+      "title": "Nasdaq, Dow, S&P 500 Futures Gain As Jensen Huang’s Return To Nvidia Sparks $3T Market Rally: SOXS, IBRX, HPE, TSM In Focus - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSTRMM0dfQUlWZ3pRMFhtNUJsV1k0RE9UV1dTQ2RhWUZ3SUtIOUhtbGQxa1VidG05ZEszdXRJTFZHTTFXTExSMW1uV05KVEdzb0NBcWtnVDBVa2dQbDdYc0NQaTJlWWxfbVdmQV9JUHZFbmRHcTB3elRkWUt0aUxCOFZVX3hIYnBfTHlqOU5IMGx1T3c?oc=5",
+      "summary": "Nasdaq, Dow, S&P 500 Futures Gain As Jensen Huang’s Return To Nvidia Sparks $3T Market Rally: SOXS, IBRX, HPE, TSM In Focus",
+      "source": "Yahoo Finance",
+      "published": "2026-11-24 11:13",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "us",
+      "title": "Williams Signals Further Fed Rate Increases to Curb Inflation - cwibc.co.id",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwUV83YnBrUzdDUEJHOHl5RF9qRVNUMGtaMmdnNV9JbzQ3MjdjLVlBOG41SFpsaElyMGxQMlVXdXZJdXA5MGwwTmhrYzNMNFZnUDVYaVlqbTZrNGg0RjJjejdLY05zaGlUZWRqNw?oc=5",
+      "summary": "Williams Signals Further Fed Rate Increases to Curb Inflation",
+      "source": "cwibc.co.id",
+      "published": "2026-11-24 10:40",
+      "topic": "금리·경제지표"
+    },
+    {
+      "category": "tech",
+      "title": "Residential energy storage system - Climate Control News",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTDV2SHFMaTY2RjFGbXZaVlhRYVlfOFY1YmZVS2RrU0R1TEFwVmUtdzY2dndFOU9scDNuUWZTNk1lekQwNGNvZVdGQmE0TlRJQkZtWnN0ZlV0dVB6RlVJQkZESTBqVi1FQ29zaEFtRHRFY3IxeXc2TnFIdkdyLVhUVkRkS2d5MGs?oc=5",
+      "summary": "Residential energy storage system",
+      "source": "Climate Control News",
+      "published": "2026-11-24 10:33",
+      "topic": "배터리·에너지"
+    },
+    {
+      "category": "tech",
+      "title": "중국산 로봇, 일하다가 자꾸 망가진다…투입 속도조절 나선 中 자동차업계 - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XU0dmSThBc1k0cUMybFhRVi1LanN5TGtKaGQ3WV9weEVMN0tEcWhJWEg4YjRaSXJZOGo5akx4T2FtMUx4LUJyOUYzVmRQcUxNZ19heDRR?oc=5",
+      "summary": "중국산 로봇, 일하다가 자꾸 망가진다…투입 속도조절 나선 中 자동차업계",
+      "source": "매일경제",
+      "published": "2026-11-24 10:33",
+      "topic": "로봇·자율주행"
+    },
+    {
+      "category": "tech",
+      "title": "They Said They’d Deploy Robots Instead of People... China’s Auto Industry Taps the Brakes - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jTWMzNmJvdEdZWGdxQ21tM0toWmQ5MXpPd2FWN2FMVHFCUU53Y2JXZV8wOXJDdzdha001MUFjOVJhNzZkMW9TQkIzVTI2cmx3MTBn?oc=5",
+      "summary": "They Said They’d Deploy Robots Instead of People... China’s Auto Industry Taps the Brakes",
+      "source": "매일경제",
+      "published": "2026-11-24 10:33",
+      "topic": "로봇·자율주행"
+    },
+    {
+      "category": "kr",
+      "title": "[오늘의 증시] 코스피 7.35% 폭등해 5050선 돌파…코스닥도 5%대 급등 - 잡포스트",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2cXNZTU95bmpweXN2NVZKdGxwdGk4WnQxNHAxMkNvY19kWElKX1hBYkJqWjYwYU12cElRT0daOFZaaTViaUVJV3dkQ3ZmdlBPWWU5YnJKV2hpWTcwNU1PSG9nQXdEYzhHLXdfdlRxRXJSZ9IBckFVX3lxTFB2cXNZTU95bmpweXN2NVZKdGxwdGk4WnQxNHAxMkNvY19kWElKX1hBYkJqWjYwYU12cElRT0daOFZaaTViaUVJV3dkQ3ZmdlBPWWU5YnJKV2hpWTcwNU1PSG9nQXdEYzhHLXdfdlRxRXJSZw?oc=5",
+      "summary": "[오늘의 증시] 코스피 7.35% 폭등해 5050선 돌파…코스닥도 5%대 급등",
+      "source": "잡포스트",
+      "published": "2026-11-24 10:25",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "us",
+      "title": "Fed Rate Hike Bets Build Ahead Of December Meet: Fed’s John Williams Says Inflation Still ‘Too High’ - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZnlOTHR3V1JKVkp3dTZPME9RdDZVcVVTdmNlVmcwZlNFWnRHUG95Qm1Pc3lHdXctUWRrdzZiMkpHbXdsX0FOb3hzaUNTX2RoZGFVaG9qSVVtSXhDUlBCUHRSTXgzZkRaNmEzbkJuX3UwUHZHWldjWVBsa1U3UmhkX25lNEVyYkpmbE9ubG94d2JIaks1TktjbEtDUmV3Wllpd3NyR1hnU0ZMV0xGbzdhR0h0WmFzZU9PeUxXZzJHX2hDeDE1Z0hjQ3Y5NGxmZzJmMElITHpJazkxZWZPOUNuRlp1eDN5aFhCNVQ5anRKbw?oc=5",
+      "summary": "Fed Rate Hike Bets Build Ahead Of December Meet: Fed’s John Williams Says Inflation Still ‘Too High’",
+      "source": "TradingView",
+      "published": "2026-11-24 10:09",
+      "topic": "금리·경제지표"
+    },
+    {
+      "category": "us",
+      "title": "U.S. stock futures steady after Nvidia-led Wall Street rally - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMFkzaTBpMy1QY3pYOG1fR1dlUG0yZ0ZEcEtpYlpXeGxsNXZaQzczVzlTLUdSOXFZUTlRX2pDd0F0TVRfVmpLYng2ZUE1NU9hSVVLalVxcEVKT1p5Uzd1S19UWDVVUjJNb1JPSmRUSDVEYUVkMElmSzU3eHU3dDhzSktWOXRjOWV6YkZWMDc4WjBqdm5aaXpXaUJ3?oc=5",
+      "summary": "U.S. stock futures steady after Nvidia-led Wall Street rally",
+      "source": "Yahoo Finance",
+      "published": "2026-11-24 09:48",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "us",
+      "title": "Fed's Williams says inflation remains too high, signals further rate hikes possible - NST Online",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN0JYdEtwNFdSRnZMcFpDMmZJM0tYaVpzOUlNQm1HbVJPN2k2aURQSHpmQ3BqaUs1V0k5Z3NhNm1oWWJMNkQ1ZjV0M1ZUS1NIRk45WHBtQWZyaThqWVNmOFAyMkxFczhCenE4b1VKZnNtdmZWS0hablpPRDRmNzIwRjRBZllvOGdvdjh4aTIyM25qbXVMYTk3UTVKbHB4WXVJeGI4dl9QRXZtTWVGczd1bUVfNnByTGVHeG9F0gHAAUFVX3lxTE4wU2NlUXdqTHBVU0V5Y1BhQ1BCb25aVE9ZVFZKYVBmd2xOSGs3NkZHbkZYTXJMN0Y2eDdhNU1WeXg3WmUxbjI0NWxzeE1Ra0lLcHlQRThFUzgteGlWQ2JacW1hRjVIaUVqSHV6dk5MUkVIUzVyQXRUWmtxRU1vRnRzQUZyTENKem8ydzB5QXVHSXlfdUFfQm51NFh6MGxTNEdnUUZRRF9ldktvU2I5c1VUTWhzSHpDUXk3WXNfQlUxSQ?oc=5",
+      "summary": "Fed's Williams says inflation remains too high, signals further rate hikes possible",
+      "source": "NST Online",
+      "published": "2026-11-24 09:41",
+      "topic": "금리·경제지표"
+    },
+    {
+      "category": "tech",
+      "title": "(수요광장)ESS, 이젠 국가전력망의 핵심인프라다 - 전기신문",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkLUEweV96NE9iOVFScnhZR2pSZnJwVThWV2gzS3lFaTYzYzhfN0xENDBxOVFFbHA3T1dnbGs0anR3Y0tfem43enhrRVZfZlUyNFIweV9hRUtLSlp4Ml9ESDQ3NWppQk5kTk1xOFBwZkjSAXBBVV95cUxQZC1BMHlfejRPYjlRUnJ4WUdqUmZycFU4VldoM0t5RWk2M2M4XzdMRDQwcTlRRWxwN09XZ2xrNGp0d2NLX3puN3p4a0VWX2ZVMjRSMHlfYUVLS0paeDJfREg0NzVqaUJOZE5NcThQcGZI?oc=5",
+      "summary": "(수요광장)ESS, 이젠 국가전력망의 핵심인프라다",
+      "source": "전기신문",
+      "published": "2026-11-24 09:03",
+      "topic": "배터리·에너지"
+    },
+    {
+      "category": "us",
+      "title": "Stock Market Today, Nov. 23, 2026: Powerful Wall Street Rally - STL.News",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HWHo1Z1BzSHp6ZGxYWVRZZmdRSGhTZjZWV1pZR3h3bnVyTTBhaHo0Z0F2c1JzU1U4QWRvRGZBT1g5N3BRcVpsSmw0YkpYMHU0XzIxSDEycnI5NFJEN1NIMThuX2lFcUxoUnhYeg?oc=5",
+      "summary": "Stock Market Today, Nov. 23, 2026: Powerful Wall Street Rally",
+      "source": "STL.News",
+      "published": "2026-11-24 08:51",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "us",
+      "title": "Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa3lvbHFTMGFKUm9paUJYVzFoQzd1QnQtSzAtTlZmSlFyRW5Sc1hic3p2MVV0VWVrYjFkNDdQZlFTUWMzZGFueG5yMTVMcGhLWUxwQi16Ujk5b2ppMVRWTGowaHlMZDQ4Z19xbWpCQTRFVzFHSHhxeW9kbG80OTVtSEZsb3REX29FRFFPR0xzTnFjYXh6?oc=5",
+      "summary": "Fed's Williams says inflation still too high, signals more rate hikes possible",
+      "source": "Reuters",
+      "published": "2026-11-24 08:38",
+      "topic": "금리·경제지표"
+    },
+    {
+      "category": "us",
+      "title": "Unexpected signs of a rebound came from the U.S. stock market while the KOSPI, which had been lookin.. - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jd2txZzQ1MkhoQTFGa2UxQkRSQ0pNdGF4MEM0U3o1Wkgyald0OERWa1JVTHBhRjk4Rjg0dElKTnE0SGV6cmV3QlA4dU5lNVU?oc=5",
+      "summary": "Unexpected signs of a rebound came from the U.S. stock market while the KOSPI, which had been lookin..",
+      "source": "매일경제",
+      "published": "2026-11-24 08:15",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "us",
+      "title": "US Fed’s Williams says inflation still too high, signals more rate hikes possible - The Straits Times",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTG5DRUVHM2tPbjFYLV9aOVh3LUJRZkJmU19jaTBSeHFiaFpoemdZd0tCX3p0X3NfWS1NX2R5eV9YV2J2c1lIS0gxa0taS0EwSW93ci11Rkdqb2ZPWXd2c3ZYNFpzOWJ3eVpCVldmenN1THpwT2JIWHhCakRuOEE1MHRHLXc1dWlRdE9SQmEzOXRvUFFCMF93?oc=5",
+      "summary": "US Fed’s Williams says inflation still too high, signals more rate hikes possible",
+      "source": "The Straits Times",
+      "published": "2026-11-24 08:14",
+      "topic": "금리·경제지표"
+    },
+    {
+      "category": "us",
+      "title": "Fed’s Williams Says Officials Must Act ‘Over Time’ On Inflation - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd2hFTElab1BSaGQzN2hEczFEakZGaGV3TW00N2laRU0zb3prdDc4am9uR3MwOGtucDNsRU9UT0d6eG5aZjYzcnpIUXRnOGJ0eFhuX0pCRnoyLXJCMEJnMnMtd01xVXd0MVItSVVPUWZ3QzE3UGdTNVVFWkZiUkxoNW9BcG94WnNnQ21FejZnQUs1Nm9HdFMyeUxlazZEY2hOSUhFaFl5dWNUdG5HdDBDM3ZR?oc=5",
+      "summary": "Fed’s Williams Says Officials Must Act ‘Over Time’ On Inflation",
+      "source": "Bloomberg.com",
+      "published": "2026-11-24 07:55",
+      "topic": "금리·경제지표"
+    },
+    {
+      "category": "us",
+      "title": "US stock market today: Nvidia, Jensen Huang uplift S&P 500, Dow Jones, Nasdaq, Russell 2000 as Wall Street - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPeU5kU2w4UDB5LWJnbV9kYnBuRVdkZzFyZHA1S1JIMGRiUlUtSndvODJqbGczWHhzNW5Ld2IzVFZfX243Nzh3N0hxMmcwSElJSmlKaDFXZkROYklaamZaWmk3UE5ZX1JjY3NpMnlpZmF1N2VSX0VwbWNVVEQ2RlczLV9CX3NJQ0Y1anJ4cFZraE00ejZqYVZkWW9EaGY3YUpvWDY0eFVyVWRxYVhwX3NQbXRINXJ5SGdqT0RZMzVlbndnVURtYVNNNmNNaDNPNHkzSDJGOWlSbXZScWlDbWN5em5YXzlmcHMtNmZRcERBRmxKdXY0elM5eUozVW54UXRBYjVTZ3ZLd21kLTZTOC1NX2RIZEU1RnZCSEF3TEZ1TlJoOWdEaVE2VdIBrgJBVV95cUxOcUlLQngxUmpRTWRyX29COExYNHJSNzFxb1VsSjRod1RYQzBFdzdFNklBV0NDRlcwNlByTGYzUUtCMmxOUmFXUDZuNEVadUNaRzFoR29UWWxPSmR4emFYV3VmSUxnZ1FCVzdoR2JwcnAtc3hZZXBXY3VvenV2Q3hnX0JJbWFiRHd3UmEyamJFcW5wa2R2cFhmYm40VTQ0bWN3VHlpVWtEd3RiVFdjQWpNZXJFTmltNTBuZkpMcFc1YzZzYU1jUGp5cC1EUExFamlsX0FNWVVweDVzYU5MSWFUVWRzZEJmYUQ3WDloQThfcVg3eXJKOHVCaEhVZUVabzJrVDkwN2tlQTNRbFBwNHBWT3pNSExHUkhZdHBnOW9nT1EteHFVSHlKWkpMMUgtQQ?oc=5",
+      "summary": "US stock market today: Nvidia, Jensen Huang uplift S&P 500, Dow Jones, Nasdaq, Russell 2000 as Wall Street",
+      "source": "The Economic Times",
+      "published": "2026-11-24 07:52",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "us",
+      "title": "Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUE9HVW1nMUdjOGFRNk5ndXFqUmZRZTRQYnlaUnRZdDRCcFI3RXlUNWNKQkRfeHREMDUtb0pyUWRBTWVra1hjVUlSZzhMVGxiSTExVmIzUWtFTk9wb3VuOHNOVkdyNXRURjFUSTJpLTRaUTA1UUd6S1JfMkpLVUQ2Q3VJMkQxN1FQa0ZFMXNyUU1takl1WlEwRDBNTdIBoAFBVV95cUxNRHNsdWxrWGhsRlFiSDFZclhXNWFfMHY5Nks0MXdWMzh2eWdjNHFMaGFzNjNjODJkTmJWN3FnU2NzQVA4d2x6NFM3VjRCUGd0bF92b2xlNVNiS3FaOC15clZxM1daOXhCai1IZXRRUGVuRzV3Ml9pamMwZFRiSTN4Ull5bk4tQnpISmxWYjBHZjJ6WGwwd0xQalA2dVJzN25W?oc=5",
+      "summary": "Bill Ackman says Federal Reserve is 'about to make another mistake'",
+      "source": "Fox Business",
+      "published": "2026-11-24 06:47",
+      "topic": "금리·경제지표"
+    },
+    {
+      "category": "us",
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - Forex Factory",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnd3aFc2aHM5NUszS21ONzYwZ0tfelRiNUV4V2pOOHR1MnJTUEtUU25IT0d3bGN4R2FHUFN6WktYWXlIQVhRR0VaVy1XejNpOW9IWm9YTWlsbE5xaEZmWE1CbTRsekd5UWE5bnNJQW4wQXBzT3VMTnRGYW02RWY1SDRDSkRBQTZYTEg0YWpFUC1WY2NnSTU2Snd2WnNYdkp00gGmAUFVX3lxTE5YMkVvVWVhRnFHYUxYMkVQMVdlNUFMYVFESlN1U21lRzl0QnJ6bUQ0OUFNbU90VnVoekVFZmpZaW5ZQWNpd3d5NHMzTU1pT3owaTYwdFZSdlJlLThuOTdtdUplcVI2aVlzMlZsaHczWW1MaUVZNnhiZEFDX3dxME1TdkZkbHp5SkdZOFNxRkh2UVhNN1hwTzVwWTh0U2FRem9mVTNKMWc?oc=5",
+      "summary": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "source": "Forex Factory",
+      "published": "2026-11-24 06:47",
+      "topic": "금리·경제지표"
+    },
+    {
+      "category": "us",
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTEpFREZWNnVpcVBFY3pxbHBnbkFJTWRxZjlBOHNLdFkxb1JEVWdUX2VfWlJhU0dwZEFJc0RUY2w2THFBaWVjbkxpSGRubWxQdHdSYWJFdmc2VVhUX0F1S1gwYXYxcUlsQUY0T0pIQnhhNkNFRXFCWHA3M2xVZWRITtIBhgFBVV95cUxNN0wxOFpVd01FWG9EWlppMC02d1RtcG5wZ1V1a3N1bklHZGFHWDYzUk80cnMwa00yblpXZUdfQV9SMk1fVVRrM0c0OWZuSDlGWjQtN0hUWW1mMTNHVTZObmhSeTllcDZIUE85S2duamlXdE5hNExsamtsaDU2LUJveEF0Q1ZIQQ?oc=5",
+      "summary": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "source": "CNBC",
+      "published": "2026-11-24 06:00",
+      "topic": "금리·경제지표"
+    },
+    {
+      "category": "tech",
+      "title": "Somerset approves grid-scale battery storage plant at Brayton Point - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQd0tqbnJhR2NyRDZNSlJBcF9VRDgyZVZDbUt2dDJLdTZaajhGNHFJRl9neExFb0ptaEY4Z0ZwbnU0WVgxSE4xVDZ1bjNaemVfRjhTdnJTMkhjeXBmTVJ6dkhfa3RCZjVnQWJ4Sy1YQVRlT2xpWXBzYXc2ZlFHRlhXbFUyNmtqS2FKV3Fqb00yX1JwcGxzQkc0?oc=5",
+      "summary": "Somerset approves grid-scale battery storage plant at Brayton Point",
+      "source": "The Business Journals",
+      "published": "2026-11-24 04:05",
+      "topic": "배터리·에너지"
+    },
+    {
+      "category": "tech",
+      "title": "Calibrant Energy Secures $145 Million for Solar and Battery Storage Projects - EnergyTech",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNUtzYm80dlUxMHYteDd0VmU3UEVjOTVmX2gyZ1hOU0tzVnJzdjh5MnVfbmQwbHhDRExRUGFJbllxNGNtM2s2Wks4YUVtdVU5Q01pRDJkVFRJMThhbjdsemllcHdPQi1MTHV2dHlIN1hLSVZFUjFlUEtzVTJacHpwRzcyTldYbC1rY2JyM19Fd3k4VHlaS2RETmVSYlRGdHFEd1ZNUTY0Mzk2ME5FOVBwVzIxaVJpQnFFN1h4NlpBcjV6YXN3N05GT3prTQ?oc=5",
+      "summary": "Calibrant Energy Secures $145 Million for Solar and Battery Storage Projects",
+      "source": "EnergyTech",
+      "published": "2026-11-24 03:26",
+      "topic": "배터리·에너지"
+    },
+    {
+      "category": "tech",
+      "title": "AEMO counts on 5.3 GW of new batteries to get Australia's grid through an El Niño summer - MLQ.ai",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMFEtMEZtODJlLVFoMXkxSTZZclRDdTBTQVJfdEJtbkg1UDJfbWtOaEdPeE5pZmdxVGo4QUV1Ykk0MnJ4WWJsdVNnZWVMVmtVNXFfZWVMdEZINTdRS3FMVzBVbV9JTjQ5RXRQRDdDaExnWU9FSUkwdng4dDY4dlFRdkdXMDRjakZFbzhLNTdiNE1nUk1va1dxZ08tWHlvYXM3RG9yNnlTOVVOcFU?oc=5",
+      "summary": "AEMO counts on 5.3 GW of new batteries to get Australia's grid through an El Niño summer",
+      "source": "MLQ.ai",
+      "published": "2026-11-24 02:05",
+      "topic": "인공지능"
+    },
+    {
+      "category": "us",
+      "title": "Fed’s preferred inflation index to show price gains well above target - Truflation - Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWVgtdGFpQVlhNHpoWVAwdUpGWHZ1ZzhfT0k5X1FfRVp2TGQzcHBJUFY3OXpYWGNIWllLN3hwZmp0M1JBcGJPUlF0ZXdNbml5dHF2WGRPZEhSb010SmpUYVhHT0VrcVdZeUlZQWI0ZGE4bkgySGh5RFBlYmExZ3NNRHZaWGV1d0JqWVU4R1NhdGtyQ29KSlhqb1NRV2ZiZ2EzWTVCZEhQeHYwVVJERXhGTVpTS0VnT1liODBpVkV6dTVZRGxzVDc2aU9Ba3A?oc=5",
+      "summary": "Fed’s preferred inflation index to show price gains well above target - Truflation",
+      "source": "Investing.com",
+      "published": "2026-11-24 00:02",
+      "topic": "금리·경제지표"
+    },
+    {
+      "category": "tech",
+      "title": "[2026년 주목할 AI 강좌·인턴십 5선…IBM부터 애플·UNEP까지] 모든 AI 학습자가 고급 자격증이나 연구 인턴십이 필요한 것은 아니다. 이 분야에 처음 입문한 학생은 체계적인 수업이 더 도움이 될 수 있고, 프로그래밍과 연구 경험이 있는 - AI넷",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9UbG02cmpxaGZlN3lOcWtkQzA1QmF0eHFHR0Vwb3FHaHFERzdSTXQyV2NuclJtVlAzRmF2RnZiYWk?oc=5",
+      "summary": "[2026년 주목할 AI 강좌·인턴십 5선…IBM부터 애플·UNEP까지] 모든 AI 학습자가 고급 자격증이나 연구 인턴십이 필요한 것은 아니다. 이 분야에 처음 입문한 학생은 체계적인 수업이 더 도움이 될 수 있고, 프로그래밍과 연구 경험이 있는",
+      "source": "AI넷",
+      "published": "2026-11-23 22:59",
+      "topic": "인공지능"
+    },
+    {
+      "category": "kr",
+      "title": "코스피 4,700선 추락·한전 개인정보 152만 건 유출…오늘의 키워드 - 강릉뉴스",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZT3UtYTRDeDAtbFpwVHdXTVBXeWF0bmtrbUZCdEJIRTFXMUg1YlhtWkh0eG9ZeGs1TU0xOTgxaGhEeXFkME5rS01LUmRlb3poNDdFNnBBbjA0dnhGeFNRTzlJNGViSFI0Qmh0SC1iTQ?oc=5",
+      "summary": "코스피 4,700선 추락·한전 개인정보 152만 건 유출…오늘의 키워드",
+      "source": "강릉뉴스",
+      "published": "2026-11-23 21:02",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "tech",
+      "title": "Artificial Intelligence at Amgen – Two Use Cases - Emerj Artificial Intelligence Research",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tbkYxcmNfY2o2b3lFQk8yUlBjaklOdWs3Y2prMkYwc01NcHhTVU1Pc1pBM0poaVFNRkFRWWpMUHBBcjRjc1BMM2xFb2dNVTNQRjFsU0FuX3NfMmZ2MHJyXzliNGVJc0IyWFZqWG40ZDdmN28?oc=5",
+      "summary": "Artificial Intelligence at Amgen – Two Use Cases",
+      "source": "Emerj Artificial Intelligence Research",
+      "published": "2026-11-23 20:01",
+      "topic": "인공지능"
+    },
+    {
+      "category": "kr",
+      "title": "코스피 코스닥 차이와 주가 전망 분석 및 핵심 요약 : 한국증시 - 재경일보",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9LOEJCNU5OYzZXNDF1UEFKYTBNSlpYcjEwN2ZjcmwyNEtJS25uU0JwSTBqRjNUQmxnVGxaYTltY3pNWWItMWcwdjJGdw?oc=5",
+      "summary": "코스피 코스닥 차이와 주가 전망 분석 및 핵심 요약 : 한국증시",
+      "source": "재경일보",
+      "published": "2026-11-23 17:51",
       "topic": "지수·시장동향"
     },
     {
       "category": "kr",
-      "title": "코스피 5%대 폭락에 매도 사이드카 발동…4,600선 붕괴 - 산경투데이",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnbS1xN01SY0hkQU5tdkFZSUZlMTlWZFlhbDloejNreXotUjBHZkhuTDNhNllCV0pFcFRob2FRV1ExV1dXUHY1ZHRhbkV0Z3VUclpZVC0yRUFoaHFuOWFEc3ZWTmpVcWs1SzJrcWN5Z3HSAXRBVV95cUxPMnhXVURpM0hYOVItQzJybE0wN0F6ZTEyM2k1dDlKQ1FWbU9SeThwWnBQWG1VeXpNRVhESFMyb0hvaEg0Tm1fX3BBQVFxMnZLaDhyMVpfZ1ZoWDlaTVgyRVV0VkFlcERsdlkyb1kxUzFlSUFXMQ?oc=5",
-      "summary": "코스피 5%대 폭락에 매도 사이드카 발동…4,600선 붕괴",
+      "title": "코스피 3.31% 급락에 4,700선 턱걸이…증시 불안 확산 - 산경투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QZV9QRG14S1NXRE1lMnlRakdyTTd2UmszXy1WbzJZZjQ3dUZNeld1RmRpLU0xTXNjcWRBczVuWVpFMGJMdFRpX2phYUtiMjN4QjY1My1Fbm5hMVJ0dDdIUVVhc2t6MFFtVFBKQTJXMUXSAXRBVV95cUxNeXBGUmdwX3pKaGlxSFl6alV3VGZFanF1WjI1WmdPa0w2cTF0SDljcDBUUF9oaVZ0YnpWUVZVbEMxekNiRU9uZGRIc1NpT2VfOUhoR3JIQTk4UGtUUWJqcnVXTkVmeFpneUdYbzFHRV9PVVFjTQ?oc=5",
+      "summary": "코스피 3.31% 급락에 4,700선 턱걸이…증시 불안 확산",
       "source": "산경투데이",
-      "published": "2026-11-23 12:10",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "How Are Nasdaq, Dow, S&P 500 Futures Trading After Last Week’s Tech Rout On Wall Street? - Stocktwits",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTHNqcjR5VFZfcE9QTzhsZTREWld6eHZSTTFtVkc3OUZzZVluemdrVTRXS1hNRDVpQ0lsVDR1R2xOUUJlVzExUFVmMjBLNXpYcGJWODJ3UnVmN3NTLWNQXzRMNnYxbVpaQWY5VEUzY2MzaXpCVnhsZ21TNnlNZGdqN19NbndMbklaN3Z5WEYyOGZFMWF6MXZlalJXRTJEQm5sdWQwc0tGUzBJNm1DaHRfeFZDOU9qa1g0Ry15T2lxWThSU1dxMGJ4ZG5oLTc?oc=5",
-      "summary": "How Are Nasdaq, Dow, S&P 500 Futures Trading After Last Week’s Tech Rout On Wall Street?",
-      "source": "Stocktwits",
-      "published": "2026-11-23 12:01",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "Stocks are oversold. But is the market correction really over? - The American Bazaar",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcV9xdVpSUG14UkoxNGJLV3NCSWE0dFJNLXJqTUV5YXdQdnRyX3FGQ1ZpY2JNUmxud0hieFZDS0NyYXlVX2FpdTN3aGhlcVBmbENDblpRVDcwWUdiOTNHa0tKclRpUm5tSWw3ank4N3A0THZ5OXdrWlpLVkR0WU5KN3d6Z3hBUW5SOE9n?oc=5",
-      "summary": "Stocks are oversold. But is the market correction really over?",
-      "source": "The American Bazaar",
-      "published": "2026-11-23 12:00",
+      "published": "2026-11-23 16:33",
       "topic": "지수·시장동향"
     },
     {
@@ -48,33 +372,6 @@
       "topic": "지수·시장동향"
     },
     {
-      "category": "us",
-      "title": "Stock market today: Dow futures jump 800 points and Nasdaq soars 3% after entering correction - Fortune",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMHVtODRCNHpEWlpxVUloeXluS04zZTB3WUFMazNTamtVckExbW9qbWFDaGJObUtCNHZUZkVoRWpYMlk4OXVOYzF4dUhERk4wOXpNWHhZWEZGamR2cGpxdC1mRVpDTVpsLVhDbS1RQmJlYXpRblh4cC0wOUJtalI4WHAzLWVFcHhXYzd2dTNidS0yM0hEX0tXX3pB?oc=5",
-      "summary": "Stock market today: Dow futures jump 800 points and Nasdaq soars 3% after entering correction",
-      "source": "Fortune",
-      "published": "2026-11-23 11:16",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeVFyOU5ZTWtBVzZob0FxRUQxME5TdllYbHgxNDVsTTZYaDBQMkNnU0x6czdEaUtlemhyQXJWVHk3cURHeWJ5NXRncmtubDZtZnNvTG5ac1E0Vm1YS0o3OWRrRm5GNi1wOEFwallTZmhyaHBqX0Z2MG80S3gzb3ViQnhZTWgxSmlkRHFTa09NNXA5MHhGVzYtQ28yVVRIdzVyZ2RJYTJ4cldqZms3dFg1ekplQUp1QQ?oc=5",
-      "summary": "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves",
-      "source": "WSJ",
-      "published": "2026-11-23 11:12",
-      "topic": "기업실적·기업동향"
-    },
-    {
-      "category": "us",
-      "title": "US Stock Futures Open Higher After Tech Selloff: Markets Wrap - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMFVRM2J2cTZ6eU02Qzk1TF83UmhsSEN3SlpHYjJuc2lDeXBVM0h6WkN2bEJCUlk5RnZNOFMta05FOXFqeTZQQWZnbFl2RG1WTWVNSXYwVWhZRFZxRkx6SDlhTWtUWk92UVBJa2FGWVk3ak9rOUVJYjZ6RDBqcUZCOEpiWmFVWGxvVmM1Y2prdDk2N19EZG0xWjU3aFV5QkJ6MjF4eExGSkd3TWxaWGRBVzhB?oc=5",
-      "summary": "US Stock Futures Open Higher After Tech Selloff: Markets Wrap",
-      "source": "Bloomberg.com",
-      "published": "2026-11-23 10:58",
-      "topic": "지수·시장동향"
-    },
-    {
       "category": "tech",
       "title": "China carmakers scale back humanoid robot ambitions - Nikkei Asia",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcHhaTWsxbVBacl9MX3FfSFYxRGVTWm0zaWFfaFpaN04ybklwenZqU19lbGs0NGRSaDAxZ1dNaHRLdWF3MDdEczB1eFdSOUg0eV9QNVMyQVd3R1R5Z2tlQTRLZ3FaaGdhaUFVQW5LOTFRSnhMS1Nsb2o5QW52WjdqWnpuT2JuR29PeUN4QkY1NFAwMnNVMlI0?oc=5",
@@ -82,42 +379,6 @@
       "source": "Nikkei Asia",
       "published": "2026-11-23 10:45",
       "topic": "로봇·자율주행"
-    },
-    {
-      "category": "us",
-      "title": "Wall Street futures jump after major indexes enter correction territory - Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSm42cjYzNEJGOTZTa0E1YU5tZTZUckVxWXl4YU1aeDc5QjRMMk9jMUl2Xzh2dVl6Nm5tamxVS1FWNE1XdkxNaFQzeXctNUEyRlBUS3czWDlQaG5LN2pvYVVCWlpFTW9pM0ZJXzBsajVTcG1lUU1OeXhtRWhDNDZ3d3l3NWE5RmxVLW9JbUVpbnh1a2h3ZHhMWkRFVFY1UmFYbnRUeFhOZmI5b3BkOTRkY0h6Y241NHc5Tk1sUlhwaFc5dHdTVTZN?oc=5",
-      "summary": "Wall Street futures jump after major indexes enter correction territory",
-      "source": "Investing.com",
-      "published": "2026-11-23 10:36",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "Nvidia Stock Plunges 14% as SEC Investigation Raises New Concerns Despite Record AI Earnings - Aktualita.co",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbzJNYjBfMWl2d2V5S3VJNE9HS3dCQkxWNTlOc3RENGpxSng3aXd6bF9DRmVFRUtNejdFSlZ5OEZvSTVQamFsQjcwQTdRNk9MRGhGZjF0QUp2eVFsOEg2RFNvOXV1TXBiX2VpQUVUcjRXU2FfMmhlZHhVX2tmeF9Fd0lPb1ZLVHdsbHN3?oc=5",
-      "summary": "Nvidia Stock Plunges 14% as SEC Investigation Raises New Concerns Despite Record AI Earnings",
-      "source": "Aktualita.co",
-      "published": "2026-11-23 10:36",
-      "topic": "기업실적·기업동향"
-    },
-    {
-      "category": "kr",
-      "title": "美 반도체 폭락에 코스피 3% 급락…외국인·기관은 순매수 - OBC 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOWGZHMnk1bUFPdUJrLTJLMGNlaV9RbmtNMGQyT09kVVBZUWdXbW1Dd3pJUG4wMmRMd2V3NWJKMV9kRW1DakpNbk9IUXdLdDZFWWpUNjhxNVNqQWRzbU15alVtYnI2N3QxZVE?oc=5",
-      "summary": "美 반도체 폭락에 코스피 3% 급락…외국인·기관은 순매수",
-      "source": "OBC 뉴스",
-      "published": "2026-11-23 10:21",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "Interest Rate Forecast: December Fed Hike Bets Support US Dollar - FXEmpire",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMXQ0allURzByRktqOG9jVVR3Mlc4elhCeVMyWTQ3eHQ1YUdlOXhIa29ZWU5kY2JmRTlyVW5QeEpSN1lROWxMdWM0bDdjbGtpZUJwc0F1RTRJbm1CVjhxdndULVJiZzF1X0h0aUh0eDMwM0ZyZy1XY0xscFQ0SUVHNEhDSWxvZ1BoRkZnUUprcVEtWm5DVG9mUHFnSHBvY1Rza3RqdUdlM3RMYVJJazU3eWlpQjA?oc=5",
-      "summary": "Interest Rate Forecast: December Fed Hike Bets Support US Dollar",
-      "source": "FXEmpire",
-      "published": "2026-11-23 10:19",
-      "topic": "금리·경제지표"
     },
     {
       "category": "kr",
@@ -130,66 +391,12 @@
     },
     {
       "category": "kr",
-      "title": "증안펀드 가동 언제 하나? 코스피 급락에 정부가 꺼낸 증시 방어책 확인하세요 > 뉴스 - 진해신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzRjZRTThqQ29ZMFZWZnFaU2pDTEhKc3NYV3RWQ0NJdHhVS3pnRlNpcW1uMGRvbU5Tb2hRSFlQeUFYRkJ6cWpyM3dyb3Y3TUhCMkVpd2ZKZzdmazdURXV5aW5YWGNLV055WEd3Nm5tY09nWG9CZVA1MlBtSU8?oc=5",
-      "summary": "증안펀드 가동 언제 하나? 코스피 급락에 정부가 꺼낸 증시 방어책 확인하세요 > 뉴스",
-      "source": "진해신문",
-      "published": "2026-11-23 10:02",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "tech",
-      "title": "Mulilo reaches financial close on Leeuwpoort battery storage project in South Africa - Green Building Africa",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVUZlbHJsZXFqeGVJS2g3RGliZGl1Qno1dEVlS3Q2MlQ0UTR6U0hTTnRwNEViUGZWUVhQN2lNd1dfMlBEZVBIMnNvWUwwMFoyUnFicTdUTDc1bHBBQm5uSE1CZGZuV2xVXzhQLVFHSWdpeS1qbTRzU3lINVJvNFJKT1U3R0VHUmMwN3puZWsyOXBOUDk2VmJnXzRKUk1WQ3ZMTTZyNmhuTUQwNnFNRFBoX1Q2VFFxNkpoU1E?oc=5",
-      "summary": "Mulilo reaches financial close on Leeuwpoort battery storage project in South Africa",
-      "source": "Green Building Africa",
-      "published": "2026-11-23 09:33",
-      "topic": "배터리·에너지"
-    },
-    {
-      "category": "us",
-      "title": "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVy1Pa3puQ1RUS0xLT3pTdTBrdUc0Q0J4TkFqMW81cXpOdUpQSU9LV2wtNlJIS19wOG9uMEVEUlZkZUNIQXJBcXdNeWdaV0JiXzF4WGluNWtSaVU4T09reFVtYkc0dXJOZkFLXzFMUGNzOVl1SHRVaG5PR3dvVnpwR3VTbGJibEloRHVzcjQxYWc5UWxZdWR5OWdmdGE5UTh0c1NSRF9vc09YUk1aVHNFNmFVZw?oc=5",
-      "summary": "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes",
-      "source": "Bloomberg.com",
-      "published": "2026-11-23 09:28",
-      "topic": "금리·경제지표"
-    },
-    {
-      "category": "kr",
       "title": "코스피·코스닥 하락에 증안펀드 가동준비 10조7600억원 변수…삼성전자·SK하이닉스 3%대 약세 - CBC뉴스",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9qNnJ4eW5Gem5CSEg5YWlLdGM3bDdjWF9McVo5cldjVW1wd2tGeEZiWmduWVU2aWhWenJwRUN0eXpfc3I5dW5jZ0cwYmhYOXE3TXk3MWVNT0oxOUVmc2xKWVdSeE5sVjhG?oc=5",
       "summary": "코스피·코스닥 하락에 증안펀드 가동준비 10조7600억원 변수…삼성전자·SK하이닉스 3%대 약세",
       "source": "CBC뉴스",
       "published": "2026-11-23 09:25",
       "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "US Stock Market prediction for Monday: S&P 500, Nasdaq, Dow Jones investors hope for positive start. Here' - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQeXgtNDhkNmZQRVQyY1ZCYlZTNV9tMHlaYW5FVG5OV0l5QjY3Y21ieXZpYnBDOWpCWjFpdmhYLVk2MGdqdXdGcklycEtPaWZIV0FIak9SdzJsTE83eC01XzA3VU5NN3lGTm1HaHc1WUloREpsSXE4TktxRlNaSldjd0x4M0p1aEFpVVQyY2pNLW8wZFlubUFXaUhNQ0R6blhfVXRpc09aLUc5SjBUQkI2R1RodnVTTFk3djJPM1dCTE40SmdNSjluNi1DdDZuVERybExPcUE4djB6cFU1ZXM5b29PMG53S2JNMWFHNzcwX1daSGkzeDJjc09lSjJ2RldkcVhmdklFbWxYa3pEckVxX2EtQdIBmAJBVV95cUxQRmFOcnhwM2U5bVhsV1pnaW5Qc1U5VVRwNElKM1hTWmxKYUlQaGE4MEJBQTd4cmpUSTl6elZMRmNFWVhkenlQbXNibFpCLVVWUnE4bFJkRFI2eFlUdDgtQzZvNG9ac1FaT3NpaDZKU18zWkFkMXplaXJTODVBU0hKOUJJV2ROdzItVjYzeUd5a3BhN3VweFhEMGVUNS0tNDFjTi1zc29FNFo1Y2F5T2dGdklhMzZ4c0VZYXQxUHRLeUNWR2ZRRzNRWXlzQko0d2ViS29YZzdZYzBReGE0TGpORTlCNWh3eGxsald3Szc5QWN1WmJpNGZuX3B0UklwN09fMUptSi1jckFNQ1M2VnJ2TU0yekNpdVdQ?oc=5",
-      "summary": "US Stock Market prediction for Monday: S&P 500, Nasdaq, Dow Jones investors hope for positive start. Here'",
-      "source": "The Economic Times",
-      "published": "2026-11-23 08:52",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "Anthropic IPO Fails to Calm Wall Street as Nasdaq Falls 5% - JournalArta",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON2ZhVDhzcmxwNFo5SmtKNW8zRFJyV1IweUVxQlJNQVB3ZHROTk5WdjcxbDhQWm4tRW1YcXE2YUgxcHJGR2RyVjJnVElwS2ZzWFhWVThVQlNEZXMxa1NMQ3VSX3VacW8wOWRmUjhYdXNJdU1rWnlZa3dsYVZJNHU0cEJBOEZjZzJDeGU2SVk2ZnBUZw?oc=5",
-      "summary": "Anthropic IPO Fails to Calm Wall Street as Nasdaq Falls 5%",
-      "source": "JournalArta",
-      "published": "2026-11-23 08:40",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "tech",
-      "title": "유진證 “AI가 바꾸는 ESS 시장⋯LG엔솔·삼성SDI, 전력망 제어로 사업 확대” - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1JbmVHVEQ4T3RIOFc1YXdEMVE0SlBjTF9WS3paSGlRVUNjRm9lSm1scExFMVI0b3Q5Q05BTDhPREY1NUY4RVZhVW5HRGpaWVpkVzFzSA?oc=5",
-      "summary": "유진證 “AI가 바꾸는 ESS 시장⋯LG엔솔·삼성SDI, 전력망 제어로 사업 확대”",
-      "source": "이투데이",
-      "published": "2026-11-23 08:04",
-      "topic": "배터리·에너지"
     },
     {
       "category": "kr",
@@ -201,123 +408,6 @@
       "topic": "지수·시장동향"
     },
     {
-      "category": "tech",
-      "title": "中 폭스 ESS, 체코 트루트노프 ‘전력망 차익거래용 BESS’ 납품 - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQjJ6REZCN01fLV9Za29nWXJFUWUwTzNDb2d1dHpZblpVUGJwZWJHRE1DQUUwZERZVmN6V2x3OERVMXFSWkJLWXNFNUxKN082RWNOTW1HTjRBR0d4SEpWTm9pTnhZU2NJWWxmZFRDS0prZm9JWnpDbjMyQUFrUHhDYkRXNmVSOFZs?oc=5",
-      "summary": "中 폭스 ESS, 체코 트루트노프 ‘전력망 차익거래용 BESS’ 납품",
-      "source": "글로벌이코노믹",
-      "published": "2026-11-23 06:25",
-      "topic": "배터리·에너지"
-    },
-    {
-      "category": "us",
-      "title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmRPX29ITVVwcjVDVWpENEUyaFJ5alFtbVBxTzc0OWZoNkozOW9GZ3UwT3NBOGM5aUtxdm5SbjdYYmNxR3NIWVY1LWFaRUhINmRmdmxYaHlKRzY5dlBnQ3JaYkdlZU1XbVFRcnBDTkcyb1hPNG5pblZkUV9MdEd2S25aSE1TWWFzLXVrQzc0YkxQVTY1MnJYbV82TzgteDJKN2YyWmNneXY1aTg5NURYNFJzcDRxQQ?oc=5",
-      "summary": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
-      "source": "Bloomberg.com",
-      "published": "2026-11-23 05:00",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "Leadership Risk vs. Record Numbers: Nvidia Posted $115 Billion in Revenue in Its First Report Without Jensen Huang. What It Means for NVDA Stock. - Barchart.com",
-      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOR3RGUXpRU3hQZS13ckJJLThxS0l5b0hsSDVUSEl1QW5HZDh4RnhQOGhhbGwwaEQ4RG5Sb1JmcE5IeUtzb1EyNlJXV19nclpyalh6dHJkRTVzaDlQUWdGa0RPdUNQT1JKbUpiZl9lcWNlNTg0LWtzN2h2Mk5kNnpiTjR6Tld2VDcwTDBQcEtRNmJ6Y053b1VTV3FVTGN0bkUtbzBSZDZWWk9nRk1Xc3RscG1rSXR5bldEZUM3VzhDZ01oZ2NxdHAyYlVaRXR0cmFyTDI1UDhjZEZmeGRuLWpYa0M4Nm1iT1FDdmliRGY2V3h1OFhxRnBicVlKZ2wwdEpFZm5Cb3MyZ2pLbEdnRHowckJR?oc=5",
-      "summary": "Leadership Risk vs. Record Numbers: Nvidia Posted $115 Billion in Revenue in Its First Report Without Jensen Huang. What It Means for NVDA Stock.",
-      "source": "Barchart.com",
-      "published": "2026-11-23 03:30",
-      "topic": "기업실적·기업동향"
-    },
-    {
-      "category": "us",
-      "title": "Leadership Risk vs. Record Numbers: Nvidia Posted $115 Billion in Revenue in Its First Report Without Jensen Huang. What It Means for NVDA Stock. - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR1MxZ1luM295LWdwV01ISU9FS2RvYThYdjVXWGdqTXd4NXJ6aW1MWHJBd0t5MkNTemFrWmVGV1BvSEdsbFppQVZXY1I2c2k1V1V4YWwxODFEajZPbTFJQ0dJckUwMGdneTVCQlNhUmpGci02a1RfNDUzdHJCVk12bEtWcVZRV0x3QUcyeFZoOFk2R0k1djJuQjhFSEM1dlk?oc=5",
-      "summary": "Leadership Risk vs. Record Numbers: Nvidia Posted $115 Billion in Revenue in Its First Report Without Jensen Huang. What It Means for NVDA Stock.",
-      "source": "Yahoo Finance",
-      "published": "2026-11-23 03:30",
-      "topic": "기업실적·기업동향"
-    },
-    {
-      "category": "us",
-      "title": "As Wall Street struggles, is India emerging as a new investment destination? - The American Bazaar",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOFdVekNJbEswbWdMN1oxblo1eTZ0aTR5aUNYYktabWg0R3dMc0lDWFIzNXNFU211Z3duY3lNTlFDR3R1aC1POW45bE9DZUhzbmlWLXdWNVlfNDl1Q3Bvd3ZIWXlpcnJMRnFyZ21yTEZVa21FVXhXcmRzYUxJSkJpRFNVQ1Q4Uk1NdENRRU1xUXBPZVJ4a3JQZQ?oc=5",
-      "summary": "As Wall Street struggles, is India emerging as a new investment destination?",
-      "source": "The American Bazaar",
-      "published": "2026-11-23 01:49",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVzdHalZYY2s3bHVEeENKX0g4T0M4WWxHV3lacDRlejl2b2E5VWNPd1AxbXhaaUVyNXBFLWlYZFlKTk93R3QzeFdVazI3ajljUFVLYnFpb1VVQmNrVlNvYTIyajhxM1JBbjYxTkhJMkhObEJGSVdRdmZDVzItblZFd1A4NHZaWTZiZWdFVVc4REI2RGF5UjlGWndXeDFha2k0MWdqRkE4X1ozQ1h5N0ZxZmVVTVFldC1VRi1keUdBQQ?oc=5",
-      "summary": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season",
-      "source": "Bloomberg.com",
-      "published": "2026-11-23 01:46",
-      "topic": "금리·경제지표"
-    },
-    {
-      "category": "us",
-      "title": "Bessent Warns Fed Risks Overtightening as US Markets Swoon - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcXh5Rm5oX0xZaXpqczkwRTFfM2gzWGFGQzNsOWZlVVFuOTU1dHgwN1YwektGRmFBOW5LWUltcUE2Q0d2YThXTFQtSHctaFZmcUFWWTRsX0dMaWpKRUtnd2cyUFViMGt6b2N1RGJRMmdmUjF4aUlJR1J2dDF5c2lTZXd4dlFyVG5IQ2hFR2VyTG8zTWZvQ09Oc25Cd2x1Q2pFMFQtOW9FMjV4RnR1Vmc?oc=5",
-      "summary": "Bessent Warns Fed Risks Overtightening as US Markets Swoon",
-      "source": "Bloomberg.com",
-      "published": "2026-11-23 01:08",
-      "topic": "금리·경제지표"
-    },
-    {
-      "category": "us",
-      "title": "Dell (NYSE:DELL) Earnings: Can AI Server Demand Survive Nvidia’s 23% Stock Crash? - Stocks Down Under",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE00NEg0SUlPaGhhdmEtV2xpek9JZk14M0VEMEE5b28wRnljakZLMDA0WkRmQUpFLXhOV3JWMWZZQzZJSXRpQVN3SnFTUWVYajY5OU9NZFFDemFvUXVOZzQ5UTUyN2FVUE5tLVp2azBRaU1JX0tnY2sxZHBZcw?oc=5",
-      "summary": "Dell (NYSE:DELL) Earnings: Can AI Server Demand Survive Nvidia’s 23% Stock Crash?",
-      "source": "Stocks Down Under",
-      "published": "2026-11-23 00:27",
-      "topic": "기업실적·기업동향"
-    },
-    {
-      "category": "tech",
-      "title": "LG Energy Solution Showcases Integrated Power Infrastructure for AI Data Centers at RE+ 2026 - LG Corp",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DclpKZzNrVWFwT1Vaamx5ZEFqLWZLdWtuUDNLUWN2WUhJa2VnTVhNX19oOE9fMUlnaE5zMEtxOGdRS2FqbVR6cldlV04xNmJDX3BoQjc3VjhhUEE?oc=5",
-      "summary": "LG Energy Solution Showcases Integrated Power Infrastructure for AI Data Centers at RE+ 2026",
-      "source": "LG Corp",
-      "published": "2026-11-23 00:00",
-      "topic": "인공지능"
-    },
-    {
-      "category": "tech",
-      "title": "Battery procurement key to project viability amid grid congestion: ICRA - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQc1VXQVUybDN6QlN3N05ZeVVUWXFtdjkxMmMzQ3dTcGRBcE9Ec0RmWGhRV1oyQmg4SWxTdWR1QU13YkwwLUc4MFNmUWdsVnlWMm5QVUxGTDM3SmFpSmtIcFN0cmNMa1RfM0paV0IxaTFJcGFqTXBaakRvR214YnNFUnBzYUJNUTNFMUxEd1g0dFNGR2poNW9uRll0b1A4TDFrNEpSbk9pVVFpTHkwbFpySDJlY05YbUJsemZzdGJ5Yi01U1dMTVB2SWJld2RSTVB5UEp1QdIB2gFBVV95cUxNQlVIZG42ZHZuWjByUklYdzRFN0JfVVRjYXJ4YngyQzVrY3FLNDBST3RmQktPTV94X0UzdXRLUlRIM0tqQ0MzTEdSWXdfUGVqaFlUTzBjQnk0bGpxR0JMV2JkTkp1NHhxcF8tWmhxTHk2blhfT3dYZUJsSlBjVV9XMkg0c3Iwb2o0OE5LeDJtaEk5aVlvQkhGWk9rQkdrcFBwRlFBNnZlV3ZuZktldjY3RzZBOHp6V3pXcTFKTVE1LW1kT3Mtbk9QN3NSdUx1WW82RFg0UHpaUWhjQQ?oc=5",
-      "summary": "Battery procurement key to project viability amid grid congestion: ICRA",
-      "source": "Business Standard",
-      "published": "2026-11-22 21:30",
-      "topic": "배터리·에너지"
-    },
-    {
-      "category": "tech",
-      "title": "Supporters of battery energy storage systems tout environmental benefits - cnhinews.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUWtMbkdadXBKNmUtNEJXS2Y4YmpSRktNVi03QWwydVlVRG1jQjdrY0d4NlZCZl9YVkt3QkI2OXVLMEFreWtZQWdsbXBGTURFdk8zRDh0VHdyVGhaUEhIZGs1MGhzUURpTExEa0dUVTYwdjNIdHkzYmZJaDNpMkFSdVZtYVA1RkFvWVd5RzhGN3J2UkdocHJ1MUo0ZjV5N00?oc=5",
-      "summary": "Supporters of battery energy storage systems tout environmental benefits",
-      "source": "cnhinews.com",
-      "published": "2026-11-22 20:03",
-      "topic": "배터리·에너지"
-    },
-    {
-      "category": "tech",
-      "title": "Japan Moves to Build an Independent Military Space Communications Network, Will Launch Hundreds of Laser Communications Satellites [Lee Jong-yoon’s Military World] - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1abXhoU0psWFE4ejlvU1pPVERRZmdiLVBnMHdJZE96VjgzaEZJSW84cDFIM29LclJ0Ykpua2ZaSm9FR3pzNnBxSHA4QXA0bnFHb1pXcEVNRjg?oc=5",
-      "summary": "Japan Moves to Build an Independent Military Space Communications Network, Will Launch Hundreds of Laser Communications Satellites [Lee Jong-yoon’s Military World]",
-      "source": "파이낸셜뉴스",
-      "published": "2026-11-22 18:39",
-      "topic": "방산·항공우주"
-    },
-    {
-      "category": "kr",
-      "title": "주가 밀리자 상장사 퇴출 위기… 신규 관리종목 5배 늘었다[코스닥 '다산다사' 본격화] - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54Tm4zcDZ2TFM1a2U5YU1oQy01TDZKRmcxU3dDTUpCR3Z1R2FsWWJBeXAxQ3YxTUN5d2VrQ3BYaGFyVUNqZmZWeEZnUVdHZ1lrQVIxaW1HYW50UQ?oc=5",
-      "summary": "주가 밀리자 상장사 퇴출 위기… 신규 관리종목 5배 늘었다[코스닥 '다산다사' 본격화]",
-      "source": "파이낸셜뉴스",
-      "published": "2026-11-22 18:25",
-      "topic": "지수·시장동향"
-    },
-    {
       "category": "kr",
       "title": "[韓 블랙 먼데이 전운] 美 증시 덮친 긴축 공포…금리·환율도 코스피에 부담 - 아주경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvblVVTXNDV2Q4X0JhR3hyX3Vxd1BoZGhZQXVDQk9Td0xxWGtXYU1YQjU5N0dROHBUc19GVk5uREN6cjUydFFFQ0dUQkZRanYtWXBIVi1NTGlHd9IBWEFVX3lxTE5jdFpfS2pDdUlIa3l1aGp1UER3OEFxT2NhSUpqcWcxVlNPOXUtanFmU3BpVUt5YWNfQzVHZGZCeWx5U2FneU9hMS1aUXdtclBuN2hEcm05S3g?oc=5",
@@ -325,141 +415,6 @@
       "source": "아주경제",
       "published": "2026-11-22 18:00",
       "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "“Black Monday” Fears… Korea’s Interest Rates and U.S. Inflation to Determine Stock Market Direction - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hZWZsWGpwZWFsUlN2dV9zNVoxNVhaNC0xa2ZLRTY2QVpucUowVFlUcll3aEw3U3ktMXpuaXRVV0tOVkROeUpYWGJUWnlIRE1IeUV3RmdXblJOaS0xSHNhOGJ4anZPWnVhVmY0cA?oc=5",
-      "summary": "“Black Monday” Fears… Korea’s Interest Rates and U.S. Inflation to Determine Stock Market Direction",
-      "source": "머니투데이",
-      "published": "2026-11-22 17:41",
-      "topic": "금리·경제지표"
-    },
-    {
-      "category": "tech",
-      "title": "IRGC Aerospace Force targets US military positions in Bahrain in missile and drone operation - خبرگزاری بین المللی قدس",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9qOTk5Tm1HbHR6NUJOQjdpYVM5ZEZkYlRmNENrUXJjSm9pS1lEMmZHREVDc3E4VjNhTnZYRmpOWU5BZw?oc=5",
-      "summary": "IRGC Aerospace Force targets US military positions in Bahrain in missile and drone operation",
-      "source": "خبرگزاری بین المللی قدس",
-      "published": "2026-11-22 17:09",
-      "topic": "방산·항공우주"
-    },
-    {
-      "category": "us",
-      "title": "Weekly Outlook | Core PCE to test rate hike expectations! Xiaomi and Meituan will report earnings, and Dell's results will gauge AI demand; with Thanksgiving and the Black Friday shopping season approaching, U.S. stocks will be closed on Thursday and clos - 富途牛牛",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNGpqYUx6TzgyOHRQTy1oaVZZd2VyX2ZjbFlUZXZIbE5JMldvM3NzRk5RUFBzRGlPYXQ0UHA3TTVHSXZnSnJ4dnlCU3BPU1c0a181dUJ4RGlsS3FLRDVIS3FLRnlVZlZVcVJHZUt0UzRZX2gwX3NwRTdoU19NRGY2V3NZQ1ZGcTc5TWxOaGVycnpSQmxXYmRRNVlWd0s4M1pyR0tSeEFXOA?oc=5",
-      "summary": "Weekly Outlook | Core PCE to test rate hike expectations! Xiaomi and Meituan will report earnings, and Dell's results will gauge AI demand; with Thanksgiving and the Black Friday shopping season approaching, U.S. stocks will be closed on Thursday and clos",
-      "source": "富途牛牛",
-      "published": "2026-11-22 16:48",
-      "topic": "기업실적·기업동향"
-    },
-    {
-      "category": "tech",
-      "title": "Iran Attacks US Military Bases in Bahrain, Claims Two Patriot Radars Hit by Missiles and Drones - Aktualita.co",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0Q1JzWjNGcXE3RnZSQ080UUt3MTJ3ZWF0MTMzVU5UbS1iUHNsdDlZTldnenk2T214dWI1dzVsdjhxMW91R3BjdWZ6cmxMMXFWMy1XcWJYc3JSTXAxRVpyVWJ2enpUalN6elBZcjZZUm1QZWxZNnc?oc=5",
-      "summary": "Iran Attacks US Military Bases in Bahrain, Claims Two Patriot Radars Hit by Missiles and Drones",
-      "source": "Aktualita.co",
-      "published": "2026-11-22 15:41",
-      "topic": "방산·항공우주"
-    },
-    {
-      "category": "us",
-      "title": "The Week Ahead: US Q3 GDP and October PCE Due on Same Day, Dell and HPE Report Earnings, Anthropic Marks First Full Trading Week After Listing, Thanksgiving and Black Friday Arrive - TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMFNoY3ZxSEc4alo3eGs1azFJRzgxYlJlUVFyZ3BKdmYwejJBLU1RZEhkb1Awdy1nM2ctRDdROXFtT1R0RnZmczNnUzRJcDFpWlFsXzhXakx3UGhzcloxOEZwdW1scjBScEV0ZUg5a3Rpc1NydmMxVDVvTGxCV0ZmTXVYblBlOGJFTkF1Ukp5Q2RiSVlFVTBXMWxIZldReDhlRUFuQ0c4N2kwb2ZQSm1OdG9YZ18tVDhhX3lFdHR3?oc=5",
-      "summary": "The Week Ahead: US Q3 GDP and October PCE Due on Same Day, Dell and HPE Report Earnings, Anthropic Marks First Full Trading Week After Listing, Thanksgiving and Black Friday Arrive",
-      "source": "TradingKey",
-      "published": "2026-11-22 15:06",
-      "topic": "금리·경제지표"
-    },
-    {
-      "category": "kr",
-      "title": "코스피·코스닥 5%대 급락 충격 이어 뉴욕증시까지 털썩…삼성전자·SK하이닉스 등 대형주 향방은? - CBC뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVdHIzS1ZPVlNoamhvVGgzUVBkWVFhdTM5WldCdmRrcWZTa3hzdkJYbkczUzJOZjkwMG1weTM3cFo0WlAzVzRqNlVUamFHdnpsTVJudkIyYS04cjdoZ1dZUFhXOW1kcDlU?oc=5",
-      "summary": "코스피·코스닥 5%대 급락 충격 이어 뉴욕증시까지 털썩…삼성전자·SK하이닉스 등 대형주 향방은?",
-      "source": "CBC뉴스",
-      "published": "2026-11-22 10:10",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "3 US AI Infrastructure Stocks With Earnings Growth Investors Should Watch - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWjNfSGF5VlhoYTRSTGZaVVZxdk4wVVk3QUxOcmRhTUpXVm03eFN6VHc1R2htVVFKQlR0cGN1UUF4ZVJXOVRIcDhGV3FMLS1SSkZEZ1FKVURtVTVtMGVzUUpjelp5NXFFQ09aNmh6WE9wZy00YV9NSXhuZW5zeUtLTWxwQ2s1MGNqbXVLaGpMY0VfZWQ2R0FmLQ?oc=5",
-      "summary": "3 US AI Infrastructure Stocks With Earnings Growth Investors Should Watch",
-      "source": "Yahoo Finance",
-      "published": "2026-11-22 07:12",
-      "topic": "기업실적·기업동향"
-    },
-    {
-      "category": "tech",
-      "title": "IRGC claims strikes hit two US Patriot radar systems - Roya News",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5pNmljYUtCOW1oTWZCZ1NJV2w1WDc0YS1XTkZtTWpzM0QweVpJOWlZNTZZYW9TcGRtcFc5cjhvSFI1WERJTXR3Nw?oc=5",
-      "summary": "IRGC claims strikes hit two US Patriot radar systems",
-      "source": "Roya News",
-      "published": "2026-11-22 06:28",
-      "topic": "방산·항공우주"
-    },
-    {
-      "category": "us",
-      "title": "Inflation, economic growth and the mood of US consumers in focus this week - The Killeen Daily Herald",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNVVQdDRyVlNJdXVQbEdRS1EyUzdxUDZraE91V29uSVU2SEJXSFA1d2VjYmM2V3dFby1WUjdDUmM0QXFqQWxOOWp6NmN4ZWZsR1gzM1hGVnd0YWdfRXVmLUZRLUY5aE9Xc2hRdDhIZ0xfcWJIX2loUGRLdDFwMC1jcHFmTnYwYlFrZFoxaF9PVU1JbDNjZ0lzOV9RR3cydFE3d1hHeFFPMU4tRUVTYkdKbDdzYVBuUVNXaFM1VU9vMVhLNkRwSWc5M0Myak5mSFRNWi02YmRrWVVpZzc1UnlhdnoxWkNsMzE4Z3k0?oc=5",
-      "summary": "Inflation, economic growth and the mood of US consumers in focus this week",
-      "source": "The Killeen Daily Herald",
-      "published": "2026-11-22 01:09",
-      "topic": "금리·경제지표"
-    },
-    {
-      "category": "us",
-      "title": "Inflation, economic growth and the mood of US consumers in focus this week - The Independent",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ1ZmWG5DdDI5NW0yWmRXSW1vNHcxSlVlVWlfSVppSGVVZ2pHOEo5SWp0cEpOeUJUcFR6ZmdSVHQ0dFF6WEVkTHh1aWpsSmtKSzAwTjBYNGFwQVVyVVBuYVVJVXM0SERLclFncFVhY1l2RGl1SDBfQjgyVU1xb09PdVYtQUo4UG54TFJtRHhwMmR2S0t1QTJwd0l2SFd2SGhZWjF2UlFuYU4?oc=5",
-      "summary": "Inflation, economic growth and the mood of US consumers in focus this week",
-      "source": "The Independent",
-      "published": "2026-11-22 01:00",
-      "topic": "금리·경제지표"
-    },
-    {
-      "category": "tech",
-      "title": "Kh-101 Missile Crashes in Poland: Swedish Gripens Could Not Engage - MiGFlug",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZVRSdHE5QWJyWnFOYnlUaXZ6MVhsLWwwbHZUU1VieWJNWUd3eDRKMDladUIxdlNuajBaYWpKaGlFdHlCX3VRRG5kX09fZDFrRFVON3YyTFREREJSbFdJMC1OdzRpaVhnTVM4ai0yMUhRNi1ia09XMmVIYjZtZmI5Nko0NjNra2VCbmFGTGdFQkZ0dzg?oc=5",
-      "summary": "Kh-101 Missile Crashes in Poland: Swedish Gripens Could Not Engage",
-      "source": "MiGFlug",
-      "published": "2026-11-21 20:51",
-      "topic": "방산·항공우주"
-    },
-    {
-      "category": "tech",
-      "title": "Humanoids Summit Returns to Silicon Valley With Tesla Optimus, Industry Leaders - AI Insider",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPclQ3Z19yUGI1WkJyZlpaQXVHV3YtUVlReE1WZ0pEWmN4SHFERWFDV2lDUi1NX2lDS01BcDZGQ2E4WWJ4M2VDNGRieE5VZ1E5dThYVUJfZ1FnYlpRbzhULWd0QnJIZDBOSFphT19NOGM4TGtVeXh5Qkt5MHdjSUxNSktIUFpaTjhyVHRrVjJzeW5aNnpycmpuNDgzWmlLSVExZ0d5U3RxZkpNMUpjZVBZQmhPS29pUjA?oc=5",
-      "summary": "Humanoids Summit Returns to Silicon Valley With Tesla Optimus, Industry Leaders",
-      "source": "AI Insider",
-      "published": "2026-11-21 11:00",
-      "topic": "로봇·자율주행"
-    },
-    {
-      "category": "tech",
-      "title": "Nuclear Fission and Fusion Trajectories Illuminate the Future of Artificial Intelligence - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV0s0aHdkbnFxX1c0Q3l4SGladWZIeHdMZGYzZzNUM2lCTEpab01kVFAyN29aV3lvTzZYX2pscU9TR2ZJZG5uSXJ4cS1FSTFobElBQkhIaUo3Q1VOdjNDb0ItU0dhX0U0ekQyLTRjdFJubUJhdnFiM2xIdlJ0S1ZWR1BmaXlNZXJoOFRkYTIzNGwtMGpQcFhuanNXOVN5MHlnb3VKeEZ2cEFienBORGRUbE1yNA?oc=5",
-      "summary": "Nuclear Fission and Fusion Trajectories Illuminate the Future of Artificial Intelligence",
-      "source": "Bioengineer.org",
-      "published": "2026-11-21 09:06",
-      "topic": "인공지능"
-    },
-    {
-      "category": "tech",
-      "title": "How Standard Bank Group automates AI risk assessment for generative AI | Artificial Intelligence - Amazon Web Services",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcmZXem9adnJ3MXMzcDFTX2xPSEYzWVp1MmptNHpoc0g5MUFMcWkyOXpTYVBpdTlUZmh2SENWYWFya0NEaUQ5TzJvQmFCeEttV0FQa3hJUHhiTlR0VXZWQnVKUmxWTDBManlmc2tMTFdyUjNwTXZickVoWVFLY1VzUVVHdjc1T1BKQzZDbWJCbmhkLVVCbEZNVmR2UVVTZHpSRE1sZEZDT3JJN1FqU191Rnd0Skl6dEpH?oc=5",
-      "summary": "How Standard Bank Group automates AI risk assessment for generative AI | Artificial Intelligence",
-      "source": "Amazon Web Services",
-      "published": "2026-11-21 05:37",
-      "topic": "인공지능"
-    },
-    {
-      "category": "tech",
-      "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents | Amazon Web Services - Amazon Web Services",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaGdLSWZQWkNiLURFdnhoNmxwVV8yWVhYRUJvR2ZyVzZ0bWlQZlhVYzJLeUVMWElDUkVYX1k1Ym1YWE80S0piX1JhVVBHekcyZWtqVjNSRl9wNjNNM0VFNGQ5QkwteXhvUGpLNWVmVmstZy14ZkFOTUJoMTFCQkd4R3Rlbm0teW5lYXBhZ3lmVWJoU1R0d2JqSmtEVGZTNEtWb3FqSjJKeWhscW5JLVU0VHZFSFNPNnpoZF96LTRn?oc=5",
-      "summary": "Announcing Amazon Textract Insights: Verifiable generative AI for documents | Amazon Web Services",
-      "source": "Amazon Web Services",
-      "published": "2026-11-21 05:22",
-      "topic": "인공지능"
     }
   ],
   "collection_errors": []

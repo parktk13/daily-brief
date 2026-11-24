@@ -1,149 +1,147 @@
 {
-  "updated_at": "2026-11-23 12:48 KST",
+  "updated_at": "2026-11-24 16:00 KST",
   "daily": {
     "us": {
-      "summary": "2026-11-20 기준 최근 거래일 지수 데이터입니다. 괄호 안은 직전 거래일 대비 등락률입니다.",
-      "stats": [
-        {
-          "label": "S&P 500",
-          "value": "6,910.39 (-3.70%)"
-        },
-        {
-          "label": "NASDAQ",
-          "value": "22,617.73 (-5.28%)"
-        },
-        {
-          "label": "Dow Jones",
-          "value": "48,147.33 (-1.93%)"
-        }
-      ],
-      "key_points": [
-        "Wall Street's Thanksgiving Week Test: Can Dow, Nasdaq & S&P 500 Rebound? Black Friday Cheer To Lift AI Stocks? - Goodreturns",
-        "How Are Nasdaq, Dow, S&P 500 Futures Trading After Last Week’s Tech Rout On Wall Street? - Stocktwits",
-        "Stocks are oversold. But is the market correction really over? - The American Bazaar",
-        "Stock market today: Dow futures jump 800 points and Nasdaq soars 3% after entering correction - Fortune",
-        "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves - WSJ"
-      ],
-      "as_of": "2026-11-20"
-    },
-    "kr": {
       "summary": "2026-11-23 기준 최근 거래일 지수 데이터입니다. 괄호 안은 직전 거래일 대비 등락률입니다.",
       "stats": [
         {
-          "label": "KOSPI",
-          "value": "4,675.32 (-4.00%)"
+          "label": "S&P 500",
+          "value": "7,237.17 (+4.73%)"
         },
         {
-          "label": "KOSDAQ",
-          "value": "632.14 (-2.10%)"
+          "label": "NASDAQ",
+          "value": "24,089.56 (+6.51%)"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "49,595.31 (+3.01%)"
         }
       ],
       "key_points": [
-        "코스피 5%대 폭락에 매도 사이드카 발동…4,600선 붕괴 - 산경투데이",
-        "국내 증시 패닉 장세…코스닥 연중 최저치 경신, 코스피 4,600선까지 추락 - 한국NGO신문",
-        "美 반도체 폭락에 코스피 3% 급락…외국인·기관은 순매수 - OBC 뉴스",
-        "코스피 4,700선도 흔들…AI 충격에 개인은 팔고 외국인·기관은 샀다 - https://www.ppss.kr/",
-        "증안펀드 가동 언제 하나? 코스피 급락에 정부가 꺼낸 증시 방어책 확인하세요 > 뉴스 - 진해신문"
+        "Dow soars 1,400 points; Nasdaq surges 6% in its best day since April 2025 as Jensen Huang returns to Nvidia - CNBC",
+        "U.S. stock futures tick higher after Nvidia-led Wall Street rally - Investing.com",
+        "Nasdaq jumps after Nvidia's board reinstates Jensen Huang as CEO - www.equiti.com",
+        "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally - Investor's Business Daily",
+        "US Semiconductor Stocks Stage Rebound; 00412A Surges Nearly 30% at Open, Premium to NAV Briefly Tops 20% - BigGo Finance"
       ],
       "as_of": "2026-11-23"
+    },
+    "kr": {
+      "summary": "2026-11-24 기준 최근 거래일 지수 데이터입니다. 괄호 안은 직전 거래일 대비 등락률입니다.",
+      "stats": [
+        {
+          "label": "KOSPI",
+          "value": "5,006.03 (+6.32%)"
+        },
+        {
+          "label": "KOSDAQ",
+          "value": "665.88 (+4.79%)"
+        }
+      ],
+      "key_points": [
+        "코스피 6.32% 급등해 5000선 회복…삼성전자·SK하이닉스 6%대 상승 - 이코노미블록",
+        "골드만삭스 \"내년 한국 성장률 3.2%…환율 1280원 전망\" - 뉴시스",
+        "[오늘의 증시] 코스피 7.35% 폭등해 5050선 돌파…코스닥도 5%대 급등 - 잡포스트",
+        "코스피 4,700선 추락·한전 개인정보 152만 건 유출…오늘의 키워드 - 강릉뉴스",
+        "코스피 코스닥 차이와 주가 전망 분석 및 핵심 요약 : 한국증시 - 재경일보"
+      ],
+      "as_of": "2026-11-24"
     }
   },
   "weekly": {
     "us": {
-      "summary": "2026-11-20 기준 최근 5거래일의 지수 변화입니다. 괄호 안은 5거래일 전 종가 대비 등락률입니다.",
-      "stats": [
-        {
-          "label": "S&P 500",
-          "value": "6,910.39 (-8.61%)"
-        },
-        {
-          "label": "NASDAQ",
-          "value": "22,617.73 (-10.02%)"
-        },
-        {
-          "label": "Dow Jones",
-          "value": "48,147.33 (-8.02%)"
-        }
-      ],
-      "key_points": [
-        "Wall Street's Thanksgiving Week Test: Can Dow, Nasdaq & S&P 500 Rebound? Black Friday Cheer To Lift AI Stocks? - Goodreturns",
-        "How Are Nasdaq, Dow, S&P 500 Futures Trading After Last Week’s Tech Rout On Wall Street? - Stocktwits",
-        "Stocks are oversold. But is the market correction really over? - The American Bazaar",
-        "Stock market today: Dow futures jump 800 points and Nasdaq soars 3% after entering correction - Fortune",
-        "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves - WSJ"
-      ],
-      "as_of": "2026-11-20"
-    },
-    "kr": {
       "summary": "2026-11-23 기준 최근 5거래일의 지수 변화입니다. 괄호 안은 5거래일 전 종가 대비 등락률입니다.",
       "stats": [
         {
-          "label": "KOSPI",
-          "value": "4,675.31 (-8.34%)"
+          "label": "S&P 500",
+          "value": "7,237.17 (-2.42%)"
         },
         {
-          "label": "KOSDAQ",
-          "value": "632.14 (-5.03%)"
+          "label": "NASDAQ",
+          "value": "24,089.56 (-1.71%)"
+        },
+        {
+          "label": "Dow Jones",
+          "value": "49,595.31 (-3.90%)"
         }
       ],
       "key_points": [
-        "코스피 5%대 폭락에 매도 사이드카 발동…4,600선 붕괴 - 산경투데이",
-        "국내 증시 패닉 장세…코스닥 연중 최저치 경신, 코스피 4,600선까지 추락 - 한국NGO신문",
-        "美 반도체 폭락에 코스피 3% 급락…외국인·기관은 순매수 - OBC 뉴스",
-        "코스피 4,700선도 흔들…AI 충격에 개인은 팔고 외국인·기관은 샀다 - https://www.ppss.kr/",
-        "증안펀드 가동 언제 하나? 코스피 급락에 정부가 꺼낸 증시 방어책 확인하세요 > 뉴스 - 진해신문"
+        "Dow soars 1,400 points; Nasdaq surges 6% in its best day since April 2025 as Jensen Huang returns to Nvidia - CNBC",
+        "U.S. stock futures tick higher after Nvidia-led Wall Street rally - Investing.com",
+        "Nasdaq jumps after Nvidia's board reinstates Jensen Huang as CEO - www.equiti.com",
+        "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally - Investor's Business Daily",
+        "US Semiconductor Stocks Stage Rebound; 00412A Surges Nearly 30% at Open, Premium to NAV Briefly Tops 20% - BigGo Finance"
       ],
       "as_of": "2026-11-23"
+    },
+    "kr": {
+      "summary": "2026-11-24 기준 최근 5거래일의 지수 변화입니다. 괄호 안은 5거래일 전 종가 대비 등락률입니다.",
+      "stats": [
+        {
+          "label": "KOSPI",
+          "value": "5,006.03 (+0.76%)"
+        },
+        {
+          "label": "KOSDAQ",
+          "value": "665.88 (+2.43%)"
+        }
+      ],
+      "key_points": [
+        "코스피 6.32% 급등해 5000선 회복…삼성전자·SK하이닉스 6%대 상승 - 이코노미블록",
+        "골드만삭스 \"내년 한국 성장률 3.2%…환율 1280원 전망\" - 뉴시스",
+        "[오늘의 증시] 코스피 7.35% 폭등해 5050선 돌파…코스닥도 5%대 급등 - 잡포스트",
+        "코스피 4,700선 추락·한전 개인정보 152만 건 유출…오늘의 키워드 - 강릉뉴스",
+        "코스피 코스닥 차이와 주가 전망 분석 및 핵심 요약 : 한국증시 - 재경일보"
+      ],
+      "as_of": "2026-11-24"
     }
   },
   "industry": [
     {
       "topic": "인공지능",
       "title": "인공지능 산업 동향",
-      "summary": "최근 수집된 인공지능 관련 뉴스 4건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
+      "summary": "최근 수집된 인공지능 관련 뉴스 3건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
-        "LG Energy Solution Showcases Integrated Power Infrastructure for AI Data Centers at RE+ 2026 - LG Corp",
-        "Nuclear Fission and Fusion Trajectories Illuminate the Future of Artificial Intelligence - Bioengineer.org",
-        "How Standard Bank Group automates AI risk assessment for generative AI | Artificial Intelligence - Amazon Web Services",
-        "Announcing Amazon Textract Insights: Verifiable generative AI for documents | Amazon Web Services - Amazon Web Services"
+        "AEMO counts on 5.3 GW of new batteries to get Australia's grid through an El Niño summer - MLQ.ai",
+        "[2026년 주목할 AI 강좌·인턴십 5선…IBM부터 애플·UNEP까지] 모든 AI 학습자가 고급 자격증이나 연구 인턴십이 필요한 것은 아니다. 이 분야에 처음 입문한 학생은 체계적인 수업이 더 도움이 될 수 있고, 프로그래밍과 연구 경험이 있는 - AI넷",
+        "Artificial Intelligence at Amgen – Two Use Cases - Emerj Artificial Intelligence Research"
       ],
-      "as_of": "2026-11-23"
+      "as_of": "2026-11-24"
     },
     {
       "topic": "로봇·자율주행",
       "title": "로봇·자율주행 산업 동향",
-      "summary": "최근 수집된 로봇·자율주행 관련 뉴스 2건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
+      "summary": "최근 수집된 로봇·자율주행 관련 뉴스 5건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
-        "China carmakers scale back humanoid robot ambitions - Nikkei Asia",
-        "Humanoids Summit Returns to Silicon Valley With Tesla Optimus, Industry Leaders - AI Insider"
+        "\"인간 일자리 뺏는다더니\"…中 자동차 공장서 로봇 퇴짜 맞은 이유 - 한국경제",
+        "로보티즈·레인보우로보틱스 폭풍 질주… 휴머노이드 로봇 상용화 기대 커지나 - 핀포인트뉴스",
+        "중국산 로봇, 일하다가 자꾸 망가진다…투입 속도조절 나선 中 자동차업계 - 매일경제",
+        "They Said They’d Deploy Robots Instead of People... China’s Auto Industry Taps the Brakes - 매일경제",
+        "China carmakers scale back humanoid robot ambitions - Nikkei Asia"
       ],
-      "as_of": "2026-11-23"
+      "as_of": "2026-11-24"
+    },
+    {
+      "topic": "통신·RF",
+      "title": "통신·RF 산업 동향",
+      "summary": "최근 수집된 통신·RF 관련 뉴스 1건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
+      "key_points": [
+        "대전TP, 5G-A 오픈테스트랩 세미나 열어…지역기업 개발·검증 지원 - 뉴스파고"
+      ],
+      "as_of": "2026-11-24"
     },
     {
       "topic": "배터리·에너지",
       "title": "배터리·에너지 산업 동향",
       "summary": "최근 수집된 배터리·에너지 관련 뉴스 5건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
-        "Mulilo reaches financial close on Leeuwpoort battery storage project in South Africa - Green Building Africa",
-        "유진證 “AI가 바꾸는 ESS 시장⋯LG엔솔·삼성SDI, 전력망 제어로 사업 확대” - 이투데이",
-        "中 폭스 ESS, 체코 트루트노프 ‘전력망 차익거래용 BESS’ 납품 - 글로벌이코노믹",
-        "Battery procurement key to project viability amid grid congestion: ICRA - Business Standard",
-        "Supporters of battery energy storage systems tout environmental benefits - cnhinews.com"
+        "배터리업계, 전기차 부진을 북미 ESS 시장 공략으로 만회 - 우먼타임스",
+        "Residential energy storage system - Climate Control News",
+        "(수요광장)ESS, 이젠 국가전력망의 핵심인프라다 - 전기신문",
+        "Somerset approves grid-scale battery storage plant at Brayton Point - The Business Journals",
+        "Calibrant Energy Secures $145 Million for Solar and Battery Storage Projects - EnergyTech"
       ],
-      "as_of": "2026-11-23"
-    },
-    {
-      "topic": "방산·항공우주",
-      "title": "방산·항공우주 산업 동향",
-      "summary": "최근 수집된 방산·항공우주 관련 뉴스 5건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
-      "key_points": [
-        "Japan Moves to Build an Independent Military Space Communications Network, Will Launch Hundreds of Laser Communications Satellites [Lee Jong-yoon’s Military World] - 파이낸셜뉴스",
-        "IRGC Aerospace Force targets US military positions in Bahrain in missile and drone operation - خبرگزاری بین المللی قدس",
-        "Iran Attacks US Military Bases in Bahrain, Claims Two Patriot Radars Hit by Missiles and Drones - Aktualita.co",
-        "IRGC claims strikes hit two US Patriot radar systems - Roya News",
-        "Kh-101 Missile Crashes in Poland: Swedish Gripens Could Not Engage - MiGFlug"
-      ],
-      "as_of": "2026-11-23"
+      "as_of": "2026-11-24"
     }
   ]
 }
