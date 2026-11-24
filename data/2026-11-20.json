@@ -1,25 +1,7 @@
 {
-  "updated_at": "2026-11-20 17:30 KST",
-  "generated_at_utc": "2026-11-20T08:31:32.533292+00:00",
+  "updated_at": "2026-11-20 16:36 KST",
+  "generated_at_utc": "2026-11-20T07:37:26.080150+00:00",
   "items": [
-    {
-      "category": "us",
-      "title": "Nasdaq futures fall after Anthropic fails to lift market sentiment: Live updates - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tY1RiS3BadWcwVVMwU2oteTAzRVdyVEpSeUwtUGJOU3RZV3BmOEJQRmtrT25udndSRVUxRDVpSkRCLUdCS2lDc3dTRm9Ja19qNzh3MlNXVDVDM0UwQXItVWgyMUJnaV9xY2RlWEJmbnBCWWE1ZEdz0gF8QVVfeXFMUDFCSzhsWkpPUEpfV1BiOTNJUkJCbGNwaFVlUmtCcm42WTNmaXF6RVdpbnNwcWJOV1V6QWRtSjVMdFBuLU5kSmFwM0Q5S0ZQOVdPdVVlMGh3dVQyQnAtY0lXcU9xbjN0NE5pYUU1MEM5cU1WN25lc3pYUmpJaQ?oc=5",
-      "summary": "Nasdaq futures fall after Anthropic fails to lift market sentiment: Live updates",
-      "source": "CNBC",
-      "published": "2026-11-20 17:18",
-      "topic": "지수·시장동향"
-    },
-    {
-      "category": "kr",
-      "title": "코스피·코스닥 동반 5%대 폭락…'5천피' 붕괴에 매도 사이드카 발동 - 산경투데이",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2RmxCSUZUd2xQZlhCQXM3WjVCOFJ6NVRNUEEzZUNSekhvNFh6cm55djdZeGlEUDhPd3lORy04MHA1UVhDaG1UWTg5a0FMc1QwNXJSRC1iRkdqYTlEaFh0MmJWME5qeXl1dzRoWVFUVnjSAXRBVV95cUxPc2EybHB3S2wydDF3cTV6aFEyUHVYaEZCcVVMMzhBMlVpbmFVVU4yTi12XzVTZHNoMGt0Y1VrRks1MWw2ZmU2TV92YUk4WTFJZFVrTU1fNzlPWmFEN1h3S3VTSFQ2Zzdzc2hFX0xITUZzdXZyZA?oc=5",
-      "summary": "코스피·코스닥 동반 5%대 폭락…'5천피' 붕괴에 매도 사이드카 발동",
-      "source": "산경투데이",
-      "published": "2026-11-20 16:35",
-      "topic": "지수·시장동향"
-    },
     {
       "category": "tech",
       "title": "MULTIFIT Advances Solar Storage Solutions as a Global Leading Energy Storage Inverter Manufacturer - EIN News",
@@ -175,6 +157,15 @@
     },
     {
       "category": "us",
+      "title": "Chicago Fed president says overheating economy worries him more than gas prices - WISH-TV",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS2F3ODU3djZIT3VFek5JZ25rOUpwNXIydnBpVm5tRVRKYVpqYWJxRE95VFJfZlZRSk9xYUN6NGVnTDdlN1pjYVpuX2F0YlFpZEVpTXFTaVloSWJSWktQakdxLUQ4eGlsNFdlNV9OeDVOZFlEZzBBQnlqQ25Ya3NKREl0RElpMFJVY0MwMFZMY01tdllaV3Uxb25MM202dFNrclp3NGFBaXVhYVE?oc=5",
+      "summary": "Chicago Fed president says overheating economy worries him more than gas prices",
+      "source": "WISH-TV",
+      "published": "2026-11-20 08:48",
+      "topic": "금리·경제지표"
+    },
+    {
+      "category": "us",
       "title": "AI is fueling \"disturbingly high\" inflation, Chicago Fed president says - CBS News",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAtc000b2liZk51bUdmbnBlRkNnUml0NHB6NzlyWlZ2YmxUN0JBMy16UUZzVGhUcU1mYnk1UTRwSml3VkxUY1Nkb0lOb1MtVHg3RzN6ZENveGc1STFhYzVielJiOUFfRGtDMlBDTTIwTE1YNnB3cU5B?oc=5",
       "summary": "AI is fueling \"disturbingly high\" inflation, Chicago Fed president says",
@@ -216,6 +207,15 @@
       "summary": "Stock Market Today, Nov. 19: Dow Plunges 1,100 Points as the S&P 500 Suffers Its 6th Straight Day of Losses",
       "source": "The Motley Fool",
       "published": "2026-11-20 06:50",
+      "topic": "지수·시장동향"
+    },
+    {
+      "category": "us",
+      "title": "Wall Street tumbles to its longest losing streak since 2024 as the Dow drops 1,100 points - Los Angeles Times",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQb0p0WHJTZEp2cy1Na1BjZ2hKMTRVU3F1encweW5uV3hMaW1CQS1ueWoyQWdMSGtCcmZuNF9sS0xUejVrNmJaS3VHaFZWTDF2OUV3TDV5dFRFTC1ZN1BCaFNVMDBZMl8yQU1zc05sMVp5ZkFUYWQ0U0lHbFRSVGRIT2cyTEtwRnlrWHdlTlVSM0pyNEFGU1oxX1pmUGlrTjctVGpfbjdZS245cDdpZzczNTRHcHREcVF4WXFuQVp5SWZFczc2UWF3RENEX3c0U3py?oc=5",
+      "summary": "Wall Street tumbles to its longest losing streak since 2024 as the Dow drops 1,100 points",
+      "source": "Los Angeles Times",
+      "published": "2026-11-20 06:37",
       "topic": "지수·시장동향"
     },
     {
@@ -291,15 +291,6 @@
       "topic": "금리·경제지표"
     },
     {
-      "category": "us",
-      "title": "Worried about an AI bust? So is the Federal Reserve. - The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNR0t0NWstc3N2V0F2RE9fWlJDYVNTY3lINGFtUHhsQUE1cDU2SkdYc3E0M3hvNlpuMXlRQmxjdFdwVzMtbGQ4bXg3QjdzWU9sYmVNangtcmFxV1NvQWQ2TG5xRV9WVl9XTGpubUd2dHh3MUNsRlBDXzduNXVTOENfa0tTdmtrOWpWT2g0ZV9mYVV5ckpzNXJxaFBHRkxvQ2U5YjhiZVBqZHRBeVFQM2JnMQ?oc=5",
-      "summary": "Worried about an AI bust? So is the Federal Reserve.",
-      "source": "The Washington Post",
-      "published": "2026-11-19 15:30",
-      "topic": "금리·경제지표"
-    },
-    {
       "category": "tech",
       "title": "How Much Time and Money Would Ukraine Need to Develop Its Own Satellites to Detect Iskander and S-400 Missile Launches? - Defense Express",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPYmN4RUR5Wl9QLV9xWW5pSVBZUWpMSnI2ZUZWMXFRTDVzd1NTZFltbHFyc2dycXB6cHBKOG5ndUZEdjVMX1d5WS1yNTctMnlMNmJuYXJNSUE2a2t5OWxPQzlnYlE2Rm1aakJmdjU0MHZFZGRDMHpzWEdVUnR6MGwyTGNGUGdVUVlTc0RlMGVPUllQcUduME9uUWlwd0kwdWFIVjJTRGJyZVhBdmxzTjQ3SWNNX01JaE8tQ2dpcHIxcVR5QlZROTlqWnJiRzdrUGxwVVI3MWxOVWdRV3BMdzZ5UkJrNFB5VGFTcktObzhpOUpKUQ?oc=5",
@@ -316,15 +307,6 @@
       "source": "잡포스트",
       "published": "2026-11-19 10:25",
       "topic": "지수·시장동향"
-    },
-    {
-      "category": "us",
-      "title": "Generac Jolted After Nvidia Earnings. Why It’s a Top S&P 500 Stock Today. - Barron's",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYUgyXzg4Z0ZjQ3JyLTcyd1BpYWgzd0wxZks4U0U5RXQ4ckF3S3ZzazYxUmFDaHRseFFGTEpldFlTTjlrQzU2S29lanhqRUk3cmdCNEVCdVNvSHRldzZiUUhGdTluYWVVWkRoSFhPSmdNelNBeEFHQWw0WXA4cHFxSVJyTQ?oc=5",
-      "summary": "Generac Jolted After Nvidia Earnings. Why It’s a Top S&P 500 Stock Today.",
-      "source": "Barron's",
-      "published": "2026-11-19 08:47",
-      "topic": "기업실적·기업동향"
     },
     {
       "category": "kr",
@@ -346,20 +328,20 @@
     },
     {
       "category": "us",
-      "title": "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeVFyOU5ZTWtBVzZob0FxRUQxME5TdllYbHgxNDVsTTZYaDBQMkNnU0x6czdEaUtlemhyQXJWVHk3cURHeWJ5NXRncmtubDZtZnNvTG5ac1E0Vm1YS0o3OWRrRm5GNi1wOEFwallTZmhyaHBqX0Z2MG80S3gzb3ViQnhZTWgxSmlkRHFTa09NNXA5MHhGVzYtQ28yVVRIdzVyZ2RJYTJ4cldqZms3dFg1ekplQUp1QQ?oc=5",
-      "summary": "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves",
-      "source": "WSJ",
-      "published": "2026-11-19 04:59",
+      "title": "Nvidia Just Demolished Earnings, but the Stock Is Still Plunging. The Reason Is Obvious. - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdjRhazZKSzdlSlNIWHF3RS1WNWdtRlVhNXExaVMyckYxd1dtNjFUdkdDWDUwZU5oQ2g5cER1T2pxRGdKVEVjbm9VZnE3RU9hbVJGY0dtbTZHZy1NMEFNZ21hSlhSYlhFUkNtMzFKa0hWdF9KeW1jczFBQ3NoTWZabURPREtmYXZfODNRZUpJWDlab1lLaHNhSlpHWE9MSVpGQlpINE8wbkdWVzlwLVNIeFBTQy0tV2JTM2QxM1Vma3c2NXFfOVIw?oc=5",
+      "summary": "Nvidia Just Demolished Earnings, but the Stock Is Still Plunging. The Reason Is Obvious.",
+      "source": "The Motley Fool",
+      "published": "2026-11-19 05:47",
       "topic": "기업실적·기업동향"
     },
     {
       "category": "us",
-      "title": "U.S. Stock Indices Are Volatile as Nvidia’s Earnings Rally Fades - TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRTB5LVpvdXpBUWYwRzRXYmlIMDFLc0RZSHlvclJjaUxtTUhDNjZTM0VSX0R5bzlqRTl5dHBNZ3o3REZsTXNCeDMzalhuZi1jVjlXa0dHYk51R1NyTFhtNEJpcmM4bWlRRTl2aEw1UTBwbVAyV0xyeUdZYUtKSGo5TVpMYjBod0JHOHI3TW53?oc=5",
-      "summary": "U.S. Stock Indices Are Volatile as Nvidia’s Earnings Rally Fades",
-      "source": "TipRanks",
-      "published": "2026-11-19 04:34",
+      "title": "Why Is Nvidia (NVDA) Stock Falling After Record Earnings? - Stocks Down Under",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBFOVFHRlJnRTd1eTF3aG9HVUJzLVpJZVJIand2T2dFMzk3QU5mRkhwNXU5aXdzYmREWFk1dEdvR0ZOS1pQYWNJTk5CWGM1akFQTjQxbV82U0pEQVRTZUEzbXNFUkpObTJvU2NQb28zeVBPRFZLeDg5NW1JOTVfdw?oc=5",
+      "summary": "Why Is Nvidia (NVDA) Stock Falling After Record Earnings?",
+      "source": "Stocks Down Under",
+      "published": "2026-11-19 02:01",
       "topic": "기업실적·기업동향"
     },
     {
@@ -406,6 +388,15 @@
       "source": "Yonhap News Agency",
       "published": "2026-11-18 09:49",
       "topic": "방산·항공우주"
+    },
+    {
+      "category": "us",
+      "title": "Stocks Fall as Nvidia’s Earnings Rally Sputters: Markets Wrap - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUHhZZG5FcFhON3BCMkRyY201M2FVdVRTaUF2a29ScWc3ZTd4TkI1Zm44SXNOcmZoOE9tN29nalFxMllaQV9ZQVp5SFNKbFlmVWtxVmtjdGl4WVVRRnpFeVZaVjVCVGozeFVWYzF6NnM1dERENnQ5SWpLTlNsejBDS21mS2k2aUhQeHZHNU80V2dvbG9h?oc=5",
+      "summary": "Stocks Fall as Nvidia’s Earnings Rally Sputters: Markets Wrap",
+      "source": "Bloomberg.com",
+      "published": "2026-11-18 07:07",
+      "topic": "기업실적·기업동향"
     },
     {
       "category": "tech",

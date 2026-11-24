@@ -1,147 +1,155 @@
 {
-  "updated_at": "2026-11-24 16:00 KST",
+  "updated_at": "2026-11-20 16:38 KST",
   "daily": {
     "us": {
-      "summary": "2026-11-23 기준 최근 거래일 지수 데이터입니다. 괄호 안은 직전 거래일 대비 등락률입니다.",
+      "summary": "2026-11-19 기준 최근 거래일 지수 데이터입니다. 괄호 안은 직전 거래일 대비 등락률입니다.",
       "stats": [
         {
           "label": "S&P 500",
-          "value": "7,237.17 (+4.73%)"
+          "value": "7,175.83 (-2.02%)"
         },
         {
           "label": "NASDAQ",
-          "value": "24,089.56 (+6.51%)"
+          "value": "23,879.20 (-2.25%)"
         },
         {
           "label": "Dow Jones",
-          "value": "49,595.31 (+3.01%)"
+          "value": "49,097.06 (-2.19%)"
         }
       ],
       "key_points": [
-        "Dow soars 1,400 points; Nasdaq surges 6% in its best day since April 2025 as Jensen Huang returns to Nvidia - CNBC",
-        "U.S. stock futures tick higher after Nvidia-led Wall Street rally - Investing.com",
-        "Nasdaq jumps after Nvidia's board reinstates Jensen Huang as CEO - www.equiti.com",
-        "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally - Investor's Business Daily",
-        "US Semiconductor Stocks Stage Rebound; 00412A Surges Nearly 30% at Open, Premium to NAV Briefly Tops 20% - BigGo Finance"
+        "Stock Market: Will S&P 500 Open Up or Down Today? - Benzinga",
+        "US Stocks Suffer Sell-Off as Nasdaq, S&P 500 Drop Nearly 2%; Wall Street Fear Gauge Surges 15.4% - Sada Elbalad English",
+        "Fed's Paulson signals more rate hikes, says inflation remains too high - The Economic Times",
+        "Wall Street futures fall as Anthropic debut fails to revive AI trade - Investing.com",
+        "Fed's Paulson backs further rate hikes, says shared understanding beats guidance - Yahoo Finance"
       ],
-      "as_of": "2026-11-23"
+      "as_of": "2026-11-19"
     },
     "kr": {
-      "summary": "2026-11-24 기준 최근 거래일 지수 데이터입니다. 괄호 안은 직전 거래일 대비 등락률입니다.",
+      "summary": "2026-11-20 기준 최근 거래일 지수 데이터입니다. 괄호 안은 직전 거래일 대비 등락률입니다.",
       "stats": [
         {
           "label": "KOSPI",
-          "value": "5,006.03 (+6.32%)"
+          "value": "4,869.96 (-5.21%)"
         },
         {
           "label": "KOSDAQ",
-          "value": "665.88 (+4.79%)"
+          "value": "645.68 (-5.71%)"
         }
       ],
       "key_points": [
-        "코스피 6.32% 급등해 5000선 회복…삼성전자·SK하이닉스 6%대 상승 - 이코노미블록",
-        "골드만삭스 \"내년 한국 성장률 3.2%…환율 1280원 전망\" - 뉴시스",
-        "[오늘의 증시] 코스피 7.35% 폭등해 5050선 돌파…코스닥도 5%대 급등 - 잡포스트",
-        "코스피 4,700선 추락·한전 개인정보 152만 건 유출…오늘의 키워드 - 강릉뉴스",
-        "코스피 코스닥 차이와 주가 전망 분석 및 핵심 요약 : 한국증시 - 재경일보"
+        "코스피·코스닥 동반 매도 사이드카…반도체 대형주 6%대 급락 - 산경투데이",
+        "코스피·코스닥 주가 급락…매도 사이드카 동시 발동 : 한국증시 - 재경일보",
+        "[오늘의 증시] 11월 20일 코스피 4,960선·코스닥 660선 하락…외국인·기관 동반 매도 - 잡포스트",
+        "[오늘의 증시] 11월 19일 코스피 5000선 턱걸이…코스닥도 1%대 하락 - 잡포스트",
+        "[마켓뷰] '앤트로픽 상장' 기대감? 경계감?…코스피 향방은 - 연합뉴스"
       ],
-      "as_of": "2026-11-24"
+      "as_of": "2026-11-20"
     }
   },
   "weekly": {
     "us": {
-      "summary": "2026-11-23 기준 최근 5거래일의 지수 변화입니다. 괄호 안은 5거래일 전 종가 대비 등락률입니다.",
+      "summary": "2026-11-19 기준 최근 5거래일의 지수 변화입니다. 괄호 안은 5거래일 전 종가 대비 등락률입니다.",
       "stats": [
         {
           "label": "S&P 500",
-          "value": "7,237.17 (-2.42%)"
+          "value": "7,175.83 (-5.49%)"
         },
         {
           "label": "NASDAQ",
-          "value": "24,089.56 (-1.71%)"
+          "value": "23,879.20 (-5.86%)"
         },
         {
           "label": "Dow Jones",
-          "value": "49,595.31 (-3.90%)"
+          "value": "49,097.06 (-6.12%)"
         }
       ],
       "key_points": [
-        "Dow soars 1,400 points; Nasdaq surges 6% in its best day since April 2025 as Jensen Huang returns to Nvidia - CNBC",
-        "U.S. stock futures tick higher after Nvidia-led Wall Street rally - Investing.com",
-        "Nasdaq jumps after Nvidia's board reinstates Jensen Huang as CEO - www.equiti.com",
-        "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally - Investor's Business Daily",
-        "US Semiconductor Stocks Stage Rebound; 00412A Surges Nearly 30% at Open, Premium to NAV Briefly Tops 20% - BigGo Finance"
+        "Stock Market: Will S&P 500 Open Up or Down Today? - Benzinga",
+        "US Stocks Suffer Sell-Off as Nasdaq, S&P 500 Drop Nearly 2%; Wall Street Fear Gauge Surges 15.4% - Sada Elbalad English",
+        "Fed's Paulson signals more rate hikes, says inflation remains too high - The Economic Times",
+        "Wall Street futures fall as Anthropic debut fails to revive AI trade - Investing.com",
+        "Fed's Paulson backs further rate hikes, says shared understanding beats guidance - Yahoo Finance"
       ],
-      "as_of": "2026-11-23"
+      "as_of": "2026-11-19"
     },
     "kr": {
-      "summary": "2026-11-24 기준 최근 5거래일의 지수 변화입니다. 괄호 안은 5거래일 전 종가 대비 등락률입니다.",
+      "summary": "2026-11-20 기준 최근 5거래일의 지수 변화입니다. 괄호 안은 5거래일 전 종가 대비 등락률입니다.",
       "stats": [
         {
           "label": "KOSPI",
-          "value": "5,006.03 (+0.76%)"
+          "value": "4,869.96 (-7.95%)"
         },
         {
           "label": "KOSDAQ",
-          "value": "665.88 (+2.43%)"
+          "value": "645.68 (-7.72%)"
         }
       ],
       "key_points": [
-        "코스피 6.32% 급등해 5000선 회복…삼성전자·SK하이닉스 6%대 상승 - 이코노미블록",
-        "골드만삭스 \"내년 한국 성장률 3.2%…환율 1280원 전망\" - 뉴시스",
-        "[오늘의 증시] 코스피 7.35% 폭등해 5050선 돌파…코스닥도 5%대 급등 - 잡포스트",
-        "코스피 4,700선 추락·한전 개인정보 152만 건 유출…오늘의 키워드 - 강릉뉴스",
-        "코스피 코스닥 차이와 주가 전망 분석 및 핵심 요약 : 한국증시 - 재경일보"
+        "코스피·코스닥 동반 매도 사이드카…반도체 대형주 6%대 급락 - 산경투데이",
+        "코스피·코스닥 주가 급락…매도 사이드카 동시 발동 : 한국증시 - 재경일보",
+        "[오늘의 증시] 11월 20일 코스피 4,960선·코스닥 660선 하락…외국인·기관 동반 매도 - 잡포스트",
+        "[오늘의 증시] 11월 19일 코스피 5000선 턱걸이…코스닥도 1%대 하락 - 잡포스트",
+        "[마켓뷰] '앤트로픽 상장' 기대감? 경계감?…코스피 향방은 - 연합뉴스"
       ],
-      "as_of": "2026-11-24"
+      "as_of": "2026-11-20"
     }
   },
   "industry": [
     {
+      "topic": "반도체·전자",
+      "title": "반도체·전자 산업 동향",
+      "summary": "최근 수집된 반도체·전자 관련 뉴스 1건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
+      "key_points": [
+        "AI demand to reshape memory market and drive up chip packaging revenue - Chosunbiz"
+      ],
+      "as_of": "2026-11-20"
+    },
+    {
       "topic": "인공지능",
       "title": "인공지능 산업 동향",
-      "summary": "최근 수집된 인공지능 관련 뉴스 3건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
+      "summary": "최근 수집된 인공지능 관련 뉴스 2건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
-        "AEMO counts on 5.3 GW of new batteries to get Australia's grid through an El Niño summer - MLQ.ai",
-        "[2026년 주목할 AI 강좌·인턴십 5선…IBM부터 애플·UNEP까지] 모든 AI 학습자가 고급 자격증이나 연구 인턴십이 필요한 것은 아니다. 이 분야에 처음 입문한 학생은 체계적인 수업이 더 도움이 될 수 있고, 프로그래밍과 연구 경험이 있는 - AI넷",
-        "Artificial Intelligence at Amgen – Two Use Cases - Emerj Artificial Intelligence Research"
+        "Government Audit Finds Major AI Platforms Generate Viable Attack Plans - Security Today",
+        "Cut generative AI costs: Code for rules, models for judgment - Amazon Web Services (AWS)"
       ],
-      "as_of": "2026-11-24"
+      "as_of": "2026-11-20"
     },
     {
       "topic": "로봇·자율주행",
       "title": "로봇·자율주행 산업 동향",
-      "summary": "최근 수집된 로봇·자율주행 관련 뉴스 5건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
+      "summary": "최근 수집된 로봇·자율주행 관련 뉴스 1건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
-        "\"인간 일자리 뺏는다더니\"…中 자동차 공장서 로봇 퇴짜 맞은 이유 - 한국경제",
-        "로보티즈·레인보우로보틱스 폭풍 질주… 휴머노이드 로봇 상용화 기대 커지나 - 핀포인트뉴스",
-        "중국산 로봇, 일하다가 자꾸 망가진다…투입 속도조절 나선 中 자동차업계 - 매일경제",
-        "They Said They’d Deploy Robots Instead of People... China’s Auto Industry Taps the Brakes - 매일경제",
-        "China carmakers scale back humanoid robot ambitions - Nikkei Asia"
+        "Dongwoon Anatech Enters Robot Motion Control Market, Powering the Future of Physical AI - ACROFAN USA"
       ],
-      "as_of": "2026-11-24"
-    },
-    {
-      "topic": "통신·RF",
-      "title": "통신·RF 산업 동향",
-      "summary": "최근 수집된 통신·RF 관련 뉴스 1건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
-      "key_points": [
-        "대전TP, 5G-A 오픈테스트랩 세미나 열어…지역기업 개발·검증 지원 - 뉴스파고"
-      ],
-      "as_of": "2026-11-24"
+      "as_of": "2026-11-20"
     },
     {
       "topic": "배터리·에너지",
       "title": "배터리·에너지 산업 동향",
       "summary": "최근 수집된 배터리·에너지 관련 뉴스 5건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
       "key_points": [
-        "배터리업계, 전기차 부진을 북미 ESS 시장 공략으로 만회 - 우먼타임스",
-        "Residential energy storage system - Climate Control News",
-        "(수요광장)ESS, 이젠 국가전력망의 핵심인프라다 - 전기신문",
-        "Somerset approves grid-scale battery storage plant at Brayton Point - The Business Journals",
-        "Calibrant Energy Secures $145 Million for Solar and Battery Storage Projects - EnergyTech"
+        "MULTIFIT Advances Solar Storage Solutions as a Global Leading Energy Storage Inverter Manufacturer - EIN News",
+        "POWERGRID Invites Bids for 100 MW/400 MWh Battery Storage Project - Construction World",
+        "Battery storage supports direct power supply to Vietnam factory - Vietnam Investment Review - VIR",
+        "ESS(Energy Storage System, 에너지저장장치)란? – 전기를 어떻게 저장하고, 왜 지금 주목받을까? - 자투리경제",
+        "Terna sees batteries meeting Italy’s flexibility needs despite 10 TWh curtailment - ESS News"
       ],
-      "as_of": "2026-11-24"
+      "as_of": "2026-11-20"
+    },
+    {
+      "topic": "방산·항공우주",
+      "title": "방산·항공우주 산업 동향",
+      "summary": "최근 수집된 방산·항공우주 관련 뉴스 5건입니다. 아래 제목을 바탕으로 주요 보도 주제를 확인할 수 있습니다. 기사 제목만으로 산업 전망이나 시장 규모를 단정하지 않습니다.",
+      "key_points": [
+        "Hanwha Tests UGV, Counter-Drone Integration With Romanian Military Network - Businesskorea",
+        "How Much Time and Money Would Ukraine Need to Develop Its Own Satellites to Detect Iskander and S-400 Missile Launches? - Defense Express",
+        "Hanwha Systems wins 1st U.S. radar order from Rebellion Industries - Yonhap News Agency",
+        "Collins Aerospace breaks ground on new propeller MRO facility in India - Defensehere",
+        "Russian Aerospace Forces receive new batch of Su-34 - Defensehere"
+      ],
+      "as_of": "2026-11-20"
     }
   ]
 }
