@@ -780,3 +780,302 @@ fetch('data/economy.json')
     console.error('경제지표 오류:', error);
   });
 
+
+// ==========================================
+// 경제 분석 데이터 표시
+// ==========================================
+
+function createAnalysisElement(tag, text, className) {
+  const element = document.createElement(tag);
+  if (className) element.className = className;
+  element.textContent = text || '';
+  return element;
+}
+
+function renderEconomicAnalysis(data) {
+  const industryContainer = document.getElementById('industry-analysis');
+
+  if (!industryContainer) {
+    console.warn('산업 분석 영역을 찾을 수 없습니다.');
+    return;
+  }
+
+  // 중복 생성 방지
+  const oldSection = document.getElementById('economic-analysis-section');
+  if (oldSection) oldSection.remove();
+
+  const section = document.createElement('section');
+  section.id = 'economic-analysis-section';
+  section.className = 'section';
+
+  const heading = document.createElement('div');
+  heading.className = 'section-heading';
+
+  heading.appendChild(
+    createAnalysisElement('h2', '경제 흐름 분석')
+  );
+
+  heading.appendChild(
+    createAnalysisElement(
+      'p',
+      '미국·한국 주요 경제지표를 바탕으로 정리한 자동 분석'
+    )
+  );
+
+  section.appendChild(heading);
+
+  if (data.updated_at) {
+    section.appendChild(
+      createAnalysisElement(
+        'p',
+        '분석 업데이트: ' + data.updated_at,
+        'market-summary'
+      )
+    );
+  }
+
+  if (data.overview) {
+    section.appendChild(
+      createAnalysisElement(
+        'p',
+        data.overview,
+        'market-summary'
+      )
+    );
+  }
+
+  // 미국·한국 분석 패널
+  const countryGrid = document.createElement('div');
+  countryGrid.className = 'market-grid';
+
+  const countries = [
+    ['US', '미국 경제'],
+    ['KR', '한국 경제']
+  ];
+
+  countries.forEach(([code, label]) => {
+    const country = data.countries?.[code];
+
+    const panel = document.createElement('article');
+    panel.className = 'market-panel';
+
+    panel.appendChild(
+      createAnalysisElement('h3', country?.title || label)
+    );
+
+    if (country?.summary) {
+      panel.appendChild(
+        createAnalysisElement(
+          'p',
+          country.summary,
+          'market-summary'
+        )
+      );
+    }
+
+    if (Array.isArray(country?.indicators)) {
+      const stats = document.createElement('div');
+      stats.className = 'market-stat';
+
+      country.indicators.forEach(indicator => {
+        const item = document.createElement('div');
+        item.className = 'stat-item';
+
+        item.appendChild(
+          createAnalysisElement(
+            'span',
+            indicator.name
+          )
+        );
+
+        const value = indicator.value;
+        const unit = indicator.unit || '';
+
+        item.appendChild(
+          createAnalysisElement(
+            'strong',
+            value == null
+              ? '자료 없음'
+              : Number(value).toLocaleString('ko-KR') + ' ' + unit
+          )
+        );
+
+        item.appendChild(
+          createAnalysisElement(
+            'small',
+            '관측 기준일: ' + (indicator.as_of || '미확인')
+          )
+        );
+
+        item.appendChild(
+          createAnalysisElement(
+            'small',
+            indicator.change || ''
+          )
+        );
+
+        if (indicator.year_over_year) {
+          item.appendChild(
+            createAnalysisElement(
+              'small',
+              '전년 동기 대비: ' +
+              indicator.year_over_year.change_percent + '%'
+            )
+          );
+        }
+
+        item.appendChild(
+          createAnalysisElement(
+            'small',
+            '갱신 상태: ' + (indicator.freshness || '확인 필요')
+          )
+        );
+
+        stats.appendChild(item);
+      });
+
+      panel.appendChild(stats);
+    }
+
+    if (Array.isArray(country?.key_points)) {
+      const list = document.createElement('ul');
+
+      country.key_points.forEach(point => {
+        list.appendChild(
+          createAnalysisElement('li', point)
+        );
+      });
+
+      panel.appendChild(list);
+    }
+
+    countryGrid.appendChild(panel);
+  });
+
+  section.appendChild(countryGrid);
+
+  // 한·미 기준금리 비교
+  if (data.cross_market) {
+    const crossPanel = document.createElement('article');
+    crossPanel.className = 'market-panel';
+
+    crossPanel.appendChild(
+      createAnalysisElement(
+        'h3',
+        data.cross_market.title || '한·미 기준금리 비교'
+      )
+    );
+
+    crossPanel.appendChild(
+      createAnalysisElement(
+        'p',
+        data.cross_market.summary || '비교 자료가 없습니다.',
+        'market-summary'
+      )
+    );
+
+    if (data.cross_market.gap_percentage_points != null) {
+      crossPanel.appendChild(
+        createAnalysisElement(
+          'p',
+          '금리 차이: ' +
+          data.cross_market.gap_percentage_points + '%p'
+        )
+      );
+    }
+
+    section.appendChild(crossPanel);
+  }
+
+  // 자산시장 영향 분석
+  const assetHeading = createAnalysisElement(
+    'h3',
+    '주요 자산시장에 미칠 수 있는 영향'
+  );
+
+  section.appendChild(assetHeading);
+
+  const assetGrid = document.createElement('div');
+  assetGrid.className = 'industry-grid';
+
+  if (Array.isArray(data.asset_impacts)) {
+    data.asset_impacts.forEach(asset => {
+      const card = document.createElement('article');
+      card.className = 'industry-card';
+
+      card.appendChild(
+        createAnalysisElement('h3', asset.asset)
+      );
+
+      card.appendChild(
+        createAnalysisElement('p', asset.summary)
+      );
+
+      if (Array.isArray(asset.signals)) {
+        const list = document.createElement('ul');
+
+        asset.signals.forEach(signal => {
+          list.appendChild(
+            createAnalysisElement('li', signal)
+          );
+        });
+
+        card.appendChild(list);
+      }
+
+      assetGrid.appendChild(card);
+    });
+  }
+
+  section.appendChild(assetGrid);
+
+  // 분석 기준 및 유의사항
+  const methodPanel = document.createElement('article');
+  methodPanel.className = 'market-panel';
+
+  methodPanel.appendChild(
+    createAnalysisElement('h3', '분석 기준 및 유의사항')
+  );
+
+  if (Array.isArray(data.methodology)) {
+    const list = document.createElement('ul');
+
+    data.methodology.forEach(note => {
+      list.appendChild(
+        createAnalysisElement('li', note)
+      );
+    });
+
+    methodPanel.appendChild(list);
+  }
+
+  section.appendChild(methodPanel);
+
+  // 산업 분석 영역 바로 앞에 배치
+  const industrySection =
+    industryContainer.closest('section') ||
+    industryContainer.parentElement;
+
+  industrySection.parentNode.insertBefore(
+    section,
+    industrySection
+  );
+}
+
+// 경제 분석 JSON 불러오기
+fetch('data/economic_analysis.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('경제 분석 데이터가 없습니다.');
+    }
+
+    return response.json();
+  })
+  .then(data => {
+    renderEconomicAnalysis(data);
+    console.log('경제 분석 데이터를 불러왔습니다.');
+  })
+  .catch(error => {
+    console.warn('경제 분석 데이터:', error);
+  });
+
