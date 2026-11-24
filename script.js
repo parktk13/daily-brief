@@ -1079,3 +1079,19 @@ fetch('data/economic_analysis.json')
     console.warn('경제 분석 데이터:', error);
   });
 
+// 경제 분석 JSON 불러오기
+fetch('data/economic_analysis.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('경제 분석 데이터를 불러오지 못했습니다.');
+    }
+    return response.json();
+  })
+  .then(data => {
+    renderEconomicAnalysis(data);
+    console.log('경제 흐름 분석 표시 완료:', data);
+  })
+  .catch(error => {
+    console.error('경제 흐름 분석 오류:', error);
+  });
+
