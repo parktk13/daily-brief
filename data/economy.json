@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-24 15:28 KST",
-  "generated_at_utc": "2026-11-24T06:28:29.747433+00:00",
+  "updated_at": "2026-11-24 18:02 KST",
+  "generated_at_utc": "2026-11-24T09:02:28.278816+00:00",
   "collection_date": "2026-11-24",
   "source_count": 2,
   "success_count": 9,
@@ -8760,32 +8760,32 @@
       "frequency_name": "일간",
       "unit": "연 %",
       "latest": {
+        "date": "20261124",
+        "value": 3.64,
+        "unit": "연%"
+      },
+      "previous_observation": {
         "date": "20261123",
         "value": 3.623,
         "unit": "연%"
       },
-      "previous_observation": {
-        "date": "20261120",
-        "value": 3.642,
-        "unit": "연%"
-      },
       "change_from_previous": {
-        "reference_date": "20261120",
-        "reference_value": 3.642,
-        "difference": -0.019,
-        "percent_change": -0.5217,
+        "reference_date": "20261123",
+        "reference_value": 3.623,
+        "difference": 0.017,
+        "percent_change": 0.4692,
         "unit": "연%",
         "difference_label": "%p"
       },
       "year_over_year": {
-        "reference_date": "20251121",
-        "reference_value": 2.872,
-        "difference": 0.751,
-        "percent_change": 26.149,
+        "reference_date": "20251124",
+        "reference_value": 2.904,
+        "difference": 0.736,
+        "percent_change": 25.3444,
         "unit": "연%",
         "difference_label": "%p"
       },
-      "observation_age_days": 1,
+      "observation_age_days": 0,
       "freshness_status": "normal",
       "freshness_limit_days": 14,
       "observations": [
@@ -12442,6 +12442,11 @@
         {
           "date": "20261123",
           "value": 3.623,
+          "unit": "연%"
+        },
+        {
+          "date": "20261124",
+          "value": 3.64,
           "unit": "연%"
         }
       ],
