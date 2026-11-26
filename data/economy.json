@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-25 14:33 KST",
-  "generated_at_utc": "2026-11-25T05:33:21.085685+00:00",
-  "collection_date": "2026-11-25",
+  "updated_at": "2026-11-26 14:15 KST",
+  "generated_at_utc": "2026-11-26T05:15:16.120316+00:00",
+  "collection_date": "2026-11-26",
   "source_count": 2,
   "success_count": 9,
   "error_count": 0,
@@ -16,17 +16,17 @@
       "frequency_name": "일간",
       "unit": "연 %",
       "latest": {
-        "date": "20260820",
+        "date": "20260821",
         "value": 2.75,
         "unit": "연%"
       },
       "previous_observation": {
-        "date": "20260819",
+        "date": "20260820",
         "value": 2.75,
         "unit": "연%"
       },
       "change_from_previous": {
-        "reference_date": "20260819",
+        "reference_date": "20260820",
         "reference_value": 2.75,
         "difference": 0.0,
         "percent_change": 0.0,
@@ -34,7 +34,7 @@
         "difference_label": "%p"
       },
       "year_over_year": {
-        "reference_date": "20250820",
+        "reference_date": "20250821",
         "reference_value": 2.5,
         "difference": 0.25,
         "percent_change": 10.0,
@@ -45,11 +45,6 @@
       "freshness_status": "check_update",
       "freshness_limit_days": 14,
       "observations": [
-        {
-          "date": "20231125",
-          "value": 3.5,
-          "unit": "연%"
-        },
         {
           "date": "20231126",
           "value": 3.5,
@@ -5044,6 +5039,11 @@
           "date": "20260820",
           "value": 2.75,
           "unit": "연%"
+        },
+        {
+          "date": "20260821",
+          "value": 2.75,
+          "unit": "연%"
         }
       ],
       "status": "success"
@@ -5058,28 +5058,28 @@
       "frequency_name": "일간",
       "unit": "원",
       "latest": {
+        "date": "20261126",
+        "value": 1343.9,
+        "unit": "원"
+      },
+      "previous_observation": {
         "date": "20261125",
         "value": 1343.6,
         "unit": "원"
       },
-      "previous_observation": {
-        "date": "20261124",
-        "value": 1346.6,
-        "unit": "원"
-      },
       "change_from_previous": {
-        "reference_date": "20261124",
-        "reference_value": 1346.6,
-        "difference": -3.0,
-        "percent_change": -0.2228,
+        "reference_date": "20261125",
+        "reference_value": 1343.6,
+        "difference": 0.3,
+        "percent_change": 0.0223,
         "unit": "원",
         "difference_label": "원"
       },
       "year_over_year": {
-        "reference_date": "20251125",
+        "reference_date": "20251126",
         "reference_value": 1473.5,
-        "difference": -129.9,
-        "percent_change": -8.8157,
+        "difference": -129.6,
+        "percent_change": -8.7954,
         "unit": "원",
         "difference_label": "원"
       },
@@ -8746,6 +8746,11 @@
           "date": "20261125",
           "value": 1343.6,
           "unit": "원"
+        },
+        {
+          "date": "20261126",
+          "value": 1343.9,
+          "unit": "원"
         }
       ],
       "status": "success"
@@ -8760,28 +8765,28 @@
       "frequency_name": "일간",
       "unit": "연 %",
       "latest": {
+        "date": "20261125",
+        "value": 3.583,
+        "unit": "연%"
+      },
+      "previous_observation": {
         "date": "20261124",
         "value": 3.64,
         "unit": "연%"
       },
-      "previous_observation": {
-        "date": "20261123",
-        "value": 3.623,
-        "unit": "연%"
-      },
       "change_from_previous": {
-        "reference_date": "20261123",
-        "reference_value": 3.623,
-        "difference": 0.017,
-        "percent_change": 0.4692,
+        "reference_date": "20261124",
+        "reference_value": 3.64,
+        "difference": -0.057,
+        "percent_change": -1.5659,
         "unit": "연%",
         "difference_label": "%p"
       },
       "year_over_year": {
-        "reference_date": "20251124",
-        "reference_value": 2.904,
-        "difference": 0.736,
-        "percent_change": 25.3444,
+        "reference_date": "20251125",
+        "reference_value": 2.902,
+        "difference": 0.681,
+        "percent_change": 23.4666,
         "unit": "연%",
         "difference_label": "%p"
       },
@@ -12443,6 +12448,11 @@
           "date": "20261124",
           "value": 3.64,
           "unit": "연%"
+        },
+        {
+          "date": "20261125",
+          "value": 3.583,
+          "unit": "연%"
         }
       ],
       "status": "success"
@@ -12482,7 +12492,7 @@
         "unit": "2020=100",
         "difference_label": "2020=100"
       },
-      "observation_age_days": 55,
+      "observation_age_days": 56,
       "freshness_status": "normal",
       "freshness_limit_days": 65,
       "observations": [
@@ -12825,7 +12835,7 @@
         "unit": "%",
         "difference_label": "%p"
       },
-      "observation_age_days": 55,
+      "observation_age_days": 56,
       "freshness_status": "normal",
       "freshness_limit_days": 65,
       "observations": [
@@ -13168,7 +13178,7 @@
         "unit": "지수",
         "difference_label": "지수"
       },
-      "observation_age_days": 55,
+      "observation_age_days": 56,
       "freshness_status": "normal",
       "freshness_limit_days": 65,
       "observations": [
@@ -13506,7 +13516,7 @@
         "unit": "%",
         "difference_label": "%p"
       },
-      "observation_age_days": 55,
+      "observation_age_days": 56,
       "freshness_status": "normal",
       "freshness_limit_days": 65,
       "observations": [
@@ -13819,28 +13829,28 @@
       "frequency_name": "일간",
       "unit": "%",
       "latest": {
+        "date": "2026-11-24",
+        "value": 4.91,
+        "unit": "%"
+      },
+      "previous_observation": {
         "date": "2026-11-23",
         "value": 4.92,
         "unit": "%"
       },
-      "previous_observation": {
-        "date": "2026-11-20",
-        "value": 4.92,
-        "unit": "%"
-      },
       "change_from_previous": {
-        "reference_date": "2026-11-20",
+        "reference_date": "2026-11-23",
         "reference_value": 4.92,
-        "difference": 0.0,
-        "percent_change": 0.0,
+        "difference": -0.01,
+        "percent_change": -0.2033,
         "unit": "%",
         "difference_label": "%p"
       },
       "year_over_year": {
-        "reference_date": "2025-11-21",
-        "reference_value": 4.06,
-        "difference": 0.86,
-        "percent_change": 21.1823,
+        "reference_date": "2025-11-24",
+        "reference_value": 4.04,
+        "difference": 0.87,
+        "percent_change": 21.5347,
         "unit": "%",
         "difference_label": "%p"
       },
@@ -13848,11 +13858,6 @@
       "freshness_status": "normal",
       "freshness_limit_days": 7,
       "observations": [
-        {
-          "date": "2021-11-26",
-          "value": 1.48,
-          "unit": "%"
-        },
         {
           "date": "2021-11-29",
           "value": 1.52,
@@ -20082,6 +20087,11 @@
           "date": "2026-11-23",
           "value": 4.92,
           "unit": "%"
+        },
+        {
+          "date": "2026-11-24",
+          "value": 4.91,
+          "unit": "%"
         }
       ],
       "status": "success"
@@ -20098,7 +20108,7 @@
       "unit": "십억 달러",
       "latest": {
         "date": "2026-07-01",
-        "value": 24611.077,
+        "value": 24665.201,
         "unit": "십억 달러"
       },
       "previous_observation": {
@@ -20109,20 +20119,20 @@
       "change_from_previous": {
         "reference_date": "2026-04-01",
         "reference_value": 24408.011,
-        "difference": 203.066,
-        "percent_change": 0.832,
+        "difference": 257.19,
+        "percent_change": 1.0537,
         "unit": "십억 달러",
         "difference_label": "십억 달러"
       },
       "year_over_year": {
         "reference_date": "2025-07-01",
         "reference_value": 24112.966,
-        "difference": 498.111,
-        "percent_change": 2.0657,
+        "difference": 552.235,
+        "percent_change": 2.2902,
         "unit": "십억 달러",
         "difference_label": "십억 달러"
       },
-      "observation_age_days": 147,
+      "observation_age_days": 148,
       "freshness_status": "normal",
       "freshness_limit_days": 150,
       "observations": [
@@ -20223,7 +20233,7 @@
         },
         {
           "date": "2026-07-01",
-          "value": 24611.077,
+          "value": 24665.201,
           "unit": "십억 달러"
         }
       ],
